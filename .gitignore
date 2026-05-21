@@ -1,0 +1,109 @@
+# Large binaries
+*.apk
+*.xapk
+*.pcap
+*.rbl
+*.jar
+*.raw
+*.jpg
+*.png
+*.so
+*.xz
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Temp/build
+apk_decompiled/
+tmp_*/
+splits/
+signed_output/
+
+# Secrets
+debug.keystore
+
+# Emulator captures
+sniffed_frames/
+captured_frames/
+camera_frames/
+frames/
+snapshot*.jpg
+*.snap
+emulator_caps/
+emulator_screen.png
+emulator_logcat*.txt
+emulator_capture.pcap
+
+# Logs
+capture_log*.txt
+grok*.txt
+extract_log.txt
+search_result.txt
+decrypt_tests.txt
+sections.txt
+disasm_output.txt
+startup_test.txt
+tcpdump_*.txt
+strace*.txt
+logcat_*.txt
+relay_logcat.txt
+relay_strace.txt
+relay_protocol_logs.txt
+
+# Tools
+frida-server
+frida-server.xz
+npcap-installer.exe
+
+# Output
+*.jpg
+*.png
+*.snap
+video*.raw
+headless_video.raw
+
+# MITM
+mitm_flows/
+
+# Dynamic analysis artifacts
+dynamic_analysis/*.bin
+dynamic_analysis/*.pcap
+dynamic_analysis/*.txt
+dynamic_analysis/brute_force_key.py
+dynamic_analysis/check_keystream.py
+dynamic_analysis/check_linktype.py
+dynamic_analysis/check_pkt_bytes.py
+dynamic_analysis/compare_captures.py
+dynamic_analysis/dump_sections.py
+dynamic_analysis/extract_key_context.py
+dynamic_analysis/find_all_key_strings.py
+dynamic_analysis/find_table.py
+dynamic_analysis/find_xrefs.py
+dynamic_analysis/inspect_packets.py
+dynamic_analysis/kpa_attack.py
+dynamic_analysis/search_apk.py
+dynamic_analysis/search_strings.py
+dynamic_analysis/test_cloud_key.py
+dynamic_analysis/test_header_hypothesis.py
+dynamic_analysis/test_startup.py
+dynamic_analysis/verify_camera.py
+
+# Patched lib
+libobject_jni_patched.so
+
+# Cloud response
+cloud_resp.bin
+
+# Misc
+.Python
+
+# SDK / Tools (huge, not needed)
+android_sdk/
+commandlinetools-*.zip
+emu_err.txt
+cam-reverse/
+a9serv/
+A9_PPPP/
+365cam-stream/
+
