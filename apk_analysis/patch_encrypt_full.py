@@ -67,10 +67,9 @@ def main():
         # str x30, [sp, #0x20]
         tramp1 += struct.pack('<I', 0xf90013fe); addr += 4
         
-        # --- SAVE x2, x3 to function's unused frame area [sp+0x48],[sp+0x50] ---
-        # These positions are confirmed unused by the encrypt function body
-        tramp1 += struct.pack('<I', 0xf90027e2); addr += 4  # str x2, [sp, #0x48]
-        tramp1 += struct.pack('<I', 0xf9002be3); addr += 4  # str x3, [sp, #0x50]
+        # --- SAVE x2, x3 to position 0x38 (between x23/x24 save at 0x30 and x25 at 0x40) ---
+        tramp1 += struct.pack('<I', 0xf9001fe2); addr += 4  # str x2, [sp, #0x38]
+        tramp1 += struct.pack('<I', 0xf90023e3); addr += 4  # str x3, [sp, #0x40]
         
         # --- Log PSK and length ---
         tramp1 += struct.pack('<I', 0x52800060); addr += 4  # mov w0, #3
@@ -114,10 +113,10 @@ def main():
         tramp2 = bytearray()
         addr = TRAMP_EXIT
         
-        # --- Load saved values from function's frame [sp+0x48],[sp+0x50] ---
-        # At exit, sp = func_sp (before epilogue restores sp)
-        tramp2 += struct.pack('<I', 0xf94027e5); addr += 4  # ldr x5, [sp, #0x48]  (output buf)
-        tramp2 += struct.pack('<I', 0xf9402be6); addr += 4  # ldr x6, [sp, #0x50]  (length)
+        # --- Load saved values from ABOVE function frame [sp+0x60],[sp+0x68] ---
+        # At exit, sp = func_sp = caller_sp - 0x60 (same as entry trampoline sp)
+        tramp2 += struct.pack('<I', 0xf94033e5); addr += 4  # ldr x5, [sp, #0x60]  (output buf)
+        tramp2 += struct.pack('<I', 0xf94037e6); addr += 4  # ldr x6, [sp, #0x68]  (length)
         
         # Now create our frame (smaller since we already loaded what we need)
         tramp2 += struct.pack('<I', 0xd10103ff); addr += 4  # sub sp, sp, #0x40
