@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/color_divider" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:textColor="@color/color_black" android:id="@id/tv_find_dev_number2" android:background="@color/white" android:padding="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/find_device" />
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/rv_bt_view" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <androidx.constraintlayout.widget.ConstraintLayout android:layout_gravity="center" android:id="@id/cl_close_view" android:layout_width="fill_parent" android:layout_height="0.0dip" android:minHeight="100.0dip" android:layout_weight="1.0" app:layout_constraintBottom_toBottomOf="@id/frameLayout" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toTopOf="@id/frameLayout">
+        <ImageView android:layout_gravity="center" android:id="@id/iv_close_view" android:background="@mipmap/btn_close" android:layout_width="40.0dip" android:layout_height="40.0dip" android:layout_marginTop="24.0dip" android:backgroundTint="@color/white" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</LinearLayout>

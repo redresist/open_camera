@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/topView" android:background="@mipmap/qh_allbg" android:fitsSystemWindows="true" android:clipToPadding="true" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:gravity="center" android:id="@id/Relative_top" android:background="@color/color_H_Main" android:layout_width="fill_parent" android:layout_height="50.0dip">
+        <Button android:id="@id/back" android:layout_alignParentLeft="true" android:layout_centerVertical="true" style="@style/button_back_style1" />
+        <com.shix.shixipc.view.MyTextView android:textSize="18.0sp" android:textStyle="bold" android:textColor="@color/color_white" android:ellipsize="marquee" android:layout_gravity="center_vertical" android:id="@id/textview_add_camera" android:focusableInTouchMode="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:maxWidth="120.0dip" android:text="@string/str_search" android:scrollHorizontally="true" android:singleLine="true" android:shadowDx="1.0" android:shadowDy="1.0" android:shadowRadius="1.0" android:layout_centerInParent="true" android:marqueeRepeatLimit="marquee_forever" />
+        <Button android:textColor="#ffffffff" android:id="@id/done" android:layout_alignParentRight="true" android:layout_centerVertical="true" style="@style/button_refresh_style" />
+    </RelativeLayout>
+    <FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ListView android:id="@id/listviewCamera" android:padding="1.0dip" android:fadingEdge="none" android:layout_width="fill_parent" android:layout_height="wrap_content" android:listSelector="#00000000" android:cacheColorHint="#00000000" android:divider="#00000000" android:dividerHeight="0.39999998dip" android:fastScrollEnabled="true" android:fadeScrollbars="true" />
+        <TextView android:textSize="18.0sp" android:textColor="@color/color_main" android:gravity="center" android:layout_gravity="center" android:id="@id/tvshow" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="111" />
+        <FrameLayout android:gravity="center" android:layout_gravity="bottom" android:orientation="vertical" android:id="@id/express_container" android:background="#003399cc" android:layout_width="fill_parent" android:layout_height="150.0dip" android:layout_marginTop="30.0dip" />
+    </FrameLayout>
+</LinearLayout>

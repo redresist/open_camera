@@ -1,0 +1,372 @@
+--------- beginning of main
+05-20 12:31:49.487   771   771 D StatusBarIconController: ignoring old pipeline callbacks, because the new mobile icons are enabled
+--------- beginning of system
+05-20 12:31:50.790   549   915 W ProcessStats: Tracking association SourceState{9df9cf0 com.google.android.gms.persistent/10129 BFgs #7208} whose proc state 4 is better than process ProcessState{60eed95 com.google.android.gms/10129 pkg=com.google.android.gms} proc state 8 (41 skipped)
+05-20 12:31:55.265   759   759 I wpa_supplicant: wlan0: CTRL-EVENT-BEACON-LOSS 
+05-20 12:31:59.486   771   771 D StatusBarIconController: ignoring old pipeline callbacks, because the new mobile icons are enabled
+05-20 12:32:00.020  1534  1781 I AiAiEcho: Predicting[0]: 
+05-20 12:32:00.020  1534  1781 I AiAiEcho: EchoTargets: 
+05-20 12:32:00.020  1534  1781 I AiAiEcho: Filtered by AiAi flag check: 
+05-20 12:32:00.020  1534  1781 I AiAiEcho: Ranked targets strategy: SORT, count: 0, ranking metadata: 
+05-20 12:32:00.020  1534  1781 I AiAiEcho: #postPredictionTargets: Sending updates to UISurface lockscreen with targets# 0 (types=[])
+05-20 12:32:00.036   771   771 W PageIndicator: Total number of pages invalid: 0. Assuming 1 page.
+05-20 12:32:00.038   771   912 D EGL_emulation: app_time_stats: avg=40549.24ms min=40549.24ms max=40549.24ms count=1
+05-20 12:32:00.401   549   643 D ActivityManager: freezing 1237 com.google.android.permissioncontroller
+05-20 12:32:00.901   549   643 D ActivityManager: freezing 1671 com.google.android.gms
+--------- beginning of kernel
+05-20 12:32:00.969     0     0 W healthd : battery l=100 v=5000 t=25.0 h=2 st=2 c=900000 fc=3000000 cc=10 chg=a
+05-20 12:32:03.458   759   759 I wpa_supplicant: wlan0: CTRL-EVENT-BEACON-LOSS 
+05-20 12:32:08.787     0     0 I logd    : logdr: UID=0 GID=0 PID=8053 b tail=0 logMask=99 pid=0 start=0ns deadline=0ns
+05-20 12:32:09.486   771   771 D StatusBarIconController: ignoring old pipeline callbacks, because the new mobile icons are enabled
+05-20 12:32:10.863   549  2254 D CompatibilityChangeReporter: Compat change id reported: 265464455; UID 10196; state: DISABLED
+05-20 12:32:10.863   549  2254 D CompatibilityChangeReporter: Compat change id reported: 265452344; UID 10196; state: DISABLED
+05-20 12:32:10.864   549  2254 D CompatibilityChangeReporter: Compat change id reported: 266124927; UID 10196; state: DISABLED
+05-20 12:32:10.864   549  2254 D CompatibilityChangeReporter: Compat change id reported: 265451093; UID 10196; state: DISABLED
+05-20 12:32:10.864   549  2254 D CompatibilityChangeReporter: Compat change id reported: 265456536; UID 10196; state: DISABLED
+05-20 12:32:10.864   549  2254 D CompatibilityChangeReporter: Compat change id reported: 255940284; UID 10196; state: DISABLED
+05-20 12:32:10.864   549  2254 D CompatibilityChangeReporter: Compat change id reported: 236283604; UID 10196; state: DISABLED
+05-20 12:32:10.864   549  2254 D CompatibilityChangeReporter: Compat change id reported: 263959004; UID 10196; state: DISABLED
+05-20 12:32:10.864   549  2254 D CompatibilityChangeReporter: Compat change id reported: 264304459; UID 10196; state: DISABLED
+05-20 12:32:10.864   549  2254 D CompatibilityChangeReporter: Compat change id reported: 264301586; UID 10196; state: DISABLED
+05-20 12:32:10.864   549  2254 D CompatibilityChangeReporter: Compat change id reported: 254631730; UID 10196; state: DISABLED
+05-20 12:32:10.864   549  2254 D CompatibilityChangeReporter: Compat change id reported: 273509367; UID 10196; state: DISABLED
+05-20 12:32:10.864   549  2254 D CompatibilityChangeReporter: Compat change id reported: 263259275; UID 10196; state: DISABLED
+05-20 12:32:10.864   549  2254 D CompatibilityChangeReporter: Compat change id reported: 174042980; UID 10196; state: DISABLED
+05-20 12:32:10.864   549  2254 D CompatibilityChangeReporter: Compat change id reported: 174042936; UID 10196; state: DISABLED
+05-20 12:32:10.864   549  2254 D CompatibilityChangeReporter: Compat change id reported: 181136395; UID 10196; state: DISABLED
+05-20 12:32:10.866   549  2254 D CompatibilityChangeReporter: Compat change id reported: 194480991; UID 10196; state: ENABLED
+05-20 12:32:10.879   549  2254 D CompatibilityChangeReporter: Compat change id reported: 184838306; UID 10196; state: DISABLED
+05-20 12:32:10.879   549  2254 D CompatibilityChangeReporter: Compat change id reported: 185004937; UID 10196; state: DISABLED
+05-20 12:32:10.881   549  2254 D CompatibilityChangeReporter: Compat change id reported: 197654537; UID 10196; state: ENABLED
+05-20 12:32:10.882   549  2254 V SplashScreenExceptionList: SplashScreen checking exception for package shix.cam365.camera (target sdk:35) -> false
+05-20 12:32:10.883   549  2254 D CompatibilityChangeReporter: Compat change id reported: 205907456; UID 10196; state: ENABLED
+05-20 12:32:10.886   771   828 V WindowManagerShell: Transition requested: android.os.BinderProxy@c176e34 TransitionRequestInfo { type = OPEN, triggerTask = TaskInfo{userId=0 taskId=33 displayId=0 isRunning=true baseIntent=Intent { flg=0x10000000 cmp=shix.cam365.camera/minimal.camera.MainActivity } baseActivity=ComponentInfo{shix.cam365.camera/minimal.camera.MainActivity} topActivity=ComponentInfo{shix.cam365.camera/minimal.camera.MainActivity} origActivity=null realActivity=ComponentInfo{shix.cam365.camera/minimal.camera.MainActivity} numActivities=1 lastActiveTime=9737444 supportsMultiWindow=true resizeMode=1 isResizeable=true minWidth=-1 minHeight=-1 defaultMinSize=220 token=WCT{android.window.IWindowContainerToken$Stub$Proxy@9c5f45d} topActivityType=1 pictureInPictureParams=null shouldDockBigOverlays=false launchIntoPipHostTaskId=-1 lastParentTaskIdBeforePip=-1 displayCutoutSafeInsets=Rect(0, 128 - 0, 0) topActivityInfo=ActivityInfo{6ab91d2 minimal.camera.MainActivity} launchCookies=[] positionInParent=Point(0, 0) parentTaskId=-1 isFocused=false isVisible=false isVisibleRequested=false isSleeping=false topActivityInSizeCompat=false topActivityEligibleForLetterboxEducation= false topActivityLetterboxed= false isFromDoubleTap= false topActivityLetterboxVerticalPosition= -1 topActivityLetterboxHorizontalPosition= -1 topActivityLetterboxWidth=-1 topActivityLetterboxHeight=-1 locusId=null displayAreaFeatureId=1 cameraCompatControlState=hidden}, remoteTransition = null, displayChange = null }
+05-20 12:32:10.890   549  2254 I ActivityTaskManager: START u0 {flg=0x10000000 cmp=shix.cam365.camera/minimal.camera.MainActivity} with LAUNCH_MULTIPLE from uid 0 (BAL_ALLOW_ALLOWLISTED_UID) result code=0
+05-20 12:32:10.894   549   582 D CompatibilityChangeReporter: Compat change id reported: 135634846; UID 10196; state: DISABLED
+05-20 12:32:10.894   549   582 D CompatibilityChangeReporter: Compat change id reported: 177438394; UID 10196; state: DISABLED
+05-20 12:32:10.894   549   582 D CompatibilityChangeReporter: Compat change id reported: 135772972; UID 10196; state: DISABLED
+05-20 12:32:10.894   549   582 D CompatibilityChangeReporter: Compat change id reported: 135754954; UID 10196; state: ENABLED
+05-20 12:32:10.895   549   592 D CompatibilityChangeReporter: Compat change id reported: 143937733; UID 10196; state: ENABLED
+05-20 12:32:10.900   771   866 W ShellStartingWindow: Window background is translucent, fill background with black color
+05-20 12:32:10.901   362   362 D Zygote  : Forked child process 8063
+05-20 12:32:10.901   405   405 I BpBinder: onLastStrongRef automatically unlinking death recipients: 
+05-20 12:32:10.905   549   592 I ActivityManager: Start proc 8063:shix.cam365.camera/u0a196 for next-top-activity {shix.cam365.camera/minimal.camera.MainActivity}
+05-20 12:32:10.908   549   582 I ActivityManager: Killing 1388:android.process.acore/u0a82 (adj 985): empty #17
+05-20 12:32:10.908   549   582 W ProcessStats: Tracking association SourceState{af010ef com.google.android.apps.nexuslauncher/10169 BTop #7226} whose proc state 2 is better than process ProcessState{d9b3c5d com.google.android.googlequicksearchbox:search/10132 pkg=com.google.android.googlequicksearchbox} proc state 5 (24 skipped)
+05-20 12:32:10.909   549   635 D CompatibilityChangeReporter: Compat change id reported: 265195908; UID 10196; state: ENABLED
+05-20 12:32:10.913   771   866 D SplashScreenView: Build android.window.SplashScreenView{d057130 V.E...... ......ID 0,0-0,0}
+05-20 12:32:10.913   771   866 D SplashScreenView: Icon: view: android.widget.ImageView{eee01a9 V.ED..... ......I. 0,0-0,0 #10204f0 android:id/splashscreen_icon_view} drawable: com.android.wm.shell.startingsurface.SplashscreenIconDrawableFactory$ImmobileIconDrawable@18e632e size: 420
+05-20 12:32:10.913   771   866 D SplashScreenView: Branding: view: android.view.View{f6c6ecf G.ED..... ......I. 0,0-0,0 #10204ef android:id/splashscreen_branding_view} drawable: null size w: 0 h: 0
+05-20 12:32:10.917   549   593 I libprocessgroup: Successfully killed process cgroup uid 10082 pid 1388 in 7ms
+05-20 12:32:10.907     0     0 I binder  : undelivered transaction 943385, process died.
+05-20 12:32:10.918   362   362 I Zygote  : Process 1388 exited due to signal 9 (Killed)
+05-20 12:32:10.920   549   932 D CountryDetector: No listener is left
+05-20 12:32:10.923   549   580 D DisplayManagerService: Drop pending events for gone uid 10082
+05-20 12:32:10.927   549  2254 D CoreBackPreview: Window{98c3db8 u0 Splash Screen shix.cam365.camera}: Setting back callback OnBackInvokedCallbackInfo{mCallback=android.window.IOnBackInvokedCallback$Stub$Proxy@da37d64, mPriority=0, mIsAnimationCallback=false}
+05-20 12:32:10.947  8063  8063 I x.cam365.camera: Late-enabling -Xcheck:jni
+05-20 12:32:10.964  1134  1669 D EGL_emulation: app_time_stats: avg=1548.21ms min=6.63ms max=35251.37ms count=23
+05-20 12:32:10.980   549   579 V WindowManager: Sent Transition #16 createdAt=05-20 12:32:10.868 via request=TransitionRequestInfo { type = OPEN, triggerTask = TaskInfo{userId=0 taskId=33 displayId=0 isRunning=true baseIntent=Intent { flg=0x10000000 cmp=shix.cam365.camera/minimal.camera.MainActivity } baseActivity=ComponentInfo{shix.cam365.camera/minimal.camera.MainActivity} topActivity=ComponentInfo{shix.cam365.camera/minimal.camera.MainActivity} origActivity=null realActivity=ComponentInfo{shix.cam365.camera/minimal.camera.MainActivity} numActivities=1 lastActiveTime=9737444 supportsMultiWindow=true resizeMode=1 isResizeable=true minWidth=-1 minHeight=-1 defaultMinSize=220 token=WCT{RemoteToken{4930e0b Task{953900f #33 type=standard A=10196:shix.cam365.camera}}} topActivityType=1 pictureInPictureParams=null shouldDockBigOverlays=false launchIntoPipHostTaskId=-1 lastParentTaskIdBeforePip=-1 displayCutoutSafeInsets=Rect(0, 128 - 0, 0) topActivityInfo=ActivityInfo{86684e8 minimal.camera.MainActivity} launchCookies=[] positionInParent=Point(0, 0) parentTaskId=-1 isFocused=false isVisible=false isVisibleRequested=false isSleeping=false topActivityInSizeCompat=false topActivityEligibleForLetterboxEducation= false topActivityLetterboxed= false isFromDoubleTap= false topActivityLetterboxVerticalPosition= -1 topActivityLetterboxHorizontalPosition= -1 topActivityLetterboxWidth=-1 topActivityLetterboxHeight=-1 locusId=null displayAreaFeatureId=1 cameraCompatControlState=hidden}, remoteTransition = null, displayChange = null }
+05-20 12:32:10.980   549   579 V WindowManager:     startWCT=WindowContainerTransaction { changes = {} hops = [] errorCallbackToken=null taskFragmentOrganizer=null }
+05-20 12:32:10.980   549   579 V WindowManager:     info={id=16 t=OPEN f=0x0 trk=0 r=[0@Point(0, 0)] c=[{WCT{RemoteToken{4930e0b Task{953900f #33 type=standard A=10196:shix.cam365.camera}}} m=OPEN f=NONE leash=Surface(name=Task=33)/@0xc797c9 sb=Rect(0, 0 - 1080, 2400) eb=Rect(0, 0 - 1080, 2400) d=0},{WCT{RemoteToken{fe90e6a Task{507012f #1 type=home}}} m=TO_BACK f=SHOW_WALLPAPER leash=Surface(name=Task=1)/@0x9969066 sb=Rect(0, 0 - 1080, 2400) eb=Rect(0, 0 - 1080, 2400) d=0}]}
+05-20 12:32:10.980   771   828 V WindowManagerShell: onTransitionReady android.os.BinderProxy@c176e34: {id=16 t=OPEN f=0x0 trk=0 r=[0@Point(0, 0)] c=[{WCT{android.window.IWindowContainerToken$Stub$Proxy@70966b1} m=OPEN f=NONE leash=Surface(name=Task=33)/@0xa6f7b1f sb=Rect(0, 0 - 1080, 2400) eb=Rect(0, 0 - 1080, 2400) d=0},{WCT{android.window.IWindowContainerToken$Stub$Proxy@a30d796} m=TO_BACK f=SHOW_WALLPAPER leash=Surface(name=Task=1)/@0x1f50e6c sb=Rect(0, 0 - 1080, 2400) eb=Rect(0, 0 - 1080, 2400) d=0}]}
+05-20 12:32:10.983   771   828 V WindowManagerShell: Playing animation for (#16)android.os.BinderProxy@c176e34@0
+05-20 12:32:10.983   771   828 V WindowManagerShell:  try handler com.android.wm.shell.transition.DefaultMixedHandler@a6c3040
+05-20 12:32:10.984   771   828 V WindowManagerShell:  try handler com.android.wm.shell.keyguard.KeyguardTransitionHandler@8443b79
+05-20 12:32:10.984   771   828 V WindowManagerShell:  try handler com.android.wm.shell.activityembedding.ActivityEmbeddingController@7c260be
+05-20 12:32:10.984   771   828 V WindowManagerShell:  try handler com.android.wm.shell.recents.RecentsTransitionHandler@831451f
+05-20 12:32:10.984   771   828 V ShellRecents: RecentsTransitionHandler.startAnimation: no controller found
+05-20 12:32:10.984   771   828 V WindowManagerShell:  try handler com.android.wm.shell.pip.PipTransition@504106c
+05-20 12:32:10.984   771   828 V WindowManagerShell:  try handler com.android.wm.shell.splitscreen.StageCoordinator@f441635
+05-20 12:32:10.984   771   828 V WindowManagerShell:  try handler com.android.wm.shell.transition.RemoteTransitionHandler@bfcaca
+05-20 12:32:10.985  8063  8063 I x.cam365.camera: Using CollectorTypeCC GC.
+05-20 12:32:10.985   771   828 V WindowManagerShell: Transition doesn't have explicit remote, search filters for match for {id=16 t=OPEN f=0x0 trk=0 r=[0@Point(0, 0)] c=[{WCT{android.window.IWindowContainerToken$Stub$Proxy@70966b1} m=OPEN f=NONE leash=Surface(name=Task=33)/@0xa6f7b1f sb=Rect(0, 0 - 1080, 2400) eb=Rect(0, 0 - 1080, 2400) d=0},{WCT{android.window.IWindowContainerToken$Stub$Proxy@a30d796} m=TO_BACK f=SHOW_WALLPAPER leash=Surface(name=Task=1)/@0x1f50e6c sb=Rect(0, 0 - 1080, 2400) eb=Rect(0, 0 - 1080, 2400) d=0}]}
+05-20 12:32:10.985   771   828 V WindowManagerShell:  Checking filter Pair{{types=[] flags=0x0] notFlags=0x0 checks=[{atype=dream independent=true modes=[OPEN,TO_FRONT] flags=NONE mustBeTask=false order=ANY topActivity=null},{atype=home independent=true modes=[CLOSE,TO_BACK] flags=NONE mustBeTask=false order=ANY topActivity=null}]} RemoteTransition { remoteTransition = android.window.IRemoteTransition$Stub$Proxy@6953603, appThread = android.app.IApplicationThread$Stub$Proxy@d4f1980, debugName = LauncherToDream }}
+05-20 12:32:10.985   771   828 V WindowManagerShell:  Checking filter Pair{{types=[] flags=0x0] notFlags=0x100 checks=[{atype=home independent=true modes=[OPEN,TO_FRONT] flags=NONE mustBeTask=false order=TOP topActivity=ComponentInfo{com.google.android.apps.nexuslauncher/com.google.android.apps.nexuslauncher.NexusLauncherActivity}},{atype=standard independent=true modes=[CLOSE,TO_BACK] flags=NONE mustBeTask=false order=ANY topActivity=null}]} RemoteTransition { remoteTransition = android.window.IRemoteTransition$Stub$Proxy@d730bb9, appThread = android.app.IApplicationThread$Stub$Proxy@1a48bfe, debugName = QuickstepLaunchHome }}
+05-20 12:32:10.985  8063  8063 W x.cam365.camera: Unexpected CPU variant for x86: x86_64.
+05-20 12:32:10.985  8063  8063 W x.cam365.camera: Known variants: atom, sandybridge, silvermont, goldmont, goldmont-plus, tremont, kabylake, default
+05-20 12:32:10.987   771   828 V WindowManagerShell:  Delegate animation for #16 to null
+05-20 12:32:10.988   771   828 V WindowManagerShell:  try handler com.android.wm.shell.transition.DefaultTransitionHandler@370b917
+05-20 12:32:10.989   771   828 V WindowManagerShell: start default transition animation, info = {id=16 t=OPEN f=0x0 trk=0 r=[0@Point(0, 0)] c=[{WCT{android.window.IWindowContainerToken$Stub$Proxy@70966b1} m=OPEN f=NONE leash=Surface(name=Task=33)/@0xa6f7b1f sb=Rect(0, 0 - 1080, 2400) eb=Rect(0, 0 - 1080, 2400) d=0},{WCT{android.window.IWindowContainerToken$Stub$Proxy@a30d796} m=TO_BACK f=SHOW_WALLPAPER leash=Surface(name=Task=1)/@0x1f50e6c sb=Rect(0, 0 - 1080, 2400) eb=Rect(0, 0 - 1080, 2400) d=0}]}
+05-20 12:32:10.990   771   828 V WindowManagerShell: loadAnimation: anim=android.view.animation.AnimationSet@da96bda animAttr=0x13 type=OPEN isEntrance=false
+05-20 12:32:10.991   771   828 V WindowManagerShell: loadAnimation: anim=android.view.animation.AnimationSet@e426ba6 animAttr=0x12 type=OPEN isEntrance=true
+05-20 12:32:10.992   771   828 V WindowManagerShell:  animated by com.android.wm.shell.transition.DefaultTransitionHandler@370b917
+05-20 12:32:11.032   771   912 D EGL_emulation: app_time_stats: avg=10993.66ms min=10993.66ms max=10993.66ms count=1
+05-20 12:32:11.046  8063  8063 I ndk_translation: Initialized NDK translation (aarch64), version 0.2.3
+05-20 12:32:11.181  4259  4266 I adbd    : jdwp connection from 8063
+05-20 12:32:11.195   549   590 D IntervalStats: Unable to parse usage stats packages: [215, 225]
+05-20 12:32:11.195   549   590 D IntervalStats: Unable to parse event packages: [225]
+05-20 12:32:11.196  8063  8063 D CompatibilityChangeReporter: Compat change id reported: 171979766; UID 10196; state: ENABLED
+05-20 12:32:11.197  8063  8063 D CompatibilityChangeReporter: Compat change id reported: 242716250; UID 10196; state: ENABLED
+05-20 12:32:11.201   549  2254 D CompatibilityChangeReporter: Compat change id reported: 170503758; UID 10196; state: ENABLED
+05-20 12:32:11.205  8063  8063 W ziparchive: Unable to open '/data/app/~~r0vMXH3uI5w4s_Fhlt-4-Q==/shix.cam365.camera-NmkAoeP_MDmm9ndI3KjPIg==/base.dm': No such file or directory
+05-20 12:32:11.205  8063  8063 W ziparchive: Unable to open '/data/app/~~r0vMXH3uI5w4s_Fhlt-4-Q==/shix.cam365.camera-NmkAoeP_MDmm9ndI3KjPIg==/base.dm': No such file or directory
+05-20 12:32:11.206  8063  8063 D nativeloader: Configuring clns-6 for other apk /data/app/~~r0vMXH3uI5w4s_Fhlt-4-Q==/shix.cam365.camera-NmkAoeP_MDmm9ndI3KjPIg==/base.apk. target_sdk_version=35, uses_libraries=, library_path=/data/app/~~r0vMXH3uI5w4s_Fhlt-4-Q==/shix.cam365.camera-NmkAoeP_MDmm9ndI3KjPIg==/lib/arm64:/data/app/~~r0vMXH3uI5w4s_Fhlt-4-Q==/shix.cam365.camera-NmkAoeP_MDmm9ndI3KjPIg==/base.apk!/lib/arm64-v8a, permitted_path=/data:/mnt/expand:/data/user/0/shix.cam365.camera
+05-20 12:32:11.215  8063  8063 V GraphicsEnvironment: Currently set values for:
+05-20 12:32:11.215  8063  8063 V GraphicsEnvironment:   angle_gl_driver_selection_pkgs=[]
+05-20 12:32:11.215  8063  8063 V GraphicsEnvironment:   angle_gl_driver_selection_values=[]
+05-20 12:32:11.215  8063  8063 V GraphicsEnvironment: ANGLE GameManagerService for shix.cam365.camera: false
+05-20 12:32:11.215  8063  8063 V GraphicsEnvironment: shix.cam365.camera is not listed in per-application setting
+05-20 12:32:11.215  8063  8063 V GraphicsEnvironment: Neither updatable production driver nor prerelease driver is supported.
+05-20 12:32:11.218   549  2254 I ActivityManager: Flag disabled. Ignoring finishAttachApplication from uid: 10196. pid: 8063
+05-20 12:32:11.234  8063  8063 I CamRelay: Starting RelayService...
+05-20 12:32:11.239   771   828 V WindowManagerShell: Transition requested: android.os.BinderProxy@2335305 TransitionRequestInfo { type = CLOSE, triggerTask = TaskInfo{userId=0 taskId=33 displayId=0 isRunning=false baseIntent=Intent { flg=0x10000000 cmp=shix.cam365.camera/minimal.camera.MainActivity } baseActivity=null topActivity=null origActivity=null realActivity=ComponentInfo{shix.cam365.camera/minimal.camera.MainActivity} numActivities=0 lastActiveTime=9737748 supportsMultiWindow=true resizeMode=1 isResizeable=true minWidth=-1 minHeight=-1 defaultMinSize=220 token=WCT{android.window.IWindowContainerToken$Stub$Proxy@e040f5a} topActivityType=1 pictureInPictureParams=null shouldDockBigOverlays=false launchIntoPipHostTaskId=-1 lastParentTaskIdBeforePip=-1 displayCutoutSafeInsets=Rect(0, 128 - 0, 0) topActivityInfo=null launchCookies=[] positionInParent=Point(0, 0) parentTaskId=-1 isFocused=false isVisible=true isVisibleRequested=true isSleeping=false topActivityInSizeCompat=false topActivityEligibleForLetterboxEducation= false topActivityLetterboxed= false isFromDoubleTap= false topActivityLetterboxVerticalPosition= -1 topActivityLetterboxHorizontalPosition= -1 topActivityLetterboxWidth=-1 topActivityLetterboxHeight=-1 locusId=null displayAreaFeatureId=1 cameraCompatControlState=hidden}, remoteTransition = null, displayChange = null }
+05-20 12:32:11.244  8063  8088 D libEGL  : loaded /vendor/lib64/egl/libEGL_emulation.so
+05-20 12:32:11.246  8063  8088 D libEGL  : loaded /vendor/lib64/egl/libGLESv1_CM_emulation.so
+05-20 12:32:11.248  8063  8088 D libEGL  : loaded /vendor/lib64/egl/libGLESv2_emulation.so
+05-20 12:32:11.265  8063  8063 I CamRelay: === SERVICE INIT ===
+05-20 12:32:11.285   771   828 V WindowManagerShell: Transition animation finished (aborted=false), notifying core (#16)android.os.BinderProxy@c176e34@0
+05-20 12:32:11.286   549   579 V WindowManager: Finish Transition #16: created at 05-20 12:32:10.868 collect-started=0.421ms request-sent=16.555ms started=22.825ms ready=101.89ms sent=103.12ms finished=417.358ms
+05-20 12:32:11.288   771   828 V WindowManagerShell: Track 0 became idle
+05-20 12:32:11.295  8063  8063 W SHIX-jni: ---------------------------Author's QQ is:3531263394----------------------2--------
+05-20 12:32:11.291  8063  8063 I x.cam365.camera: type=1400 audit(0.0:50): avc:  denied  { getattr } for  path="/dev/pmsg0" dev="tmpfs" ino=403 scontext=u:r:untrusted_app:s0:c196,c256,c512,c768 tcontext=u:object_r:pmsg_device:s0 tclass=chr_file permissive=1 app=shix.cam365.camera
+05-20 12:32:11.310  8063  8063 W SHIX-jni: doorbell-init-szsvr:test
+05-20 12:32:11.310  8063  8063 W SHIX-jni: doorbell-init-ret:0
+05-20 12:32:11.310  8063  8063 W SHIX-jni: SHIX_P2P_VER:5.2.1.0
+05-20 12:32:11.310  8063  8063 W SHIX-jni: SHIX_JNI_VER: 20260302-1
+05-20 12:32:11.311  8063  8063 I HL      : [13:32:11.311] kaven...p2p.initstr=DAS-2E97A741893A5D8FF6F425C8116F55881D8A2910CBC0129A16A084A619A588F0AFF28D21CDFA3D31EB21F52B363B95448436076355C1985CB88CFEE8420F1F5CE9194EF02051AE3641D78F7F0A766D47182ED51224B126E1CB1110802E708329
+05-20 12:32:11.393   759   759 I wpa_supplicant: wlan0: CTRL-EVENT-BEACON-LOSS 
+05-20 12:32:11.738   549   582 W ActivityTaskManager: Activity top resumed state loss timeout for ActivityRecord{c84416e u0 shix.cam365.camera/minimal.camera.MainActivity t33 f}}
+05-20 12:32:11.739   549   582 W ActivityTaskManager: Activity pause timeout for ActivityRecord{c84416e u0 shix.cam365.camera/minimal.camera.MainActivity t33 f}}
+05-20 12:32:11.786   771   771 D StatusBarIconController: ignoring old pipeline callback because the new wifi icon is enabled
+05-20 12:32:11.804   549   579 V WindowManager: Sent Transition #17 createdAt=05-20 12:32:11.238 via request=TransitionRequestInfo { type = CLOSE, triggerTask = TaskInfo{userId=0 taskId=33 displayId=0 isRunning=false baseIntent=Intent { flg=0x10000000 cmp=shix.cam365.camera/minimal.camera.MainActivity } baseActivity=null topActivity=null origActivity=null realActivity=ComponentInfo{shix.cam365.camera/minimal.camera.MainActivity} numActivities=0 lastActiveTime=9737748 supportsMultiWindow=true resizeMode=1 isResizeable=true minWidth=-1 minHeight=-1 defaultMinSize=220 token=WCT{RemoteToken{4930e0b Task{953900f #33 type=standard A=10196:shix.cam365.camera}}} topActivityType=1 pictureInPictureParams=null shouldDockBigOverlays=false launchIntoPipHostTaskId=-1 lastParentTaskIdBeforePip=-1 displayCutoutSafeInsets=Rect(0, 128 - 0, 0) topActivityInfo=null launchCookies=[] positionInParent=Point(0, 0) parentTaskId=-1 isFocused=false isVisible=true isVisibleRequested=true isSleeping=false topActivityInSizeCompat=false topActivityEligibleForLetterboxEducation= false topActivityLetterboxed= false isFromDoubleTap= false topActivityLetterboxVerticalPosition= -1 topActivityLetterboxHorizontalPosition= -1 topActivityLetterboxWidth=-1 topActivityLetterboxHeight=-1 locusId=null displayAreaFeatureId=1 cameraCompatControlState=hidden}, remoteTransition = null, displayChange = null }
+05-20 12:32:11.804   549   579 V WindowManager:     startWCT=WindowContainerTransaction { changes = {} hops = [] errorCallbackToken=null taskFragmentOrganizer=null }
+05-20 12:32:11.804   549   579 V WindowManager:     info={id=17 t=CLOSE f=0x0 trk=1 r=[0@Point(0, 0)] c=[{WCT{RemoteToken{fe90e6a Task{507012f #1 type=home}}} m=TO_FRONT f=SHOW_WALLPAPER leash=Surface(name=Task=1)/@0x9969066 sb=Rect(0, 0 - 1080, 2400) eb=Rect(0, 0 - 1080, 2400) d=0},{WCT{RemoteToken{4930e0b Task{953900f #33 type=standard A=10196:shix.cam365.camera}}} m=CLOSE f=NONE leash=Surface(name=Task=33)/@0xc797c9 sb=Rect(0, 0 - 1080, 2400) eb=Rect(0, 0 - 1080, 2400) d=0}]}
+05-20 12:32:11.805   771   828 V WindowManagerShell: onTransitionReady android.os.BinderProxy@2335305: {id=17 t=CLOSE f=0x0 trk=1 r=[0@Point(0, 0)] c=[{WCT{android.window.IWindowContainerToken$Stub$Proxy@eec47af} m=TO_FRONT f=SHOW_WALLPAPER leash=Surface(name=Task=1)/@0x14c5290 sb=Rect(0, 0 - 1080, 2400) eb=Rect(0, 0 - 1080, 2400) d=0},{WCT{android.window.IWindowContainerToken$Stub$Proxy@8cc07bc} m=CLOSE f=NONE leash=Surface(name=Task=33)/@0xa073789 sb=Rect(0, 0 - 1080, 2400) eb=Rect(0, 0 - 1080, 2400) d=0}]}
+05-20 12:32:11.805  1534  1781 I AiAiEcho: Predicting[0]: 
+05-20 12:32:11.805  1534  1781 I AiAiEcho: EchoTargets: 
+05-20 12:32:11.805  1534  1781 I AiAiEcho: Filtered by AiAi flag check: 
+05-20 12:32:11.805  1534  1781 I AiAiEcho: Ranked targets strategy: SORT, count: 0, ranking metadata: 
+05-20 12:32:11.806  1534  1781 I AiAiEcho: #postPredictionTargets: Sending updates to UISurface home with targets# 0 (types=[])
+05-20 12:32:11.806   771   828 V WindowManagerShell: Playing animation for (#17)android.os.BinderProxy@2335305@1
+05-20 12:32:11.806   771   828 V WindowManagerShell:  try handler com.android.wm.shell.transition.DefaultMixedHandler@a6c3040
+05-20 12:32:11.806   771   828 V WindowManagerShell:  try handler com.android.wm.shell.keyguard.KeyguardTransitionHandler@8443b79
+05-20 12:32:11.807   771   828 V WindowManagerShell:  try handler com.android.wm.shell.activityembedding.ActivityEmbeddingController@7c260be
+05-20 12:32:11.807   771   828 V WindowManagerShell:  try handler com.android.wm.shell.recents.RecentsTransitionHandler@831451f
+05-20 12:32:11.807   771   828 V ShellRecents: RecentsTransitionHandler.startAnimation: no controller found
+05-20 12:32:11.807   771   828 V WindowManagerShell:  try handler com.android.wm.shell.pip.PipTransition@504106c
+05-20 12:32:11.808   771   828 V WindowManagerShell:  try handler com.android.wm.shell.splitscreen.StageCoordinator@f441635
+05-20 12:32:11.808   771   828 V WindowManagerShell:  try handler com.android.wm.shell.transition.RemoteTransitionHandler@bfcaca
+05-20 12:32:11.808   771   828 V WindowManagerShell: Transition doesn't have explicit remote, search filters for match for {id=17 t=CLOSE f=0x0 trk=1 r=[0@Point(0, 0)] c=[{WCT{android.window.IWindowContainerToken$Stub$Proxy@eec47af} m=TO_FRONT f=SHOW_WALLPAPER leash=Surface(name=Task=1)/@0x14c5290 sb=Rect(0, 0 - 1080, 2400) eb=Rect(0, 0 - 1080, 2400) d=0},{WCT{android.window.IWindowContainerToken$Stub$Proxy@8cc07bc} m=CLOSE f=NONE leash=Surface(name=Task=33)/@0xa073789 sb=Rect(0, 0 - 1080, 2400) eb=Rect(0, 0 - 1080, 2400) d=0}]}
+05-20 12:32:11.808   771   828 V WindowManagerShell:  Checking filter Pair{{types=[] flags=0x0] notFlags=0x0 checks=[{atype=dream independent=true modes=[OPEN,TO_FRONT] flags=NONE mustBeTask=false order=ANY topActivity=null},{atype=home independent=true modes=[CLOSE,TO_BACK] flags=NONE mustBeTask=false order=ANY topActivity=null}]} RemoteTransition { remoteTransition = android.window.IRemoteTransition$Stub$Proxy@6953603, appThread = android.app.IApplicationThread$Stub$Proxy@d4f1980, debugName = LauncherToDream }}
+05-20 12:32:11.808   771   828 V WindowManagerShell:  Checking filter Pair{{types=[] flags=0x0] notFlags=0x100 checks=[{atype=home independent=true modes=[OPEN,TO_FRONT] flags=NONE mustBeTask=false order=TOP topActivity=ComponentInfo{com.google.android.apps.nexuslauncher/com.google.android.apps.nexuslauncher.NexusLauncherActivity}},{atype=standard independent=true modes=[CLOSE,TO_BACK] flags=NONE mustBeTask=false order=ANY topActivity=null}]} RemoteTransition { remoteTransition = android.window.IRemoteTransition$Stub$Proxy@d730bb9, appThread = android.app.IApplicationThread$Stub$Proxy@1a48bfe, debugName = QuickstepLaunchHome }}
+05-20 12:32:11.809   771   828 D RemoteTransitionHandler: Found filterPair{{types=[] flags=0x0] notFlags=0x100 checks=[{atype=home independent=true modes=[OPEN,TO_FRONT] flags=NONE mustBeTask=false order=TOP topActivity=ComponentInfo{com.google.android.apps.nexuslauncher/com.google.android.apps.nexuslauncher.NexusLauncherActivity}},{atype=standard independent=true modes=[CLOSE,TO_BACK] flags=NONE mustBeTask=false order=ANY topActivity=null}]} RemoteTransition { remoteTransition = android.window.IRemoteTransition$Stub$Proxy@d730bb9, appThread = android.app.IApplicationThread$Stub$Proxy@1a48bfe, debugName = QuickstepLaunchHome }}
+05-20 12:32:11.809   771   828 V WindowManagerShell:  Delegate animation for #17 to RemoteTransition { remoteTransition = android.window.IRemoteTransition$Stub$Proxy@d730bb9, appThread = android.app.IApplicationThread$Stub$Proxy@1a48bfe, debugName = QuickstepLaunchHome }
+05-20 12:32:11.812   549  1567 W AppSearchIcing: icing-search-engine.cc:283: Error: 5, Message: Document (com.google.android.googlequicksearchbox$OneSearchZeroStateGoogleSuggestions/default, zp) not found.
+05-20 12:32:11.814   771   828 V WindowManagerShell:  animated by com.android.wm.shell.transition.RemoteTransitionHandler@bfcaca
+05-20 12:32:11.815  8063  8063 I HL      : [13:32:11.815] kaven...p2p init succ ver=20250402
+05-20 12:32:11.816  8063  8063 W SHIX-jni: doorbell-init-szsvr:test
+05-20 12:32:11.816  8063  8063 W SHIX-jni: doorbell-init-ret:0
+05-20 12:32:11.816  8063  8063 W SHIX-jni: P2PVER:20250402 
+05-20 12:32:11.816  8063  8063 D SHIX-jni: Java_object_p2pipcam_nativecaller_NativeCaller_Init:enter
+05-20 12:32:11.816  8063  8063 W SHIX-jni: NativeCaller_Init
+05-20 12:32:11.817  8063  8063 W SHIX-jni: global_init_decode  ENUM_FRAME_TYPE_H264
+05-20 12:32:11.817  8063  8063 W SHIX-jni: 
+05-20 12:32:11.818  8063  8063 D SHIX-jni: global_init_decode ok
+05-20 12:32:11.822  8063  8063 D SHIX-jni: global_init_decode avcodec_open2 OK
+05-20 12:32:11.823  8063  8063 D SHIX-jni: Java_object_p2pipcam_nativecaller_NativeCaller_Init:leave
+05-20 12:32:11.835  1134  1856 D OneSearchSuggestProvider: Established or reuse existing binder channel authority=com.google.android.googlequicksearchbox
+05-20 12:32:11.836  1640  1640 W A       : Can't get WAA status for Mavatar!
+05-20 12:32:11.836  1640  1640 W A       : java.lang.NullPointerException: Attempt to invoke virtual method 'java.lang.Class java.lang.Object.getClass()' on a null object reference
+05-20 12:32:11.836  1640  1640 W A       : 	at com.google.apps.tiktok.dataservice.z.b(PG:1)
+05-20 12:32:11.836  1640  1640 W A       : 	at com.google.apps.tiktok.dataservice.at.a(PG:1)
+05-20 12:32:11.836  1640  1640 W A       : 	at com.google.apps.tiktok.tracing.ec.a(PG:2)
+05-20 12:32:11.836  1640  1640 W A       : 	at com.google.common.util.concurrent.aj.a(PG:2)
+05-20 12:32:11.836  1640  1640 W A       : 	at com.google.common.util.concurrent.ac.apply(PG:1)
+05-20 12:32:11.836  1640  1640 W A       : 	at com.google.common.util.concurrent.h.e(PG:2)
+05-20 12:32:11.836  1640  1640 W A       : 	at com.google.common.util.concurrent.j.run(PG:9)
+05-20 12:32:11.836  1640  1640 W A       : 	at com.google.common.util.concurrent.bf.execute(PG:1)
+05-20 12:32:11.836  1640  1640 W A       : 	at com.google.common.util.concurrent.d.i(PG:1)
+05-20 12:32:11.836  1640  1640 W A       : 	at com.google.common.util.concurrent.d.l(PG:12)
+05-20 12:32:11.836  1640  1640 W A       : 	at com.google.common.util.concurrent.d.n(PG:2)
+05-20 12:32:11.836  1640  1640 W A       : 	at com.google.common.util.concurrent.i.f(PG:1)
+05-20 12:32:11.836  1640  1640 W A       : 	at com.google.common.util.concurrent.j.run(PG:12)
+05-20 12:32:11.836  1640  1640 W A       : 	at com.google.android.libraries.i.ae.run(PG:1)
+05-20 12:32:11.836  1640  1640 W A       : 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+05-20 12:32:11.836  1640  1640 W A       : 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:644)
+05-20 12:32:11.836  1640  1640 W A       : 	at com.google.android.libraries.i.k.run(PG:2)
+05-20 12:32:11.836  1640  1640 W A       : 	at com.google.android.libraries.i.p.run(PG:4)
+05-20 12:32:11.836  1640  1640 W A       : 	at java.lang.Thread.run(Thread.java:1012)
+05-20 12:32:11.840   549  5543 I ImeTracker: com.google.android.apps.nexuslauncher:ff18331d: onRequestHide at ORIGIN_SERVER_HIDE_INPUT reason HIDE_SAME_WINDOW_FOCUSED_WITHOUT_EDITOR
+05-20 12:32:11.840   549  5543 I ImeTracker: com.google.android.apps.nexuslauncher:ff18331d: onCancelled at PHASE_SERVER_SHOULD_HIDE
+05-20 12:32:11.850  1640  1640 I A       : Created gRPC endpoint to "search" for service class com.google.android.apps.search.googleapp.search.suggest.plugins.onesearch.server.OneSearchSuggestService
+05-20 12:32:11.857   771   912 D EGL_emulation: app_time_stats: avg=287055.12ms min=0.71ms max=8898136.00ms count=31
+05-20 12:32:11.861  1436  1436 I GoogleInputMethodService: GoogleInputMethodService.onFinishInput():3227 
+05-20 12:32:11.886  1436  1436 I GoogleInputMethodService: GoogleInputMethodService.updateDeviceLockedStatus():2087 repeatCheckTimes = 0, unlocked = true
+05-20 12:32:11.887  1436  1436 I GoogleInputMethodService: GoogleInputMethodService.onStartInput():1877 onStartInput(EditorInfo{inputType=0x0(NULL) imeOptions=0x0 privateImeOptions=null actionName=UNSPECIFIED actionLabel=null actionId=0 initialSelStart=-1 initialSelEnd=-1 initialCapsMode=0x0 hintText=null label=null packageName=com.google.android.apps.nexuslauncher fieldId=0 fieldName=null extras=null}, false)
+05-20 12:32:11.887  1436  1436 I GoogleInputMethodService: GoogleInputMethodService.shouldHideHeaderOnInitialState():4008 ShouldHideHeaderOnInitialState = false
+05-20 12:32:11.888  1436  1436 I GoogleInputMethodService: GoogleInputMethodService.updateDeviceLockedStatus():2087 repeatCheckTimes = 2, unlocked = true
+05-20 12:32:11.905  1134  1148 W s.nexuslauncher: Reducing the number of considered missed Gc histogram windows from 890 to 100
+05-20 12:32:11.932  1134  1150 W System  : A resource failed to call release. 
+05-20 12:32:11.932  1134  1150 W System  : A resource failed to call release. 
+05-20 12:32:12.047  1134  1134 D SearchTargetUtil:  query= size=15
+05-20 12:32:12.048  1134  1134 D SearchTargetUtil: layoutType=extra_tall_icon_row resultType=131072 packageName=com.google.android.googlequicksearchbox extras=Bundle{bitmap_url=data:image/jpeg;base64,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,suggestion_type=33,suggest_truncate_start=false,is_answer=false,is_entity=true,is_personal=false,suggest_raw_text=monica witt,group_id=web499142,response_id=8203b697-e9f5-4e3c-aa34-beca7fc3c841,support_query_builder=false,} searchAction=Monica Elfriede Witt searchActionExtras=Bundle{learn_more_url=https://support.google.com/websearch/answer/106230?hl=106230,suggestion_action_text=Report this,should_start_for_result=true,allow_pinning=true,skip_logging_in_target_handler=false,suggestion_action_rpc=2,}ParentID: null targetID: 88c5c063-5505-4401-97de-c18cadd2019b
+05-20 12:32:12.048  1134  1134 D SearchTargetUtil: layoutType=short_icon_row resultType=131072 packageName=com.google.android.googlequicksearchbox extras=Bundle{suggestion_type=33,suggest_truncate_start=false,is_answer=false,is_entity=false,is_personal=false,suggest_raw_text=trump phones,group_id=web499142,response_id=8203b697-e9f5-4e3c-aa34-beca7fc3c841,support_query_builder=false,} searchAction=trump phones searchActionExtras=Bundle{learn_more_url=https://support.google.com/websearch/answer/106230?hl=106230,suggestion_action_text=Report this,should_start_for_result=true,allow_pinning=true,skip_logging_in_target_handler=false,suggestion_action_rpc=2,}ParentID: null targetID: 869b2d17-cd46-48de-91ca-6cd0f767f9e7
+05-20 12:32:12.048  1134  1134 D SearchTargetUtil: layoutType=short_icon_row resultType=131072 packageName=com.google.android.googlequicksearchbox extras=Bundle{suggestion_type=33,suggest_truncate_start=false,is_answer=false,is_entity=false,is_personal=false,suggest_raw_text=southampton spygate,group_id=web499142,response_id=8203b697-e9f5-4e3c-aa34-beca7fc3c841,support_query_builder=false,} searchAction=southampton spygate searchActionExtras=Bundle{learn_more_url=https://support.google.com/websearch/answer/106230?hl=106230,suggestion_action_text=Report this,should_start_for_result=true,allow_pinning=true,skip_logging_in_target_handler=false,suggestion_action_rpc=2,}ParentID: null targetID: 95acd56a-dc43-4907-a25c-329f4d30d314
+05-20 12:32:12.048  1134  1134 D SearchTargetUtil: layoutType=short_icon_row resultType=131072 packageName=com.google.android.googlequicksearchbox extras=Bundle{suggestion_type=33,suggest_truncate_start=false,is_answer=false,is_entity=false,is_personal=false,suggest_raw_text=codex app,group_id=web499142,response_id=8203b697-e9f5-4e3c-aa34-beca7fc3c841,support_query_builder=false,} searchAction=codex app searchActionExtras=Bundle{learn_more_url=https://support.google.com/websearch/answer/106230?hl=106230,suggestion_action_text=Report this,should_start_for_result=true,allow_pinning=true,skip_logging_in_target_handler=false,suggestion_action_rpc=2,}ParentID: null targetID: d428f83b-b215-4a0b-bea8-2a81f5619be3
+05-20 12:32:12.049  1134  1134 D SearchTargetUtil: layoutType=extra_tall_icon_row resultType=131072 packageName=com.google.android.googlequicksearchbox extras=Bundle{bitmap_url=data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBwgHBgkIBwgKCgkLDRYPDQwMDRsUFRAWIB0iIiAdHx8kKDQsJCYxJx8fLT0tMTU3Ojo6Iys/RD84QzQ5OjcBCgoKDQwNGg8PGjclHyU3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3N//AABEIAHwAfAMBIgACEQEDEQH/xAAcAAABBQEBAQAAAAAAAAAAAAAFAQIEBgcDAAj/xAA6EAACAQMCAwYCCAUEAwAAAAABAgMABBEFIQYSMRNBUWFxkQciFDJScoGhscEjQtHh8DNjorIVJGL/xAAYAQADAQEAAAAAAAAAAAAAAAABAgMABP/EACERAAICAwACAgMAAAAAAAAAAAABAhEDITESEwRhIkFR/9oADAMBAAIRAxEAPwDSa8aWvUwBtepaSgASvU2aWOCF5pnVI41LO7HAUDqTWS8XcePqzfRNKMkFor/6gYq83t0Hl7+FBugpWXfiTjLT9ElNqAbi8HWNTgJ95v2Gapt7xtq925+jzLAOoWNQB7nNUqBjKS0jkuTkkjOT51J7SQc3YgjAyXXbPr41NtsokkHjxXxAFOdVdX+z2ak/9aZa8b61aT876i1wp/klh+U+w2qt3E7vgyyPgDdT3nyApkV3DzgKox34B29e+hbDo2Th7i+21XljuIxbTsBygtlX9D+1Hjdwc5QSAsOuN6xhsW9mJ7XldBu683zAeI8f7UW0zja7QIiRRPyqFy4JJA9MYoxmLKBq2QRkGkNAuG+IYdWj5GXsptyFz19KO1ROxGqEptOpKICfSU6kIohEpKdTTQAVH4mXv0fhp7ZWw904Tr/KN2/DYD8axpEMrhYvmJBAUDJI9KvnxQvBPr62bFgkVuAB3czHJPtin/D7hpAJ7qSJh24wjsNwvf71GcqZeELKSkKwpzzOVcd2N65NqIjBEcWM9fmzWxXHBFjcHIjAqMeAtMxyyQowPlU/P6Ker+GMz3TOckZqM7Bt2B99x6Vrl78ObDJMDMuegzQa74CWEHlcmm9kQeqRR4LyRYSrMe7pXaxZdpGG2dyOoonqPDsltG3LvioViyRxMsxPJ9VzgcyefmKNp8EcWuh+01CO1WJo5OaRZA/MP6+Yz7Vr1lMLi0hmByHQMD45FYEXET9ke4jcDp5jyrcOGbhbrh/T5kOQYFH4jY/mKaGhZhI0hpTTTVSQSpKWvUTDTSU402sYx/ixG1H4j9hcDMXaRRhfFQAT7nPvWpWkaRoqooVQMADuqm69aRv8S9OkjZW/9cvMPslVYD9varLHqVt9X6RHscfXFcmTp14eB2NlANRpn+bAGK4w3MMwHZzIx/8Alwac6E5welKWSQy4dcULuzzggV3vCcnfFQXkOTvU2USK7rEXMSuM+lUrV7NbeVjgYdTn12q+6o6h899UTiaXkdc9+afHdkMvALGQXi5iQ6kgYxnyrY/hrL2nCkC98cjoffP71i8MmZkB+1W1/DmBYuFLV1Oe2Z5D5EnH7V0x6csuFlNNNONNqhMJ16vUh2omPUw+dPrjcNyQSN4KazClbKRcwNf8WajLCwVoLJIS3m7cx/47UIvY7OOO4S20h5kQgSSvN2YyTjI/rVt0yy+j6nqF0MBbsoQD3coKn9M/jRGXTY7hcyRq2Rg74yPA+Ncd7O1x6Zpw4IpZI5ES5tiTzR87ZDDGevoRWjy3BgsVnlPKDuTTE0u2tcN2afL9UcoOKGcUzlLFIlOzdRSSHgtFd1nU9WlLmC5jEeflLfLUezv9baNmY21wMfVWQFqN2GkQXCpLKOfl/lO6t6jvH40CvuFTbzS3EBKvn5Si4C9MdOvTO/XNMqrYkvJPRybUHuiyzRmKVTuuc+1AOK0H0NH7+arKlm5VJZlBlVcMw76rfFhxZxIOvabe1GFXoWd+OysWzAfMeoHfX0Xo9pHY6VaWsIwkUKqPasa4Y0ZDLFJcqjmfk5FK5xk1uPTp0roi02yE4tJMQ02nGmU5IKV416komPVylTtI2Q/zAiuhptYILZQs/KAQOUdfGpP0hYovnNN1FcBHHXcZoZcEySBMnlX61cc/xdHbjkpK2SJLlrh8qMR9M+NAOJmDbE5x0xRKaze5KNFcPAU+wflb1HSq5qsOo9vk8rY6MN/ypasr5JBXh255ojE45ZV3x4jxopcMpQ8w/KqVYT3UV6kly3zDbmAxn1qyzXYa3zkb91AOmCtYkVVKx7VVNS07/wAnJbJ2nKivl/MUc1CXnJOaHQr2khTmYZGPl60Y62Rlt0EeGES41q3gjXMcLZz3Dl3/AGrRzQDhfRU05GuSjI8igKjdUXqfc/pR410440jnzSUpaEam0pptUIhWkrK9a+JGoXEjJpMa2kPc7qHkPvsP83qtXPEetXRJm1O7PkJSo9htRsJu7bda4vc28f8AqTxJ95wK+fZbu4lyZJpGJ68zE1wc7ZxvWsxuuo6rp8ojghv7WSYvns0mVmIwe4GozkSkKHKk9SvcaxeznktbiO4jOJI2DA1qOmajDfQQ3MTbMNx3g+BrmzR3Z0YZfoIMl4j8qzIw7udcVA1Ga+iXLQQMPBG/tRFh2gx3+ND7qF8YdgB6VM6k0Abi5llkVfobjHgV2/Oi7/wtMd5cZGOWoMzR22SDlvE1ButRe5jSLOI039TStWLJpHO5kBOB4DNWPgW3snFxPzxveI2OTILRrjY47snO/lVNlmySR3mg2t38tjqFpLZyPDcwoGEqHDYO+PQ1bEtnPkejeqQ1n/DPxDjuI1i1cAP07ZB19R/Srva3ttexl7SeOZR1KNnHr4V0HOdjSUpptYBgwORmnkVzP1B611GMeFYIx12Y1yXPyqcZ76kMMrXFB8xPtWMKdhir9wLYibhfUrlBieG7j38VK4x74qh4zWu/BiGO40PVoJBzBpwG8wUG1Bq1QU6dkRL5AOVyUbvDd9R72+5gQjDpRbiDRWs5yjg8h+o+OoqtzWIVvl39BXK1R1qTrQK1GdnblU57tqisWCcooytg8snJDEzue5V3otY8LgES6hjbcQr+5pkr4JJ10q1lpzSRveXRMVnCCzudsgdcVRtRumvr6a6YcvaNlV+yvQD8BgVfPiXqojih0q3YKXHPIF7kHQfif0rPQM1aMaIylZ6MspypIorbaxeW88E1vLJHNFkB43KnHht19DkUPRCa7RxnnPlTCmkaD8QmYLDq0XN/vR7H8R09sVdbXVLG6hEsF3EUPiwB9jWFKpB2qQtzNGOVHYAeFEAxz/DXHjXUHYZHdUYHNvD90fpUg93pWMKWwRSqoGc9TXMDcGuvSsYRq0z4VazZ6JomrXd8ziJLiPZF5mJYAAAetZmx+UVb+CG57DVIXUMnbWux82YH9Kxi/wB9x7pF+HtJdLvipAPM6ouAejD5j/gqux3uhRXym5nu2tWO/LDgr97fOPugmoWsxpDfyrGuAgVR6cuf1Jqr6nO6q2DS5JY40mtnb8f4mXJB5E6ibZZpp81ks2lNA9s3R4iCCfPz9d6EaxdR20UjFgqopZmPcBVc4MhXS3WO1Z8XKq0vMxPMceHT8qjfEe4ki0dkRsCaUI/pgnH5UTllV6Mw1a7k1PUZ7yTP8RsqD3L3D2qOkea7hRmnLsRWFFSMADxpVIMzquCBj3/zFcbt2VoYlOBIxBI64qVCqqOVVAA2GKJh6rivYxS5wBSHY1gH/9k=,suggestion_type=33,suggest_truncate_start=false,is_answer=false,is_entity=true,is_personal=false,suggest_raw_text=andy burnham,group_id=web499142,response_id=8203b
+05-20 12:32:12.049  1134  1134 D SearchTargetUtil: layoutType=short_icon_row resultType=131072 packageName=com.google.android.googlequicksearchbox extras=Bundle{suggestion_type=33,suggest_truncate_start=false,is_answer=false,is_entity=false,is_personal=false,suggest_raw_text=polycystic ovary syndrome,group_id=web499142,response_id=8203b697-e9f5-4e3c-aa34-beca7fc3c841,support_query_builder=false,} searchAction=polycystic ovary syndrome searchActionExtras=Bundle{learn_more_url=https://support.google.com/websearch/answer/106230?hl=106230,suggestion_action_text=Report this,should_start_for_result=true,allow_pinning=true,skip_logging_in_target_handler=false,suggestion_action_rpc=2,}ParentID: null targetID: 195f2392-a935-43d9-9a43-686898c88417
+05-20 12:32:12.049  1134  1134 D SearchTargetUtil: layoutType=short_icon_row resultType=131072 packageName=com.google.android.googlequicksearchbox extras=Bundle{suggestion_type=33,suggest_truncate_start=false,is_answer=false,is_entity=false,is_personal=false,suggest_raw_text=ap swatch strap,group_id=web499142,response_id=8203b697-e9f5-4e3c-aa34-beca7fc3c841,support_query_builder=false,} searchAction=ap swatch strap searchActionExtras=Bundle{learn_more_url=https://support.google.com/websearch/answer/106230?hl=106230,suggestion_action_text=Report this,should_start_for_result=true,allow_pinning=true,skip_logging_in_target_handler=false,suggestion_action_rpc=2,}ParentID: null targetID: d3d6b6f2-a23c-4bbc-bf8e-1faefc64712b
+05-20 12:32:12.049  1134  1134 D SearchTargetUtil: layoutType=short_icon_row resultType=131072 packageName=com.google.android.googlequicksearchbox extras=Bundle{suggestion_type=33,suggest_truncate_start=false,is_answer=false,is_entity=false,is_personal=false,suggest_raw_text=fa youth cup final,group_id=web499142,response_id=8203b697-e9f5-4e3c-aa34-beca7fc3c841,support_query_builder=false,} searchAction=fa youth cup final searchActionExtras=Bundle{learn_more_url=https://support.google.com/websearch/answer/106230?hl=106230,suggestion_action_text=Report this,should_start_for_result=true,allow_pinning=true,skip_logging_in_target_handler=false,suggestion_action_rpc=2,}ParentID: null targetID: 623993ba-bcc4-4963-9298-69011056ffb7
+05-20 12:32:12.049  1134  1134 D SearchTargetUtil: layoutType=short_icon_row resultType=131072 packageName=com.google.android.googlequicksearchbox extras=Bundle{suggestion_type=33,suggest_truncate_start=false,is_answer=false,is_entity=false,is_personal=false,suggest_raw_text=forza horizon 6 review,group_id=web499142,response_id=8203b697-e9f5-4e3c-aa34-beca7fc3c841,support_query_builder=false,} searchAction=forza horizon 6 review searchActionExtras=Bundle{learn_more_url=https://support.google.com/websearch/answer/106230?hl=106230,suggestion_action_text=Report this,should_start_for_result=true,allow_pinning=true,skip_logging_in_target_handler=false,suggestion_action_rpc=2,}ParentID: null targetID: ee7d2637-235e-4765-b03b-441cff9c43c5
+05-20 12:32:12.049  1134  1134 D SearchTargetUtil: layoutType=short_icon_row resultType=131072 packageName=com.google.android.googlequicksearchbox extras=Bundle{suggestion_type=33,suggest_truncate_start=false,is_answer=false,is_entity=false,is_personal=false,suggest_raw_text=celtic penalty,group_id=web499142,response_id=8203b697-e9f5-4e3c-aa34-beca7fc3c841,support_query_builder=false,} searchAction=celtic penalty searchActionExtras=Bundle{learn_more_url=https://support.google.com/websearch/answer/106230?hl=106230,suggestion_action_text=Report this,should_start_for_result=true,allow_pinning=true,skip_logging_in_target_handler=false,suggestion_action_rpc=2,}ParentID: null targetID: 45ccbf6b-a0c0-4b35-9540-6bae50d6d743
+05-20 12:32:12.049  1134  1134 D SearchTargetUtil: layoutType=short_icon_row resultType=131072 packageName=com.google.android.googlequicksearchbox extras=Bundle{suggestion_type=33,suggest_truncate_start=false,is_answer=false,is_entity=false,is_personal=false,suggest_raw_text=igor mykhaylovych lytvynchuk,group_id=web499142,response_id=8203b697-e9f5-4e3c-aa34-beca7fc3c841,support_query_builder=false,} searchAction=igor mykhaylovych lytvynchuk searchActionExtras=Bundle{learn_more_url=https://support.google.com/websearch/answer/106230?hl=106230,suggestion_action_text=Report this,should_start_for_result=true,allow_pinning=true,skip_logging_in_target_handler=false,suggestion_action_rpc=2,}ParentID: null targetID: 7a6186fa-8d93-46b6-8933-9a287c05beef
+05-20 12:32:12.049  1134  1134 D SearchTargetUtil: layoutType=short_icon_row resultType=131072 packageName=com.google.android.googlequicksearchbox extras=Bundle{suggestion_type=33,suggest_truncate_start=false,is_answer=false,is_entity=false,is_personal=false,suggest_raw_text=hit the wall gracie abrams lyrics,group_id=web499142,response_id=8203b697-e9f5-4e3c-aa34-beca7fc3c841,support_query_builder=false,} searchAction=hit the wall gracie abrams lyrics searchActionExtras=Bundle{learn_more_url=https://support.google.com/websearch/answer/106230?hl=106230,suggestion_action_text=Report this,should_start_for_result=true,allow_pinning=true,skip_logging_in_target_handler=false,suggestion_action_rpc=2,}ParentID: null targetID: ad894453-1b8b-48bd-a844-577627f07af3
+05-20 12:32:12.049  1134  1134 D SearchTargetUtil: layoutType=short_icon_row resultType=131072 packageName=com.google.android.googlequicksearchbox extras=Bundle{suggestion_type=33,suggest_truncate_start=false,is_answer=false,is_entity=false,is_personal=false,suggest_raw_text=delta goodrem eurovision,group_id=web499142,response_id=8203b697-e9f5-4e3c-aa34-beca7fc3c841,support_query_builder=false,} searchAction=delta goodrem eurovision searchActionExtras=Bundle{learn_more_url=https://support.google.com/websearch/answer/106230?hl=106230,suggestion_action_text=Report this,should_start_for_result=true,allow_pinning=true,skip_logging_in_target_handler=false,suggestion_action_rpc=2,}ParentID: null targetID: 7cc5e4fd-470a-4425-8946-67c5dc261480
+05-20 12:32:12.050  1134  1134 D SearchTargetUtil: layoutType=short_icon_row resultType=131072 packageName=com.google.android.googlequicksearchbox extras=Bundle{suggestion_type=33,suggest_truncate_start=false,is_answer=false,is_entity=false,is_personal=false,suggest_raw_text=thailand dinosaurs,group_id=web499142,response_id=8203b697-e9f5-4e3c-aa34-beca7fc3c841,support_query_builder=false,} searchAction=thailand dinosaurs searchActionExtras=Bundle{learn_more_url=https://support.google.com/websearch/answer/106230?hl=106230,suggestion_action_text=Report this,should_start_for_result=true,allow_pinning=true,skip_logging_in_target_handler=false,suggestion_action_rpc=2,}ParentID: null targetID: f821b274-8599-49fb-9a61-fdfeaf686d69
+05-20 12:32:12.050  1134  1134 D SearchTargetUtil: layoutType=short_icon_row resultType=131072 packageName=com.google.android.googlequicksearchbox extras=Bundle{suggestion_type=33,suggest_truncate_start=false,is_answer=false,is_entity=false,is_personal=false,suggest_raw_text=iphone 18 pro max,group_id=web499142,response_id=8203b697-e9f5-4e3c-aa34-beca7fc3c841,support_query_builder=false,} searchAction=iphone 18 pro max searchActionExtras=Bundle{learn_more_url=https://support.google.com/websearch/answer/106230?hl=106230,suggestion_action_text=Report this,should_start_for_result=true,allow_pinning=true,skip_logging_in_target_handler=false,suggestion_action_rpc=2,}ParentID: null targetID: bcfaada8-966b-4ce1-8c2f-152e45f36ffe
+05-20 12:32:12.133   405   451 W VsyncModulator: setTransactionSchedule: Unexpected EarlyEnd
+05-20 12:32:12.435   771   828 V WindowManagerShell: Transition animation finished (aborted=false), notifying core (#17)android.os.BinderProxy@2335305@1
+05-20 12:32:12.436   549   579 V WindowManager: Finish Transition #17: created at 05-20 12:32:11.238 collect-started=0.016ms request-sent=0.133ms started=2.926ms ready=503.686ms sent=565.514ms finished=1198.305ms
+05-20 12:32:12.438   771   828 V WindowManagerShell: Track 1 became idle
+05-20 12:32:12.438   771   828 V WindowManagerShell: All active transition animations finished
+05-20 12:32:12.693  8063  8063 I CamRelay: Init OK, calling StartPPPP...
+05-20 12:32:12.694  8063  8063 D SHIX-jni: Java_object_p2pipcam_nativecaller_NativeCaller_StartPPPP:enter
+05-20 12:32:12.694  8063  8063 W SHIX-jni: NativeCaller_StartPPPP1 [DGOG-HCAM03247542ABAMS]
+05-20 12:32:12.695  8063  8063 W SHIX-jni: CY ID：DGOG-HCAM03247542ABAMS
+05-20 12:32:12.695  8063  8063 W SHIX-jni: PPPPCHANEL  Start 0:DGOG-HCAM03247542ABAMS
+05-20 12:32:12.695  8063  8063 W SHIX-jni: connectType:2  szDID[DGOG-HCAM03247542ABAMS]
+05-20 12:32:12.695  8063  8063 W SHIX-jni: PPPPCHANEL1111  Start 1:DGOG-HCAM03247542ABAMS
+05-20 12:32:12.697  8063  8063 W SHIX-jni: PPPPCHANEL  Start 2:DGOG-HCAM03247542ABAMS
+05-20 12:32:12.697  8063  8063 D SHIX-jni: Java_object_p2pipcam_nativecaller_NativeCaller_StartPPPP:leave
+05-20 12:32:12.697  8063  8063 I CamRelay: StartPPPP called - waiting...
+05-20 12:32:12.697  8063  8098 D SHIX-jni: PPPP_Connect begin...DGOG-HCAM03247542ABAMS isbat[0]
+05-20 12:32:12.698  8063  8098 I CamRelay: PPPPMsg
+05-20 12:32:12.702   549  1368 W InputManager-JNI: Input channel object '98c3db8 Splash Screen shix.cam365.camera (client)' was disposed without first being removed with the input manager!
+05-20 12:32:12.718   549  1368 W WindowManager: Failed looking up window session=Session{379589a 771:u0a10168} callers=com.android.server.wm.WindowManagerService.windowForClientLocked:6034 com.android.server.wm.WindowManagerService.relayoutWindow:2190 com.android.server.wm.Session.relayout:249 
+05-20 12:32:12.720   771   865 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=falsecallback=android.view.ViewRootImpl$$ExternalSyntheticLambda17@b21843a
+05-20 12:32:12.720   549  1368 W WindowManager: Failed looking up window session=Session{379589a 771:u0a10168} callers=com.android.server.wm.WindowManagerService.windowForClientLocked:6034 com.android.server.wm.Session.setOnBackInvokedCallbackInfo:944 android.view.IWindowSession$Stub.onTransact:1145 
+05-20 12:32:12.720   549  1368 I WindowManager: setOnBackInvokedCallback(): No window state for package:com.android.systemui
+05-20 12:32:12.720   549  1368 W WindowManager: Failed looking up window session=Session{379589a 771:u0a10168} callers=com.android.server.wm.WindowManagerService.windowForClientLocked:6034 com.android.server.wm.WindowManagerService.removeWindow:1974 com.android.server.wm.Session.remove:231 
+05-20 12:32:12.874   771   912 D EGL_emulation: app_time_stats: avg=15.78ms min=3.86ms max=82.55ms count=52
+05-20 12:32:13.235   771   784 I ndroid.systemui: Background young concurrent copying GC freed 303179(13MB) AllocSpace objects, 0(0B) LOS objects, 49% free, 14MB/28MB, paused 6.561ms,15us total 15.761ms
+05-20 12:32:14.394   549  1609 E TaskPersister: File error accessing recents directory (directory doesn't exist?).
+05-20 12:32:14.785   771   771 D StatusBarIconController: ignoring old pipeline callback because the new wifi icon is enabled
+05-20 12:32:14.889   549   639 W CpuMonitorService: Current CPU frequency (4260197) is greater than maximum CPU frequency (2) for policy ID (1). Skipping CPU frequency policy
+05-20 12:32:18.353  8063  8098 E SHIX-jni: StartPPPP m_hSessionHandle:1,szDID:DGOG-HCAM03247542ABAMS
+05-20 12:32:18.353  8063  8098 I CamRelay: PPPPMsg
+05-20 12:32:18.356  8063  8098 D SHIX-jni: ====StartPlaybackChannel====
+05-20 12:32:18.356  8063  8105 D SHIX-jni: ===============AlarmProcess==========================
+05-20 12:32:18.357  8063  8106 D SHIX-jni: ====PlaybackThread-AttachCurrentThread====status:0
+05-20 12:32:18.357  8063  8106 D SHIX-jni: PlaybackProcess=============PlaybackProcess 1024 * 1024 nCurrSize[0]========== productType:0 connectType:2 
+05-20 12:32:18.357  8063  8098 W SHIX-jni: SHIXJNI cgi_get_common:{"pro":"check_user","cmd":100,"devmac":"0000","user":"admin","pwd":"1234"} CMD:80a0
+05-20 12:32:18.357  8063  8098 D SHIX-jni: zhao2-DID: DGOG-HCAM03247542ABAMS
+05-20 12:32:18.357  8063  8098 W SHIX-jni: CommandProcess send Pro PPCS_Write[82]
+05-20 12:32:18.902  8063  8102 W SHIX-jni: ZHAORECEVE CommandRecvProcess res[0] len[131]
+05-20 12:32:18.902  8063  8102 W SHIX-jni: ZHAORECEVE CommandRecvProcess res[0] recv:{
+05-20 12:32:18.902  8063  8102 W SHIX-jni: 	"cmd":	100,
+05-20 12:32:18.902  8063  8102 W SHIX-jni: 	"admin":	1,
+05-20 12:32:18.902  8063  8102 W SHIX-jni: 	"result":	0,
+05-20 12:32:18.902  8063  8102 W SHIX-jni: 	"mode":	110,
+05-20 12:32:18.902  8063  8102 W SHIX-jni: 	"type":	100,
+05-20 12:32:18.902  8063  8102 W SHIX-jni: 	"restrict":	0,
+05-20 12:32:18.902  8063  8102 W SHIX-jni: 	"checkstr":	"SHIX",
+05-20 12:32:18.902  8063  8102 W SHIX-jni: 	"cloud_key":	"685FDC"
+05-20 12:32:18.902  8063  8102 W SHIX-jni: }
+05-20 12:32:18.902  8063  8102 W SHIX-jni: ZHAORECEVE CommandRecvProcess ProcessCommand start cmd:80a1
+05-20 12:32:18.902  8063  8102 D SHIX-jni: ZHAORECEVE ProcessCommand UTF cmd: 32929, len: 131 pbuf:{
+05-20 12:32:18.902  8063  8102 D SHIX-jni: 	"cmd":	100,
+05-20 12:32:18.902  8063  8102 D SHIX-jni: 	"admin":	1,
+05-20 12:32:18.902  8063  8102 D SHIX-jni: 	"result":	0,
+05-20 12:32:18.902  8063  8102 D SHIX-jni: 	"mode":	110,
+05-20 12:32:18.902  8063  8102 D SHIX-jni: 	"type":	100,
+05-20 12:32:18.902  8063  8102 D SHIX-jni: 	"restrict":	0,
+05-20 12:32:18.902  8063  8102 D SHIX-jni: 	"checkstr":	"SHIX",
+05-20 12:32:18.902  8063  8102 D SHIX-jni: 	"cloud_key":	"685FDC"
+05-20 12:32:18.902  8063  8102 D SHIX-jni: }
+05-20 12:32:18.902  8063  8102 D SHIX-jni: SHIXJNI  CHECK result:0, admin:1,mode:110,type:100
+05-20 12:32:18.903  8063  8102 D SHIX-jni: ------------------ pbuf UTF-8----------------
+05-20 12:32:18.903  8063  8102 I CamRelay: TYPEMODE - starting stream thread
+05-20 12:32:18.903  8063  8102 I CamRelay: TYPEMODE: calling StartPPPPLivestream with res=0
+05-20 12:32:18.903  8063  8102 D SHIX-jni: Java_object_p2pipcam_nativecaller_NativeCaller_StartPPPPLivestream:enter
+05-20 12:32:18.904  8063  8102 W SHIX-jni: StartPPPPLivestream  [DGOG-HCAM03247542ABAMS]
+05-20 12:32:18.904  8063  8102 W SHIX-jni: cgi_livestream  bstart[1] streamid[0]  camsmode[0]  [DGOG-HCAM03247542ABAMS]
+05-20 12:32:18.904  8063  8102 W SHIX-jni: cgi_livestream Create
+05-20 12:32:18.904  8063  8102 W SHIX-jni: SHIXJNI cgi_get_common:{"pro":"stream","cmd":111,"video":0,"camsmode":0,"user":"admin","pwd":"1234"} CMD:80a0
+05-20 12:32:18.904  8063  8102 D SHIX-jni: zhao2-DID: DGOG-HCAM03247542ABAMS
+05-20 12:32:18.904  8063  8102 D SHIX-jni: Java_object_p2pipcam_nativecaller_NativeCaller_StartPPPPLivestream:leave
+05-20 12:32:18.904  8063  8102 W CamRelay: Livestream(res=0) returned: 1 - trying res=2...
+05-20 12:32:18.904  8063  8102 D SHIX-jni: Java_object_p2pipcam_nativecaller_NativeCaller_StartPPPPLivestream:enter
+05-20 12:32:18.904  8063  8102 W SHIX-jni: StartPPPPLivestream  [DGOG-HCAM03247542ABAMS]
+05-20 12:32:18.904  8063  8102 W SHIX-jni: cgi_livestream  bstart[1] streamid[2]  camsmode[0]  [DGOG-HCAM03247542ABAMS]
+05-20 12:32:18.904  8063  8102 W SHIX-jni: cgi_livestream Create
+05-20 12:32:18.904  8063  8102 W SHIX-jni: SHIXJNI cgi_get_common:{"pro":"stream","cmd":111,"video":2,"camsmode":0,"user":"admin","pwd":"1234"} CMD:80a0
+05-20 12:32:18.904  8063  8102 D SHIX-jni: zhao2-DID: DGOG-HCAM03247542ABAMS
+05-20 12:32:18.904  8063  8102 D SHIX-jni: Java_object_p2pipcam_nativecaller_NativeCaller_StartPPPPLivestream:leave
+05-20 12:32:18.904  8063  8102 W CamRelay: Livestream(res=2) returned: 1
+05-20 12:32:18.904  8063  8102 W CamRelay: =============================================
+05-20 12:32:18.904  8063  8102 W CamRelay: CAMERA: DGOG-HCAM03247542ABAMS | RELAY: 36.137.199.114 | KEY:685FDC
+05-20 12:32:18.904  8063  8102 W CamRelay: =============================================
+05-20 12:32:18.904  8063  8102 W SHIX-jni: ZHAORECEVE CommandRecvProcess ProcessCommand end
+05-20 12:32:18.904  8063  8098 W SHIX-jni: CommandProcess send Pro PPCS_Write[85]
+05-20 12:32:18.905  8063  8098 W SHIX-jni: CommandProcess send Pro PPCS_Write[85]
+05-20 12:32:19.329   759   759 I wpa_supplicant: wlan0: CTRL-EVENT-BEACON-LOSS 
+05-20 12:32:19.486   771   771 D StatusBarIconController: ignoring old pipeline callbacks, because the new mobile icons are enabled
+05-20 12:32:20.377  8063  8103 W SHIX-jni: DataProcess avhead.type:3, avhead.streamid:3, avhead.militime:0, avhead.sectime:0, avhead.len:3460, avhead.frameno:580
+05-20 12:32:20.377  8063  8103 D SHIX-jni: SHIXDEC CH264Decoder-h264_h265:1 
+05-20 12:32:20.377  8063  8103 W SHIX-jni: SHIXDEC  ENUM_FRAME_TYPE_H264
+05-20 12:32:20.377  8063  8103 W SHIX-jni: 
+05-20 12:32:20.379  8063  8107 D SHIX-jni: PlayThread:enter
+05-20 12:32:20.379  8063  8103 W SHIX-jni: DataProcess  m_EnumVideoMode: 0
+05-20 12:32:20.379  8063  8103 W SHIX-jni: DataProcess  m_avhead.type: 3
+05-20 12:32:20.379  8063  8103 W SHIX-jni: DataProcess  write MJ: 3508
+05-20 12:32:20.379  8063  8107 I CamRelay: VIDEO len=3460
+05-20 12:32:20.614  8063  8103 W SHIX-jni: DataProcess avhead.type:3, avhead.streamid:3, avhead.militime:0, avhead.sectime:0, avhead.len:3500, avhead.frameno:581
+05-20 12:32:20.614  8063  8103 W SHIX-jni: DataProcess  m_EnumVideoMode: 0
+05-20 12:32:20.614  8063  8103 W SHIX-jni: DataProcess  m_avhead.type: 3
+05-20 12:32:20.614  8063  8103 W SHIX-jni: DataProcess  write MJ: 3548
+05-20 12:32:20.614  8063  8107 I CamRelay: VIDEO len=3500
+05-20 12:32:20.801  8063  8103 W SHIX-jni: DataProcess avhead.type:3, avhead.streamid:3, avhead.militime:0, avhead.sectime:0, avhead.len:3568, avhead.frameno:582
+05-20 12:32:20.801  8063  8103 W SHIX-jni: DataProcess  m_EnumVideoMode: 0
+05-20 12:32:20.801  8063  8103 W SHIX-jni: DataProcess  m_avhead.type: 3
+05-20 12:32:20.801  8063  8103 W SHIX-jni: DataProcess  write MJ: 3616
+05-20 12:32:20.803  8063  8107 I CamRelay: VIDEO len=3568
+05-20 12:32:20.934  6689  6814 E TraceManagerImpl: Trace WorkManager:TikTokListenableWorker startWork timed out after 5194799 ms. Complete trace: # ksi@fd638b5d
+05-20 12:32:20.934  6689  6814 E TraceManagerImpl: ksn: 
+05-20 12:32:20.934  6689  6814 E TraceManagerImpl: 	at tk_trace.Read PowerStatePreferences(Started After:0)
+05-20 12:32:20.957   549   643 D ActivityManager: freezing 6689 com.google.android.apps.wellbeing
+05-20 12:32:21.010  8063  8103 W SHIX-jni: DataProcess avhead.type:3, avhead.streamid:3, avhead.militime:0, avhead.sectime:0, avhead.len:6388, avhead.frameno:583
+05-20 12:32:21.054  8063  8103 W SHIX-jni: DataProcess  m_EnumVideoMode: 0
+05-20 12:32:21.054  8063  8103 W SHIX-jni: DataProcess  m_avhead.type: 3
+05-20 12:32:21.054  8063  8103 W SHIX-jni: DataProcess  write MJ: 6436
+05-20 12:32:21.055  8063  8107 I CamRelay: VIDEO len=6388
+05-20 12:32:21.222  8063  8103 W SHIX-jni: DataProcess avhead.type:3, avhead.streamid:3, avhead.militime:0, avhead.sectime:0, avhead.len:6360, avhead.frameno:584
+05-20 12:32:21.265  8063  8103 W SHIX-jni: DataProcess  m_EnumVideoMode: 0
+05-20 12:32:21.265  8063  8103 W SHIX-jni: DataProcess  m_avhead.type: 3
+05-20 12:32:21.265  8063  8103 W SHIX-jni: DataProcess  write MJ: 6408
+05-20 12:32:21.273  8063  8107 I CamRelay: VIDEO len=6360
+05-20 12:32:21.452  8063  8103 W SHIX-jni: DataProcess avhead.type:3, avhead.streamid:3, avhead.militime:0, avhead.sectime:0, avhead.len:6400, avhead.frameno:585
+05-20 12:32:21.452  8063  8103 W SHIX-jni: DataProcess  m_EnumVideoMode: 0
+05-20 12:32:21.452  8063  8103 W SHIX-jni: DataProcess  m_avhead.type: 3
+05-20 12:32:21.452  8063  8103 W SHIX-jni: DataProcess  write MJ: 6448
+05-20 12:32:21.462  8063  8107 I CamRelay: VIDEO len=6400
+05-20 12:32:21.642  8063  8103 W SHIX-jni: DataProcess avhead.type:3, avhead.streamid:3, avhead.militime:0, avhead.sectime:0, avhead.len:6384, avhead.frameno:586
+05-20 12:32:21.663  8063  8103 W SHIX-jni: DataProcess  m_EnumVideoMode: 0
+05-20 12:32:21.663  8063  8103 W SHIX-jni: DataProcess  m_avhead.type: 3
+05-20 12:32:21.663  8063  8103 W SHIX-jni: DataProcess  write MJ: 6432
+05-20 12:32:21.669  8063  8107 I CamRelay: VIDEO len=6384
+05-20 12:32:21.848  8063  8103 W SHIX-jni: DataProcess avhead.type:3, avhead.streamid:3, avhead.militime:0, avhead.sectime:0, avhead.len:6344, avhead.frameno:587
+05-20 12:32:21.889  8063  8103 W SHIX-jni: DataProcess  m_EnumVideoMode: 0
+05-20 12:32:21.889  8063  8103 W SHIX-jni: DataProcess  m_avhead.type: 3
+05-20 12:32:21.889  8063  8103 W SHIX-jni: DataProcess  write MJ: 6392
+05-20 12:32:21.894  8063  8107 I CamRelay: VIDEO len=6344
+05-20 12:32:22.056  8063  8103 W SHIX-jni: DataProcess avhead.type:3, avhead.streamid:3, avhead.militime:0, avhead.sectime:0, avhead.len:6392, avhead.frameno:588
+05-20 12:32:22.099  8063  8103 W SHIX-jni: DataProcess  m_EnumVideoMode: 0
+05-20 12:32:22.099  8063  8103 W SHIX-jni: DataProcess  m_avhead.type: 3
+05-20 12:32:22.099  8063  8103 W SHIX-jni: DataProcess  write MJ: 6440
+05-20 12:32:22.110  8063  8107 I CamRelay: VIDEO len=6392
+05-20 12:32:22.266  8063  8103 W SHIX-jni: DataProcess avhead.type:3, avhead.streamid:3, avhead.militime:0, avhead.sectime:0, avhead.len:6424, avhead.frameno:589
+05-20 12:32:22.329  8063  8103 W SHIX-jni: DataProcess  m_EnumVideoMode: 0
+05-20 12:32:22.329  8063  8103 W SHIX-jni: DataProcess  m_avhead.type: 3
+05-20 12:32:22.329  8063  8103 W SHIX-jni: DataProcess  write MJ: 6472
+05-20 12:32:22.340  8063  8107 I CamRelay: VIDEO len=6424
+05-20 12:32:22.496  8063  8103 W SHIX-jni: DataProcess avhead.type:3, avhead.streamid:3, avhead.militime:0, avhead.sectime:0, avhead.len:6364, avhead.frameno:590
+05-20 12:32:22.496  8063  8103 W SHIX-jni: DataProcess  m_EnumVideoMode: 0
+05-20 12:32:22.496  8063  8103 W SHIX-jni: DataProcess  m_avhead.type: 3
+05-20 12:32:22.496  8063  8103 W SHIX-jni: DataProcess  write MJ: 6412
+05-20 12:32:22.507  8063  8107 I CamRelay: VIDEO len=6364
+05-20 12:32:22.701   549   643 D ActivityManager: freezing 8063 shix.cam365.camera
+05-20 12:32:26.802   771   771 D StatusBarIconController: ignoring old pipeline callback because the new wifi icon is enabled
+05-20 12:32:27.266   759   759 I wpa_supplicant: wlan0: CTRL-EVENT-BEACON-LOSS 
+05-20 12:32:29.485   771   771 D StatusBarIconController: ignoring old pipeline callbacks, because the new mobile icons are enabled
+05-20 12:32:35.458   759   759 I wpa_supplicant: wlan0: CTRL-EVENT-BEACON-LOSS 
+05-20 12:32:39.485   771   771 D StatusBarIconController: ignoring old pipeline callbacks, because the new mobile icons are enabled

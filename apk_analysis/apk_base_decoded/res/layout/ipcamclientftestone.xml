@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:id="@id/ipcammain" android:background="@color/color_white" android:layout_width="fill_parent" android:layout_height="fill_parent" android:weightSum="11.0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:weightSum="2.0" android:layout_weight="3.0">
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent" android:weightSum="2.0" android:layout_weight="1.0">
+            <FrameLayout android:id="@id/frame1" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0">
+                <ImageView android:id="@id/imageView1" android:background="@drawable/bg_border1" android:padding="1.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@mipmap/camer_ico" android:scaleType="fitXY" />
+                <TextView android:textColor="#ffeb4819" android:id="@id/textView1_ssid" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:layout_marginTop="5.0dip" />
+                <LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="horizontal" android:id="@id/connection_show1" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                    <ProgressBar android:id="@id/progressBar1" android:layout_width="40.0dip" android:layout_height="40.0dip" />
+                    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/connecting" />
+                </LinearLayout>
+                <ImageButton android:layout_gravity="left" android:id="@id/imagebutton_back" android:background="#00000000" android:layout_width="30.0dip" android:layout_height="30.0dip" android:layout_marginLeft="5.0dip" android:layout_marginTop="5.0dip" android:src="@mipmap/shixback" android:scaleType="fitCenter" />
+            </FrameLayout>
+            <FrameLayout android:id="@id/frame2" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0">
+                <ImageView android:id="@id/imageView4" android:background="@drawable/bg_border1" android:padding="1.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@mipmap/camer_ico" android:scaleType="fitXY" />
+                <TextView android:textColor="#ffeb4819" android:id="@id/textView4_ssid" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:layout_marginTop="5.0dip" />
+                <LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="horizontal" android:id="@id/connection_show4" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                    <ProgressBar android:layout_width="40.0dip" android:layout_height="40.0dip" />
+                    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/connecting" />
+                </LinearLayout>
+                <ImageButton android:layout_gravity="right" android:id="@id/imagebutton_hind" android:background="#00000000" android:layout_width="50.0dip" android:layout_height="50.0dip" android:src="@mipmap/hind_buttong_bg" />
+            </FrameLayout>
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:id="@id/linear" android:layout_width="fill_parent" android:layout_height="fill_parent" android:weightSum="2.0" android:layout_weight="1.0">
+            <FrameLayout android:id="@id/frame3" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0">
+                <ImageView android:id="@id/imageView3" android:background="@drawable/bg_border1" android:padding="1.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@mipmap/camer_ico" android:scaleType="fitXY" />
+                <TextView android:textColor="#ffeb4819" android:id="@id/textView3_ssid" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:layout_marginTop="5.0dip" />
+                <LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="horizontal" android:id="@id/connection_show3" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                    <ProgressBar android:layout_width="40.0dip" android:layout_height="40.0dip" />
+                    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/connecting" />
+                </LinearLayout>
+            </FrameLayout>
+            <FrameLayout android:id="@id/frame4" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0">
+                <ImageView android:id="@id/imageView2" android:background="@drawable/bg_border1" android:padding="1.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@mipmap/camer_ico" android:scaleType="fitXY" />
+                <TextView android:textColor="#ffeb4819" android:id="@id/textView2_ssid" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:layout_marginTop="5.0dip" />
+                <LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="horizontal" android:id="@id/connection_show2" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                    <ProgressBar android:layout_width="40.0dip" android:layout_height="40.0dip" />
+                    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/connecting" />
+                </LinearLayout>
+            </FrameLayout>
+        </LinearLayout>
+    </LinearLayout>
+    <View android:background="#ff000000" android:layout_width="1.0dip" android:layout_height="fill_parent" />
+    <ListView android:id="@id/listviewCamera" android:background="#00000000" android:fadingEdge="none" android:layout_width="wrap_content" android:layout_height="wrap_content" android:listSelector="@drawable/listitem1_pressed_selector" android:cacheColorHint="#00000000" android:divider="@color/color_divider" android:dividerHeight="1.0dip" android:layout_weight="8.0" android:fastScrollEnabled="true" android:fadeScrollbars="true" />
+</LinearLayout>

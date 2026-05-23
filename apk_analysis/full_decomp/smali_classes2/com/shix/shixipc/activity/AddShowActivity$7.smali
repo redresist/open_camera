@@ -1,0 +1,95 @@
+.class Lcom/shix/shixipc/activity/AddShowActivity$7;
+.super Ljava/lang/Object;
+.source "AddShowActivity.java"
+
+# interfaces
+.implements Landroid/view/View$OnClickListener;
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingMethod;
+    value = Lcom/shix/shixipc/activity/AddShowActivity;->onCreate(Landroid/os/Bundle;)V
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x0
+    name = null
+.end annotation
+
+
+# instance fields
+.field final synthetic this$0:Lcom/shix/shixipc/activity/AddShowActivity;
+
+
+# direct methods
+.method constructor <init>(Lcom/shix/shixipc/activity/AddShowActivity;)V
+    .locals 0
+    .annotation system Ldalvik/annotation/MethodParameters;
+        accessFlags = {
+            0x8010
+        }
+        names = {
+            null
+        }
+    .end annotation
+
+    .line 158
+    iput-object p1, p0, Lcom/shix/shixipc/activity/AddShowActivity$7;->this$0:Lcom/shix/shixipc/activity/AddShowActivity;
+
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public onClick(Landroid/view/View;)V
+    .locals 2
+
+    .line 161
+    sget-object p1, Lcom/shix/shixipc/system/ContentCommon;->ISVISI:Ljava/lang/Boolean;
+
+    invoke-virtual {p1}, Ljava/lang/Boolean;->booleanValue()Z
+
+    move-result p1
+
+    if-eqz p1, :cond_0
+
+    .line 162
+    iget-object p1, p0, Lcom/shix/shixipc/activity/AddShowActivity$7;->this$0:Lcom/shix/shixipc/activity/AddShowActivity;
+
+    const-wide/16 v0, 0xa
+
+    invoke-static {p1, v0, v1}, Lcom/shix/shixipc/utils/CommonUtil;->Vibrate(Landroid/app/Activity;J)V
+
+    .line 164
+    :cond_0
+    iget-object p1, p0, Lcom/shix/shixipc/activity/AddShowActivity$7;->this$0:Lcom/shix/shixipc/activity/AddShowActivity;
+
+    invoke-virtual {p1}, Lcom/shix/shixipc/activity/AddShowActivity;->finish()V
+
+    .line 169
+    new-instance p1, Landroid/content/Intent;
+
+    iget-object v0, p0, Lcom/shix/shixipc/activity/AddShowActivity$7;->this$0:Lcom/shix/shixipc/activity/AddShowActivity;
+
+    const-class v1, Lcom/google/zxing/activity/CaptureActivity;
+
+    invoke-direct {p1, v0, v1}, Landroid/content/Intent;-><init>(Landroid/content/Context;Ljava/lang/Class;)V
+
+    .line 170
+    const-string v0, "type"
+
+    const/4 v1, 0x1
+
+    invoke-virtual {p1, v0, v1}, Landroid/content/Intent;->putExtra(Ljava/lang/String;I)Landroid/content/Intent;
+
+    .line 171
+    iget-object v0, p0, Lcom/shix/shixipc/activity/AddShowActivity$7;->this$0:Lcom/shix/shixipc/activity/AddShowActivity;
+
+    const/16 v1, 0x2afa
+
+    invoke-virtual {v0, p1, v1}, Lcom/shix/shixipc/activity/AddShowActivity;->startActivityForResult(Landroid/content/Intent;I)V
+
+    return-void
+.end method

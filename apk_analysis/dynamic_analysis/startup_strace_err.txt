@@ -1,0 +1,1 @@
+strace: attach: ptrace(PTRACE_SEIZE, 5466): No such process

@@ -1,0 +1,543 @@
+--------- beginning of kernel
+05-20 10:00:56.074     0     0 I logd    : logdr: UID=0 GID=0 PID=5548 b tail=0 logMask=99 pid=0 start=0ns deadline=0ns
+--------- beginning of main
+05-20 10:00:57.620   771   771 D StatusBarIconController: ignoring old pipeline callback because the new wifi icon is enabled
+--------- beginning of system
+05-20 10:00:57.991   549  5544 D CompatibilityChangeReporter: Compat change id reported: 265464455; UID 10195; state: DISABLED
+05-20 10:00:57.991   549  5544 D CompatibilityChangeReporter: Compat change id reported: 265452344; UID 10195; state: DISABLED
+05-20 10:00:57.991   549  5544 D CompatibilityChangeReporter: Compat change id reported: 266124927; UID 10195; state: DISABLED
+05-20 10:00:57.991   549  5544 D CompatibilityChangeReporter: Compat change id reported: 265451093; UID 10195; state: DISABLED
+05-20 10:00:57.991   549  5544 D CompatibilityChangeReporter: Compat change id reported: 265456536; UID 10195; state: DISABLED
+05-20 10:00:57.991   549  5544 D CompatibilityChangeReporter: Compat change id reported: 255940284; UID 10195; state: DISABLED
+05-20 10:00:57.991   549  5544 D CompatibilityChangeReporter: Compat change id reported: 236283604; UID 10195; state: DISABLED
+05-20 10:00:57.991   549  5544 D CompatibilityChangeReporter: Compat change id reported: 263959004; UID 10195; state: DISABLED
+05-20 10:00:57.991   549  5544 D CompatibilityChangeReporter: Compat change id reported: 264304459; UID 10195; state: DISABLED
+05-20 10:00:57.992   549  5544 D CompatibilityChangeReporter: Compat change id reported: 264301586; UID 10195; state: DISABLED
+05-20 10:00:57.992   549  5544 D CompatibilityChangeReporter: Compat change id reported: 254631730; UID 10195; state: DISABLED
+05-20 10:00:57.992   549  5544 D CompatibilityChangeReporter: Compat change id reported: 273509367; UID 10195; state: DISABLED
+05-20 10:00:57.992   549  5544 D CompatibilityChangeReporter: Compat change id reported: 263259275; UID 10195; state: DISABLED
+05-20 10:00:57.993   549  5544 D CompatibilityChangeReporter: Compat change id reported: 174042980; UID 10195; state: DISABLED
+05-20 10:00:57.993   549  5544 D CompatibilityChangeReporter: Compat change id reported: 174042936; UID 10195; state: DISABLED
+05-20 10:00:57.993   549  5544 D CompatibilityChangeReporter: Compat change id reported: 181136395; UID 10195; state: DISABLED
+05-20 10:00:57.994   549  5544 D CompatibilityChangeReporter: Compat change id reported: 194480991; UID 10195; state: ENABLED
+05-20 10:00:57.996   549  5544 D CompatibilityChangeReporter: Compat change id reported: 184838306; UID 10195; state: DISABLED
+05-20 10:00:57.997   549  5544 D CompatibilityChangeReporter: Compat change id reported: 185004937; UID 10195; state: DISABLED
+05-20 10:00:57.998   549  5544 D CompatibilityChangeReporter: Compat change id reported: 197654537; UID 10195; state: ENABLED
+05-20 10:00:57.998   549  5544 V SplashScreenExceptionList: SplashScreen checking exception for package shix.cam365.camera (target sdk:35) -> false
+05-20 10:00:57.999   549  5544 D CompatibilityChangeReporter: Compat change id reported: 205907456; UID 10195; state: ENABLED
+05-20 10:00:58.001   771   828 V WindowManagerShell: Transition requested: android.os.BinderProxy@5657cdc TransitionRequestInfo { type = OPEN, triggerTask = TaskInfo{userId=0 taskId=31 displayId=0 isRunning=true baseIntent=Intent { flg=0x10000000 cmp=shix.cam365.camera/minimal.camera.MainActivity } baseActivity=ComponentInfo{shix.cam365.camera/minimal.camera.MainActivity} topActivity=ComponentInfo{shix.cam365.camera/minimal.camera.MainActivity} origActivity=null realActivity=ComponentInfo{shix.cam365.camera/minimal.camera.MainActivity} numActivities=1 lastActiveTime=664560 supportsMultiWindow=true resizeMode=1 isResizeable=true minWidth=-1 minHeight=-1 defaultMinSize=220 token=WCT{android.window.IWindowContainerToken$Stub$Proxy@66961e5} topActivityType=1 pictureInPictureParams=null shouldDockBigOverlays=false launchIntoPipHostTaskId=-1 lastParentTaskIdBeforePip=-1 displayCutoutSafeInsets=Rect(0, 128 - 0, 0) topActivityInfo=ActivityInfo{2d0a4ba minimal.camera.MainActivity} launchCookies=[] positionInParent=Point(0, 0) parentTaskId=-1 isFocused=false isVisible=false isVisibleRequested=false isSleeping=false topActivityInSizeCompat=false topActivityEligibleForLetterboxEducation= false topActivityLetterboxed= false isFromDoubleTap= false topActivityLetterboxVerticalPosition= -1 topActivityLetterboxHorizontalPosition= -1 topActivityLetterboxWidth=-1 topActivityLetterboxHeight=-1 locusId=null displayAreaFeatureId=1 cameraCompatControlState=hidden}, remoteTransition = null, displayChange = null }
+05-20 10:00:58.002   549  5544 I ActivityTaskManager: START u0 {flg=0x10000000 cmp=shix.cam365.camera/minimal.camera.MainActivity} with LAUNCH_MULTIPLE from uid 0 (BAL_ALLOW_ALLOWLISTED_UID) result code=0
+05-20 10:00:58.005   549   582 D CompatibilityChangeReporter: Compat change id reported: 135634846; UID 10195; state: DISABLED
+05-20 10:00:58.005   549   582 D CompatibilityChangeReporter: Compat change id reported: 177438394; UID 10195; state: DISABLED
+05-20 10:00:58.005   549   582 D CompatibilityChangeReporter: Compat change id reported: 135772972; UID 10195; state: DISABLED
+05-20 10:00:58.005   549   582 D CompatibilityChangeReporter: Compat change id reported: 135754954; UID 10195; state: ENABLED
+05-20 10:00:58.010   549   592 D CompatibilityChangeReporter: Compat change id reported: 143937733; UID 10195; state: ENABLED
+05-20 10:00:58.015   771   866 D SplashScreenView: Build android.window.SplashScreenView{da6db35 V.E...... ......ID 0,0-0,0}
+05-20 10:00:58.015   771   866 D SplashScreenView: Icon: view: android.widget.ImageView{6d3abca V.ED..... ......I. 0,0-0,0 #10204f0 android:id/splashscreen_icon_view} drawable: com.android.wm.shell.startingsurface.SplashscreenIconDrawableFactory$ImmobileIconDrawable@eb3e13b size: 420
+05-20 10:00:58.015   771   866 D SplashScreenView: Branding: view: android.view.View{fd91058 G.ED..... ......I. 0,0-0,0 #10204ef android:id/splashscreen_branding_view} drawable: null size w: 0 h: 0
+05-20 10:00:58.017   362   362 D Zygote  : Forked child process 5560
+05-20 10:00:58.017   549  5544 D CompatibilityChangeReporter: Compat change id reported: 168419799; UID 10195; state: DISABLED
+05-20 10:00:58.018   549   592 I ActivityManager: Start proc 5560:shix.cam365.camera/u0a195 for next-top-activity {shix.cam365.camera/minimal.camera.MainActivity}
+05-20 10:00:58.018   549  5544 D CompatibilityChangeReporter: Compat change id reported: 273564678; UID 10195; state: DISABLED
+05-20 10:00:58.019   405   405 I BpBinder: onLastStrongRef automatically unlinking death recipients: 
+05-20 10:00:58.024   549  5544 D CoreBackPreview: Window{3abd1db u0 Splash Screen shix.cam365.camera}: Setting back callback OnBackInvokedCallbackInfo{mCallback=android.window.IOnBackInvokedCallback$Stub$Proxy@58b5bb6, mPriority=0, mIsAnimationCallback=false}
+05-20 10:00:58.064  1134  1669 D EGL_emulation: app_time_stats: avg=8521.79ms min=3.64ms max=144316.77ms count=17
+05-20 10:00:58.086  5560  5560 I x.cam365.camera: Late-enabling -Xcheck:jni
+05-20 10:00:58.108  5560  5560 I x.cam365.camera: Using CollectorTypeCC GC.
+05-20 10:00:58.109  5560  5560 W x.cam365.camera: Unexpected CPU variant for x86: x86_64.
+05-20 10:00:58.109  5560  5560 W x.cam365.camera: Known variants: atom, sandybridge, silvermont, goldmont, goldmont-plus, tremont, kabylake, default
+05-20 10:00:58.115   549   579 V WindowManager: Sent Transition #12 createdAt=05-20 10:00:57.994 via request=TransitionRequestInfo { type = OPEN, triggerTask = TaskInfo{userId=0 taskId=31 displayId=0 isRunning=true baseIntent=Intent { flg=0x10000000 cmp=shix.cam365.camera/minimal.camera.MainActivity } baseActivity=ComponentInfo{shix.cam365.camera/minimal.camera.MainActivity} topActivity=ComponentInfo{shix.cam365.camera/minimal.camera.MainActivity} origActivity=null realActivity=ComponentInfo{shix.cam365.camera/minimal.camera.MainActivity} numActivities=1 lastActiveTime=664560 supportsMultiWindow=true resizeMode=1 isResizeable=true minWidth=-1 minHeight=-1 defaultMinSize=220 token=WCT{RemoteToken{1c3a78d Task{3df68bf #31 type=standard A=10195:shix.cam365.camera}}} topActivityType=1 pictureInPictureParams=null shouldDockBigOverlays=false launchIntoPipHostTaskId=-1 lastParentTaskIdBeforePip=-1 displayCutoutSafeInsets=Rect(0, 128 - 0, 0) topActivityInfo=ActivityInfo{1697d42 minimal.camera.MainActivity} launchCookies=[] positionInParent=Point(0, 0) parentTaskId=-1 isFocused=false isVisible=false isVisibleRequested=false isSleeping=false topActivityInSizeCompat=false topActivityEligibleForLetterboxEducation= false topActivityLetterboxed= false isFromDoubleTap= false topActivityLetterboxVerticalPosition= -1 topActivityLetterboxHorizontalPosition= -1 topActivityLetterboxWidth=-1 topActivityLetterboxHeight=-1 locusId=null displayAreaFeatureId=1 cameraCompatControlState=hidden}, remoteTransition = null, displayChange = null }
+05-20 10:00:58.115   549   579 V WindowManager:     startWCT=WindowContainerTransaction { changes = {} hops = [] errorCallbackToken=null taskFragmentOrganizer=null }
+05-20 10:00:58.115   549   579 V WindowManager:     info={id=12 t=OPEN f=0x0 trk=0 r=[0@Point(0, 0)] c=[{WCT{RemoteToken{1c3a78d Task{3df68bf #31 type=standard A=10195:shix.cam365.camera}}} m=OPEN f=NONE leash=Surface(name=Task=31)/@0x70bb0b7 sb=Rect(0, 0 - 1080, 2400) eb=Rect(0, 0 - 1080, 2400) d=0},{WCT{RemoteToken{fe90e6a Task{507012f #1 type=home}}} m=TO_BACK f=SHOW_WALLPAPER leash=Surface(name=Task=1)/@0x9969066 sb=Rect(0, 0 - 1080, 2400) eb=Rect(0, 0 - 1080, 2400) d=0}]}
+05-20 10:00:58.117   771   828 V WindowManagerShell: onTransitionReady android.os.BinderProxy@5657cdc: {id=12 t=OPEN f=0x0 trk=0 r=[0@Point(0, 0)] c=[{WCT{android.window.IWindowContainerToken$Stub$Proxy@4e1bb3} m=OPEN f=NONE leash=Surface(name=Task=31)/@0x7389d04 sb=Rect(0, 0 - 1080, 2400) eb=Rect(0, 0 - 1080, 2400) d=0},{WCT{android.window.IWindowContainerToken$Stub$Proxy@d248570} m=TO_BACK f=SHOW_WALLPAPER leash=Surface(name=Task=1)/@0x80a42ed sb=Rect(0, 0 - 1080, 2400) eb=Rect(0, 0 - 1080, 2400) d=0}]}
+05-20 10:00:58.117   771   828 V WindowManagerShell: Playing animation for (#12)android.os.BinderProxy@5657cdc@0
+05-20 10:00:58.118   771   828 V WindowManagerShell:  try handler com.android.wm.shell.transition.DefaultMixedHandler@a6c3040
+05-20 10:00:58.119   771   828 V WindowManagerShell:  try handler com.android.wm.shell.keyguard.KeyguardTransitionHandler@8443b79
+05-20 10:00:58.119   771   828 V WindowManagerShell:  try handler com.android.wm.shell.activityembedding.ActivityEmbeddingController@7c260be
+05-20 10:00:58.119   771   828 V WindowManagerShell:  try handler com.android.wm.shell.recents.RecentsTransitionHandler@831451f
+05-20 10:00:58.120   771   828 V ShellRecents: RecentsTransitionHandler.startAnimation: no controller found
+05-20 10:00:58.120   771   828 V WindowManagerShell:  try handler com.android.wm.shell.pip.PipTransition@504106c
+05-20 10:00:58.120   771   828 V WindowManagerShell:  try handler com.android.wm.shell.splitscreen.StageCoordinator@f441635
+05-20 10:00:58.120   771   828 V WindowManagerShell:  try handler com.android.wm.shell.transition.RemoteTransitionHandler@bfcaca
+05-20 10:00:58.121   771   828 V WindowManagerShell: Transition doesn't have explicit remote, search filters for match for {id=12 t=OPEN f=0x0 trk=0 r=[0@Point(0, 0)] c=[{WCT{android.window.IWindowContainerToken$Stub$Proxy@4e1bb3} m=OPEN f=NONE leash=Surface(name=Task=31)/@0x7389d04 sb=Rect(0, 0 - 1080, 2400) eb=Rect(0, 0 - 1080, 2400) d=0},{WCT{android.window.IWindowContainerToken$Stub$Proxy@d248570} m=TO_BACK f=SHOW_WALLPAPER leash=Surface(name=Task=1)/@0x80a42ed sb=Rect(0, 0 - 1080, 2400) eb=Rect(0, 0 - 1080, 2400) d=0}]}
+05-20 10:00:58.121   771   828 V WindowManagerShell:  Checking filter Pair{{types=[] flags=0x0] notFlags=0x0 checks=[{atype=dream independent=true modes=[OPEN,TO_FRONT] flags=NONE mustBeTask=false order=ANY topActivity=null},{atype=home independent=true modes=[CLOSE,TO_BACK] flags=NONE mustBeTask=false order=ANY topActivity=null}]} RemoteTransition { remoteTransition = android.window.IRemoteTransition$Stub$Proxy@6953603, appThread = android.app.IApplicationThread$Stub$Proxy@d4f1980, debugName = LauncherToDream }}
+05-20 10:00:58.121   771   828 V WindowManagerShell:  Checking filter Pair{{types=[] flags=0x0] notFlags=0x100 checks=[{atype=home independent=true modes=[OPEN,TO_FRONT] flags=NONE mustBeTask=false order=TOP topActivity=ComponentInfo{com.google.android.apps.nexuslauncher/com.google.android.apps.nexuslauncher.NexusLauncherActivity}},{atype=standard independent=true modes=[CLOSE,TO_BACK] flags=NONE mustBeTask=false order=ANY topActivity=null}]} RemoteTransition { remoteTransition = android.window.IRemoteTransition$Stub$Proxy@d730bb9, appThread = android.app.IApplicationThread$Stub$Proxy@1a48bfe, debugName = QuickstepLaunchHome }}
+05-20 10:00:58.121   771   828 V WindowManagerShell:  Delegate animation for #12 to null
+05-20 10:00:58.121   771   828 V WindowManagerShell:  try handler com.android.wm.shell.transition.DefaultTransitionHandler@370b917
+05-20 10:00:58.121   771   828 V WindowManagerShell: start default transition animation, info = {id=12 t=OPEN f=0x0 trk=0 r=[0@Point(0, 0)] c=[{WCT{android.window.IWindowContainerToken$Stub$Proxy@4e1bb3} m=OPEN f=NONE leash=Surface(name=Task=31)/@0x7389d04 sb=Rect(0, 0 - 1080, 2400) eb=Rect(0, 0 - 1080, 2400) d=0},{WCT{android.window.IWindowContainerToken$Stub$Proxy@d248570} m=TO_BACK f=SHOW_WALLPAPER leash=Surface(name=Task=1)/@0x80a42ed sb=Rect(0, 0 - 1080, 2400) eb=Rect(0, 0 - 1080, 2400) d=0}]}
+05-20 10:00:58.122   771   828 V WindowManagerShell: loadAnimation: anim=android.view.animation.AnimationSet@fc316e animAttr=0x13 type=OPEN isEntrance=false
+05-20 10:00:58.132   771   828 V WindowManagerShell: loadAnimation: anim=android.view.animation.AnimationSet@fdab4df animAttr=0x12 type=OPEN isEntrance=true
+05-20 10:00:58.133   771   828 V WindowManagerShell:  animated by com.android.wm.shell.transition.DefaultTransitionHandler@370b917
+05-20 10:00:58.167   771   912 D EGL_emulation: app_time_stats: avg=18828.92ms min=18828.92ms max=18828.92ms count=1
+05-20 10:00:58.180  5560  5560 I ndk_translation: Initialized NDK translation (aarch64), version 0.2.3
+05-20 10:00:58.286  4259  4266 I adbd    : jdwp connection from 5560
+05-20 10:00:58.299  5560  5560 D CompatibilityChangeReporter: Compat change id reported: 171979766; UID 10195; state: ENABLED
+05-20 10:00:58.300  5560  5560 D CompatibilityChangeReporter: Compat change id reported: 242716250; UID 10195; state: ENABLED
+05-20 10:00:58.305  1640  1640 I BgTaskExecutorImpl: Starting EXCLUSIVE background task UPLOAD_ASSISTANT_DEVICE_SETTINGS.
+05-20 10:00:58.315   549  2770 D CompatibilityChangeReporter: Compat change id reported: 170503758; UID 10195; state: ENABLED
+05-20 10:00:58.326  5560  5560 W ziparchive: Unable to open '/data/app/~~-OEqiXjNYWd0oQUJ8-4Y9g==/shix.cam365.camera-ku2fe99AXep3Kb3LxYtvkQ==/base.dm': No such file or directory
+05-20 10:00:58.326  5560  5560 W ziparchive: Unable to open '/data/app/~~-OEqiXjNYWd0oQUJ8-4Y9g==/shix.cam365.camera-ku2fe99AXep3Kb3LxYtvkQ==/base.dm': No such file or directory
+05-20 10:00:58.327  5560  5560 D nativeloader: Configuring clns-6 for other apk /data/app/~~-OEqiXjNYWd0oQUJ8-4Y9g==/shix.cam365.camera-ku2fe99AXep3Kb3LxYtvkQ==/base.apk. target_sdk_version=35, uses_libraries=, library_path=/data/app/~~-OEqiXjNYWd0oQUJ8-4Y9g==/shix.cam365.camera-ku2fe99AXep3Kb3LxYtvkQ==/lib/arm64:/data/app/~~-OEqiXjNYWd0oQUJ8-4Y9g==/shix.cam365.camera-ku2fe99AXep3Kb3LxYtvkQ==/base.apk!/lib/arm64-v8a, permitted_path=/data:/mnt/expand:/data/user/0/shix.cam365.camera
+05-20 10:00:58.339  1640  5579 I NetworkRecognitionRnr: Using pair HTTP connection
+05-20 10:00:58.344  1640  5582 W LocationOracle: getBestLocation(): no location is available
+05-20 10:00:58.347  5560  5560 V GraphicsEnvironment: Currently set values for:
+05-20 10:00:58.347  5560  5560 V GraphicsEnvironment:   angle_gl_driver_selection_pkgs=[]
+05-20 10:00:58.348  5560  5560 V GraphicsEnvironment:   angle_gl_driver_selection_values=[]
+05-20 10:00:58.349  5560  5560 V GraphicsEnvironment: ANGLE GameManagerService for shix.cam365.camera: false
+05-20 10:00:58.349  5560  5560 V GraphicsEnvironment: shix.cam365.camera is not listed in per-application setting
+05-20 10:00:58.349  5560  5560 V GraphicsEnvironment: Neither updatable production driver nor prerelease driver is supported.
+05-20 10:00:58.355   863  1113 D BtGatt.ScanManager: uid 10129 isForeground true scanMode -1
+05-20 10:00:58.361   549  2770 I ActivityManager: Flag disabled. Ignoring finishAttachApplication from uid: 10195. pid: 5560
+05-20 10:00:58.365  1640  5584 I A       : [Upload] Connected
+05-20 10:00:58.374  1640  2164 W LocationOracle: No location returned by GMS core getLastLocation()
+05-20 10:00:58.374  5560  5587 D libEGL  : loaded /vendor/lib64/egl/libEGL_emulation.so
+05-20 10:00:58.375  5560  5587 D libEGL  : loaded /vendor/lib64/egl/libGLESv1_CM_emulation.so
+05-20 10:00:58.375  5560  5587 D libEGL  : loaded /vendor/lib64/egl/libGLESv2_emulation.so
+05-20 10:00:58.376  1640  2158 W CronetNetworkRqstWrppr: Upload request without a content type.
+05-20 10:00:58.376  1640  1640 E A       : onError
+05-20 10:00:58.376  1640  1640 E A       : com.google.android.apps.gsa.shared.speech.a.m: errorCode: 65561, engine: 2
+05-20 10:00:58.376  1640  1640 E A       : 	at com.google.android.apps.gsa.staticplugins.dc.a.e.a(PG:3)
+05-20 10:00:58.376  1640  1640 E A       : 	at com.google.android.apps.gsa.s3.n.hh(PG:1)
+05-20 10:00:58.376  1640  1640 E A       : 	at com.google.cd.g.a.f.e(PG:2)
+05-20 10:00:58.376  1640  1640 E A       : 	at com.google.android.apps.gsa.speech.k.a.g.d(PG:22)
+05-20 10:00:58.376  1640  1640 E A       : 	at com.google.android.apps.gsa.speech.k.a.g.ks(PG:6)
+05-20 10:00:58.376  1640  1640 E A       : 	at com.google.android.apps.gsa.s3.o.e(PG:14)
+05-20 10:00:58.376  1640  1640 E A       : 	at com.google.android.apps.gsa.s3.p.run(PG:1)
+05-20 10:00:58.376  1640  1640 E A       : 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:487)
+05-20 10:00:58.376  1640  1640 E A       : 	at java.util.concurrent.FutureTask.run(FutureTask.java:264)
+05-20 10:00:58.376  1640  1640 E A       : 	at com.google.android.apps.gsa.shared.util.c.a.e.run(PG:2)
+05-20 10:00:58.376  1640  1640 E A       : 	at com.google.android.apps.gsa.shared.util.c.a.bi.run(PG:1)
+05-20 10:00:58.376  1640  1640 E A       : 	at com.google.android.apps.gsa.shared.util.c.a.bi.run(PG:1)
+05-20 10:00:58.376  1640  1640 E A       : 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+05-20 10:00:58.376  1640  1640 E A       : 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:644)
+05-20 10:00:58.376  1640  1640 E A       : 	at java.lang.Thread.run(Thread.java:1012)
+05-20 10:00:58.376  1640  1640 E A       : 	at com.google.android.apps.gsa.shared.util.c.a.l.run(PG:5)
+05-20 10:00:58.376  1640  1640 E A       : Caused by: com.google.android.apps.gsa.shared.speech.a.o: errorCode: 65586, engine: 2
+05-20 10:00:58.376  1640  1640 E A       : 	... 15 more
+05-20 10:00:58.376  1640  1640 E A       : Caused by: com.google.android.apps.gsa.shared.speech.a.k: errorCode: 401, engine: 2
+05-20 10:00:58.376  1640  1640 E A       : 	at com.google.android.apps.gsa.assistant.shared.n.h.a(PG:5)
+05-20 10:00:58.376  1640  1640 E A       : 	at com.google.android.apps.gsa.s3.producers.j.hE(PG:2)
+05-20 10:00:58.376  1640  1640 E A       : 	at com.google.android.apps.gsa.speech.k.a.g.d(PG:16)
+05-20 10:00:58.376  1640  1640 E A       : 	... 12 more
+05-20 10:00:58.383  1640  5584 I NetworkRecognitionRnr: Using pair HTTP connection
+05-20 10:00:58.384  1640  5582 I A       : [Upload] Connected
+05-20 10:00:58.387  1640  1640 W A       : Failed to sync device settings.
+05-20 10:00:58.387  1640  1640 I A       : Retrying to sync device settings.
+05-20 10:00:58.400   549  2770 W JobScheduler: Job didn't exist in JobStore: 3ed49c5 #u0a132/-353 com.google.android.googlequicksearchbox/com.google.android.apps.gsa.tasks.BackgroundTasksJobService
+05-20 10:00:58.407  5560  5560 I CamRelay: Starting RelayService...
+05-20 10:00:58.412   771   828 V WindowManagerShell: Transition requested: android.os.BinderProxy@ce3c80d TransitionRequestInfo { type = CLOSE, triggerTask = TaskInfo{userId=0 taskId=31 displayId=0 isRunning=false baseIntent=Intent { flg=0x10000000 cmp=shix.cam365.camera/minimal.camera.MainActivity } baseActivity=null topActivity=null origActivity=null realActivity=ComponentInfo{shix.cam365.camera/minimal.camera.MainActivity} numActivities=0 lastActiveTime=664852 supportsMultiWindow=true resizeMode=1 isResizeable=true minWidth=-1 minHeight=-1 defaultMinSize=220 token=WCT{android.window.IWindowContainerToken$Stub$Proxy@afe53c2} topActivityType=1 pictureInPictureParams=null shouldDockBigOverlays=false launchIntoPipHostTaskId=-1 lastParentTaskIdBeforePip=-1 displayCutoutSafeInsets=Rect(0, 128 - 0, 0) topActivityInfo=null launchCookies=[] positionInParent=Point(0, 0) parentTaskId=-1 isFocused=false isVisible=true isVisibleRequested=true isSleeping=false topActivityInSizeCompat=false topActivityEligibleForLetterboxEducation= false topActivityLetterboxed= false isFromDoubleTap= false topActivityLetterboxVerticalPosition= -1 topActivityLetterboxHorizontalPosition= -1 topActivityLetterboxWidth=-1 topActivityLetterboxHeight=-1 locusId=null displayAreaFeatureId=1 cameraCompatControlState=hidden}, remoteTransition = null, displayChange = null }
+05-20 10:00:58.421   771   828 V WindowManagerShell: Transition animation finished (aborted=false), notifying core (#12)android.os.BinderProxy@5657cdc@0
+05-20 10:00:58.423   549   579 V WindowManager: Finish Transition #12: created at 05-20 10:00:57.994 collect-started=0.02ms request-sent=6.534ms started=12.289ms ready=114.319ms sent=120.463ms finished=429.196ms
+05-20 10:00:58.424   771   912 D EGL_emulation: app_time_stats: avg=11062.38ms min=14.87ms max=143327.86ms count=13
+05-20 10:00:58.426   771   828 V WindowManagerShell: Track 0 became idle
+05-20 10:00:58.430  5560  5560 I CamRelay: === SERVICE INIT ===
+05-20 10:00:58.463  5560  5560 W SHIX-jni: ---------------------------Author's QQ is:3531263394----------------------2--------
+05-20 10:00:58.459  5560  5560 W x.cam365.camera: type=1400 audit(0.0:31): avc:  denied  { getattr } for  path="/dev/pmsg0" dev="tmpfs" ino=403 scontext=u:r:untrusted_app:s0:c195,c256,c512,c768 tcontext=u:object_r:pmsg_device:s0 tclass=chr_file permissive=0 app=shix.cam365.camera
+05-20 10:00:58.477  5560  5560 W SHIX-jni: doorbell-init-szsvr:test
+05-20 10:00:58.477  5560  5560 W SHIX-jni: doorbell-init-ret:0
+05-20 10:00:58.477  5560  5560 W SHIX-jni: SHIX_P2P_VER:5.2.1.0
+05-20 10:00:58.477  5560  5560 W SHIX-jni: SHIX_JNI_VER: 20260302-1
+05-20 10:00:58.478  5560  5560 I HL      : [11:00:58.478] kaven...p2p.initstr=DAS-2E97A741893A5D8FF6F425C8116F55881D8A2910CBC0129A16A084A619A588F0AFF28D21CDFA3D31EB21F52B363B95448436076355C1985CB88CFEE8420F1F5CE9194EF02051AE3641D78F7F0A766D47182ED51224B126E1CB1110802E708329
+05-20 10:00:58.911   549   582 W ActivityTaskManager: Activity top resumed state loss timeout for ActivityRecord{cca4ede u0 shix.cam365.camera/minimal.camera.MainActivity t31 f}}
+05-20 10:00:58.911   549   582 W ActivityTaskManager: Activity pause timeout for ActivityRecord{cca4ede u0 shix.cam365.camera/minimal.camera.MainActivity t31 f}}
+05-20 10:00:58.978   549  1567 W AppSearchIcing: icing-search-engine.cc:283: Error: 5, Message: Document (com.google.android.googlequicksearchbox$OneSearchZeroStateGoogleSuggestions/default, zp) not found.
+05-20 10:00:58.982  1134  1856 D OneSearchSuggestProvider: Established or reuse existing binder channel authority=com.google.android.googlequicksearchbox
+05-20 10:00:58.986  5560  5560 I HL      : [11:00:58.986] kaven...p2p init succ ver=20250402
+05-20 10:00:58.986  5560  5560 W SHIX-jni: doorbell-init-szsvr:test
+05-20 10:00:58.986  5560  5560 W SHIX-jni: doorbell-init-ret:0
+05-20 10:00:58.986  5560  5560 W SHIX-jni: P2PVER:20250402 
+05-20 10:00:58.987  5560  5560 D SHIX-jni: Java_object_p2pipcam_nativecaller_NativeCaller_Init:enter
+05-20 10:00:58.987  5560  5560 W SHIX-jni: NativeCaller_Init
+05-20 10:00:58.987  1640  1640 W A       : Can't get WAA status for Mavatar!
+05-20 10:00:58.987  1640  1640 W A       : java.lang.NullPointerException: Attempt to invoke virtual method 'java.lang.Class java.lang.Object.getClass()' on a null object reference
+05-20 10:00:58.987  1640  1640 W A       : 	at com.google.apps.tiktok.dataservice.z.b(PG:1)
+05-20 10:00:58.987  1640  1640 W A       : 	at com.google.apps.tiktok.dataservice.at.a(PG:1)
+05-20 10:00:58.987  1640  1640 W A       : 	at com.google.apps.tiktok.tracing.ec.a(PG:2)
+05-20 10:00:58.987  1640  1640 W A       : 	at com.google.common.util.concurrent.aj.a(PG:2)
+05-20 10:00:58.987  1640  1640 W A       : 	at com.google.common.util.concurrent.ac.apply(PG:1)
+05-20 10:00:58.987  1640  1640 W A       : 	at com.google.common.util.concurrent.h.e(PG:2)
+05-20 10:00:58.987  1640  1640 W A       : 	at com.google.common.util.concurrent.j.run(PG:9)
+05-20 10:00:58.987  1640  1640 W A       : 	at com.google.common.util.concurrent.bf.execute(PG:1)
+05-20 10:00:58.987  1640  1640 W A       : 	at com.google.common.util.concurrent.d.i(PG:1)
+05-20 10:00:58.987  1640  1640 W A       : 	at com.google.common.util.concurrent.d.l(PG:12)
+05-20 10:00:58.987  1640  1640 W A       : 	at com.google.common.util.concurrent.d.n(PG:2)
+05-20 10:00:58.987  1640  1640 W A       : 	at com.google.common.util.concurrent.i.f(PG:1)
+05-20 10:00:58.987  1640  1640 W A       : 	at com.google.common.util.concurrent.j.run(PG:12)
+05-20 10:00:58.987  1640  1640 W A       : 	at com.google.android.libraries.i.ae.run(PG:1)
+05-20 10:00:58.987  1640  1640 W A       : 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+05-20 10:00:58.987  1640  1640 W A       : 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:644)
+05-20 10:00:58.987  1640  1640 W A       : 	at com.google.android.libraries.i.k.run(PG:2)
+05-20 10:00:58.987  1640  1640 W A       : 	at com.google.android.libraries.i.p.run(PG:4)
+05-20 10:00:58.987  1640  1640 W A       : 	at java.lang.Thread.run(Thread.java:1012)
+05-20 10:00:58.987  5560  5560 W SHIX-jni: global_init_decode  ENUM_FRAME_TYPE_H264
+05-20 10:00:58.987  5560  5560 W SHIX-jni: 
+05-20 10:00:58.988  5560  5560 D SHIX-jni: global_init_decode ok
+05-20 10:00:58.992  5560  5560 D SHIX-jni: global_init_decode avcodec_open2 OK
+05-20 10:00:58.992  5560  5560 D SHIX-jni: Java_object_p2pipcam_nativecaller_NativeCaller_Init:leave
+05-20 10:00:58.997  1534  1781 I AiAiEcho: Predicting[0]: 
+05-20 10:00:58.998  1534  1781 I AiAiEcho: EchoTargets: 
+05-20 10:00:58.998  1534  1781 I AiAiEcho: Filtered by AiAi flag check: 
+05-20 10:00:58.998  1534  1781 I AiAiEcho: Ranked targets strategy: SORT, count: 0, ranking metadata: 
+05-20 10:00:58.999  1534  1781 I AiAiEcho: #postPredictionTargets: Sending updates to UISurface home with targets# 0 (types=[])
+05-20 10:00:59.007   771   828 V WindowManagerShell: onTransitionReady android.os.BinderProxy@ce3c80d: {id=13 t=CLOSE f=0x0 trk=1 r=[0@Point(0, 0)] c=[{WCT{android.window.IWindowContainerToken$Stub$Proxy@ed4414e} m=TO_FRONT f=SHOW_WALLPAPER leash=Surface(name=Task=1)/@0x284a6b5 sb=Rect(0, 0 - 1080, 2400) eb=Rect(0, 0 - 1080, 2400) d=0},{WCT{android.window.IWindowContainerToken$Stub$Proxy@c99c26f} m=CLOSE f=NONE leash=Surface(name=Task=31)/@0xd075a50 sb=Rect(0, 0 - 1080, 2400) eb=Rect(0, 0 - 1080, 2400) d=0}]}
+05-20 10:00:59.007   771   828 V WindowManagerShell: Playing animation for (#13)android.os.BinderProxy@ce3c80d@1
+05-20 10:00:59.008   771   828 V WindowManagerShell:  try handler com.android.wm.shell.transition.DefaultMixedHandler@a6c3040
+05-20 10:00:59.008   771   828 V WindowManagerShell:  try handler com.android.wm.shell.keyguard.KeyguardTransitionHandler@8443b79
+05-20 10:00:59.008   771   828 V WindowManagerShell:  try handler com.android.wm.shell.activityembedding.ActivityEmbeddingController@7c260be
+05-20 10:00:59.008   771   828 V WindowManagerShell:  try handler com.android.wm.shell.recents.RecentsTransitionHandler@831451f
+05-20 10:00:59.008   771   828 V ShellRecents: RecentsTransitionHandler.startAnimation: no controller found
+05-20 10:00:59.008   771   828 V WindowManagerShell:  try handler com.android.wm.shell.pip.PipTransition@504106c
+05-20 10:00:59.009   771   828 V WindowManagerShell:  try handler com.android.wm.shell.splitscreen.StageCoordinator@f441635
+05-20 10:00:59.009   771   828 V WindowManagerShell:  try handler com.android.wm.shell.transition.RemoteTransitionHandler@bfcaca
+05-20 10:00:59.009   771   828 V WindowManagerShell: Transition doesn't have explicit remote, search filters for match for {id=13 t=CLOSE f=0x0 trk=1 r=[0@Point(0, 0)] c=[{WCT{android.window.IWindowContainerToken$Stub$Proxy@ed4414e} m=TO_FRONT f=SHOW_WALLPAPER leash=Surface(name=Task=1)/@0x284a6b5 sb=Rect(0, 0 - 1080, 2400) eb=Rect(0, 0 - 1080, 2400) d=0},{WCT{android.window.IWindowContainerToken$Stub$Proxy@c99c26f} m=CLOSE f=NONE leash=Surface(name=Task=31)/@0xd075a50 sb=Rect(0, 0 - 1080, 2400) eb=Rect(0, 0 - 1080, 2400) d=0}]}
+05-20 10:00:59.009   771   828 V WindowManagerShell:  Checking filter Pair{{types=[] flags=0x0] notFlags=0x0 checks=[{atype=dream independent=true modes=[OPEN,TO_FRONT] flags=NONE mustBeTask=false order=ANY topActivity=null},{atype=home independent=true modes=[CLOSE,TO_BACK] flags=NONE mustBeTask=false order=ANY topActivity=null}]} RemoteTransition { remoteTransition = android.window.IRemoteTransition$Stub$Proxy@6953603, appThread = android.app.IApplicationThread$Stub$Proxy@d4f1980, debugName = LauncherToDream }}
+05-20 10:00:59.009   771   828 V WindowManagerShell:  Checking filter Pair{{types=[] flags=0x0] notFlags=0x100 checks=[{atype=home independent=true modes=[OPEN,TO_FRONT] flags=NONE mustBeTask=false order=TOP topActivity=ComponentInfo{com.google.android.apps.nexuslauncher/com.google.android.apps.nexuslauncher.NexusLauncherActivity}},{atype=standard independent=true modes=[CLOSE,TO_BACK] flags=NONE mustBeTask=false order=ANY topActivity=null}]} RemoteTransition { remoteTransition = android.window.IRemoteTransition$Stub$Proxy@d730bb9, appThread = android.app.IApplicationThread$Stub$Proxy@1a48bfe, debugName = QuickstepLaunchHome }}
+05-20 10:00:59.009   771   828 D RemoteTransitionHandler: Found filterPair{{types=[] flags=0x0] notFlags=0x100 checks=[{atype=home independent=true modes=[OPEN,TO_FRONT] flags=NONE mustBeTask=false order=TOP topActivity=ComponentInfo{com.google.android.apps.nexuslauncher/com.google.android.apps.nexuslauncher.NexusLauncherActivity}},{atype=standard independent=true modes=[CLOSE,TO_BACK] flags=NONE mustBeTask=false order=ANY topActivity=null}]} RemoteTransition { remoteTransition = android.window.IRemoteTransition$Stub$Proxy@d730bb9, appThread = android.app.IApplicationThread$Stub$Proxy@1a48bfe, debugName = QuickstepLaunchHome }}
+05-20 10:00:59.009   771   828 V WindowManagerShell:  Delegate animation for #13 to RemoteTransition { remoteTransition = android.window.IRemoteTransition$Stub$Proxy@d730bb9, appThread = android.app.IApplicationThread$Stub$Proxy@1a48bfe, debugName = QuickstepLaunchHome }
+05-20 10:00:59.012   549   579 V WindowManager: Sent Transition #13 createdAt=05-20 10:00:58.411 via request=TransitionRequestInfo { type = CLOSE, triggerTask = TaskInfo{userId=0 taskId=31 displayId=0 isRunning=false baseIntent=Intent { flg=0x10000000 cmp=shix.cam365.camera/minimal.camera.MainActivity } baseActivity=null topActivity=null origActivity=null realActivity=ComponentInfo{shix.cam365.camera/minimal.camera.MainActivity} numActivities=0 lastActiveTime=664852 supportsMultiWindow=true resizeMode=1 isResizeable=true minWidth=-1 minHeight=-1 defaultMinSize=220 token=WCT{RemoteToken{1c3a78d Task{3df68bf #31 type=standard A=10195:shix.cam365.camera}}} topActivityType=1 pictureInPictureParams=null shouldDockBigOverlays=false launchIntoPipHostTaskId=-1 lastParentTaskIdBeforePip=-1 displayCutoutSafeInsets=Rect(0, 128 - 0, 0) topActivityInfo=null launchCookies=[] positionInParent=Point(0, 0) parentTaskId=-1 isFocused=false isVisible=true isVisibleRequested=true isSleeping=false topActivityInSizeCompat=false topActivityEligibleForLetterboxEducation= false topActivityLetterboxed= false isFromDoubleTap= false topActivityLetterboxVerticalPosition= -1 topActivityLetterboxHorizontalPosition= -1 topActivityLetterboxWidth=-1 topActivityLetterboxHeight=-1 locusId=null displayAreaFeatureId=1 cameraCompatControlState=hidden}, remoteTransition = null, displayChange = null }
+05-20 10:00:59.013   549   579 V WindowManager:     startWCT=WindowContainerTransaction { changes = {} hops = [] errorCallbackToken=null taskFragmentOrganizer=null }
+05-20 10:00:59.015   771   828 V WindowManagerShell:  animated by com.android.wm.shell.transition.RemoteTransitionHandler@bfcaca
+05-20 10:00:59.017   549   579 V WindowManager:     info={id=13 t=CLOSE f=0x0 trk=1 r=[0@Point(0, 0)] c=[{WCT{RemoteToken{fe90e6a Task{507012f #1 type=home}}} m=TO_FRONT f=SHOW_WALLPAPER leash=Surface(name=Task=1)/@0x9969066 sb=Rect(0, 0 - 1080, 2400) eb=Rect(0, 0 - 1080, 2400) d=0},{WCT{RemoteToken{1c3a78d Task{3df68bf #31 type=standard A=10195:shix.cam365.camera}}} m=CLOSE f=NONE leash=Surface(name=Task=31)/@0x70bb0b7 sb=Rect(0, 0 - 1080, 2400) eb=Rect(0, 0 - 1080, 2400) d=0}]}
+05-20 10:00:59.044   549  5544 I ImeTracker: com.google.android.apps.nexuslauncher:a4ff9f0c: onRequestHide at ORIGIN_SERVER_HIDE_INPUT reason HIDE_SAME_WINDOW_FOCUSED_WITHOUT_EDITOR
+05-20 10:00:59.044   549  5544 I ImeTracker: com.google.android.apps.nexuslauncher:a4ff9f0c: onCancelled at PHASE_SERVER_SHOULD_HIDE
+05-20 10:00:59.047  1134  1134 D SearchTargetUtil:  query= size=15
+05-20 10:00:59.047  1134  1134 D SearchTargetUtil: layoutType=extra_tall_icon_row resultType=131072 packageName=com.google.android.googlequicksearchbox extras=Bundle{bitmap_url=data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBwgHBgkIBwgKCgkLDRYPDQwMDRsUFRAWIB0iIiAdHx8kKDQsJCYxJx8fLT0tMTU3Ojo6Iys/RD84QzQ5OjcBCgoKDQwNGg8PGjclHyU3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3N//AABEIAHwAfAMBIgACEQEDEQH/xAAcAAAABwEBAAAAAAAAAAAAAAAAAQIEBQYHAwj/xAA7EAABAwMCAwQHBgQHAAAAAAABAAIDBAUREiEGMUETUWFxBxQiMkKBoTNikbHB0RUjUuEkNHKCwvDx/8QAGQEAAgMBAAAAAAAAAAAAAAAAAAMBAgQF/8QAHxEAAgMBAAMBAQEAAAAAAAAAAAECAxEhEjFBUTIE/9oADAMBAAIRAxEAPwBuBkowN0EbAnigwlA4SeSSSAMlQAiqqYqaB80zw1jRkkqj3WtqL1McudHSg/y4841eJC6cR3F1bWGJrh6vCcBvRzu8qa4ZshqWiaYHSe8c/wCyVZPDRVVpC0fD01R9jGdP9Slafg6XJ7fktBpaNjIwxrAGgbBORAMbrM7WblTH6ZxVcHsMZ7M6XdAq/V2WqtsgkadLmnLXN5rX5IAcghQlzomzRlpHkpja9KzpWcKzYrw6o/w9X9sOT8e8P3UyXKoXSnkt1aHRjYHIcO9WaknbVU0czOTxla4S051kPFjlqNJaO9KG6uUCyjyklBBA5b4pZ2QYPBLxsoJOZ80zucpgopng4IacHuT9QnF0nY2iQ5wXnSPmhkr2U+2NbUV8TH7guyQeq1e0BrIzyAACzDhKLtrsXHlGwkZ71pNDFG9hNS86M+6DhZLOnSpRPRZPurrhyiRmJ4dbq1zTndhfqB/FS1NWGVumXGsDfZJaQ/WcZmO3wo2pGDgpxW1ssuY6XAfy1Hoo6SmgLcVdQ+SX+rXjHyQkDZSuLj2cT3be8ufBtYJaaamcfajdqH+k/wB054sp8w1EYcX4bqaT4KscKSuZe4ADgPDmnx2z+i11swXo0Ic0MIIck8yAQQRboDB8MI85RdEGqAD6qM4hovXrcYeuoHPz3UoOaVpDiAeWVEvReH9IqHCVsdT19W6SNzG50s1HfCs9zttRUwsZTvIYHAvY04Lx3Z6LtLEyKVsjTtJyHcOSmKAB7QsUpfTqxglwqlpsklFXSyubK2N32YzjTvnfc57lZWPLJsA8mbqTfAA05GcBRtEwyVE2BktBGFRvWMiklwjqcmWKUAuDte+DgkearUthrmPqXB9QZHOHYvyRpGeZ3OSrPbf85LHjkTlTEjfYUxlhWUFIpNxpZTSATkF+jSSPJUfhuFxv9MCC3Q4k/IFaNen4yM+SiaCkY2ftg0B2E+vTJfHNJLCB3RgpK1GAUNkaT0Q5oAf7Igk53Q1YUAdAUsnAyuLXbpepDWosnj0VWmF0bCx/t590lPLXNyBPVRk+NIdjcFOqN2ktIWOyGHSpt8+lj7T2CDtkc1DtpKwzSPhnDB0BGyVV3H1aDW6J7+mGDKYNvlWSS2kcG9BjKSkzVGOi7ZTTwVpdPICMnJxjKk617WxO35hQUV7DpSyoie1zjsQ39F3q6rMJ54VsZWXCEuUnbVIaDgfkhTMDC4NOVxaBJUOJGeqdtAb0wtdcfpzbrN1C0klArnq3TjKdM5RZCSBujwgB/hGRslYQIUEiBslByLrhDGDyQAbvaaR3hFSOOzXbOxkKPud0ioXRRaHy1Ezg2OJnNxUs2kcYhg/zGbagk3Zhq/y7rHbXOIDSMgpTqN+kua0t8Qo+KtfTyBtS3GPiT4XiPTpDm47yVlx/DoKzCOmgbDLqwS7vKZV9Rqbg7ABOLlcWudkEOPgoiZzqkYds080yEf0TbYdaAEtdKeTj7PknOUbAA0NHIbBBwWxcRzJPXoglczzXTCS8KSAs4QyklABAEySkElRdbxBbaPZ9S1zh8MftH6KFq+M2gkUtGXfekdj6BVJ8WW3l5qKvd7gtcRG0lQ73Y8/U9yp9VxRdZ9mzNhB6Rt/UqJdI+WR75HF73HJc45JRpZQ/Sw8NV7p+LKSqrHa3Pkxk8mkggYWutowyV4xs862+R3WE0kjoZGSN95rg5vgQcr0NbHMuVop6qA5JjD2eIIyQqWQ8oja5+EyKmoI5NntBCYVFgpiNTGYPmp6Qh+HN5FcJy7GFjTaN3sqM9s0yaGhcJKEmSOBuQZCW5HTY7qz9j7bnvwudTAKS3VNxlGHOjLYAegI3cnV7KQm7IxKLYLuK6HspSBUx7O+94hTIKy+CqkpqqOohOl7Dkfsr1aL3TXGMYcI5h70bjv8ALvC0pmGUSVyku3QBCCsUEY/BBLIRY+6gkzNERsjRdFU0CQRlOIaeWX7Jhdvjb5fuE3+JOoauaGMxxPAafug/95KAFdk+GUxyDDm8xnK2r0R1/rNhdTOfl9LJp/2ncfqsUknfNJrldqeeZKv3ohuPYcQSUhO1TCdvvN3/ACypQuRqN2oJI5DUU7dUTt3sHMHvCiC4vPNd/SBxfHwzaxHDpfcqgEQxn4B1efAfVYhSx3i4zvlo/WpZSS9743Hn1KTKrXqHwvaXTebXaO2Imqm/ywchh+Lz8FX/AEq1jafh2o0u0uOGNx47IejbjY3aD+FXV4/iMTMxycu2aP8AkFUfS7cC+eGi1fGXkeX/AKnQh4oTZNzl0zR3PZAEg+K70xg1n1kHQRtgZ3yP0yjrI6dj2GlfqYW75OSCqlx5QX6vo8NEvaxj4JN/rzVjt/FFFOQypBp3/e3b+KpAR+aneEOKZqUcrJmB8T2uaeRachKWZUlbU0Tw6lmfGe4HY/JTcHF1U2MCanikd/UCW/RW0W4MhN0OiGfZKB91QMCI3RN5nPJGT+aGUYAoHBUnw7dXWa90dx0lwp5NTmjm4YwQoxdGAEFBDLOyK68a3uWqkaXSTP3d0jb0aPILa+HuHaOy2xtLAxpcW4e/HNN+CrbR0VipvVoWsJaMnqVYm9yn1wV7MS9I9gn4cuNPf7SHMiL2uywbRyd58CqZxRe3X25GsczQDG0ae443+uV6Ev8ATQ1lkmgqY2yRPiOpruRXmOTmhl4dAOSLIQ6IKo0MIyiCCEQAosI+gQQSf//Z,suggestion_type=33,suggest_truncate_start=false,is_answer=false,is_entity=true,is_personal=false,suggest_raw_text=monica witt,group_id=web499142,response_id=7a3fd82a-62c3-45b9-a8f0-1253f00944f6,support_query_builder=false,} searchAction=Monica Elfriede Witt searchActionExtras=Bundle{learn_more_url=https://support.google.com/websearch/answer/106230?hl=106230,suggestion_action_text=Report this,should_start_for_result=true,allow_pinning=true,skip_logging_in_target_handler=false,suggestion_action_rpc=2,}ParentID: null targetID: 3548da16-91c4-43bb-b6bf-f3bb9f63d08e
+05-20 10:00:59.047  1134  1134 D SearchTargetUtil: layoutType=short_icon_row resultType=131072 packageName=com.google.android.googlequicksearchbox extras=Bundle{suggestion_type=33,suggest_truncate_start=false,is_answer=false,is_entity=false,is_personal=false,suggest_raw_text=trump phones,group_id=web499142,response_id=7a3fd82a-62c3-45b9-a8f0-1253f00944f6,support_query_builder=false,} searchAction=trump phones searchActionExtras=Bundle{learn_more_url=https://support.google.com/websearch/answer/106230?hl=106230,suggestion_action_text=Report this,should_start_for_result=true,allow_pinning=true,skip_logging_in_target_handler=false,suggestion_action_rpc=2,}ParentID: null targetID: 259d7321-5e15-42af-9025-70e7dec66d04
+05-20 10:00:59.048  1134  1134 D SearchTargetUtil: layoutType=short_icon_row resultType=131072 packageName=com.google.android.googlequicksearchbox extras=Bundle{suggestion_type=33,suggest_truncate_start=false,is_answer=false,is_entity=false,is_personal=false,suggest_raw_text=southampton spygate,group_id=web499142,response_id=7a3fd82a-62c3-45b9-a8f0-1253f00944f6,support_query_builder=false,} searchAction=southampton spygate searchActionExtras=Bundle{learn_more_url=https://support.google.com/websearch/answer/106230?hl=106230,suggestion_action_text=Report this,should_start_for_result=true,allow_pinning=true,skip_logging_in_target_handler=false,suggestion_action_rpc=2,}ParentID: null targetID: 2ec3fc31-34b8-407a-aab7-4e0ff2da0e80
+05-20 10:00:59.048  1134  1134 D SearchTargetUtil: layoutType=short_icon_row resultType=131072 packageName=com.google.android.googlequicksearchbox extras=Bundle{suggestion_type=33,suggest_truncate_start=false,is_answer=false,is_entity=false,is_personal=false,suggest_raw_text=codex app,group_id=web499142,response_id=7a3fd82a-62c3-45b9-a8f0-1253f00944f6,support_query_builder=false,} searchAction=codex app searchActionExtras=Bundle{learn_more_url=https://support.google.com/websearch/answer/106230?hl=106230,suggestion_action_text=Report this,should_start_for_result=true,allow_pinning=true,skip_logging_in_target_handler=false,suggestion_action_rpc=2,}ParentID: null targetID: 78dff24f-1401-46d5-886a-7cfe7a10b696
+05-20 10:00:59.048  1134  1134 D SearchTargetUtil: layoutType=extra_tall_icon_row resultType=131072 packageName=com.google.android.googlequicksearchbox extras=Bundle{bitmap_url=data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBwgHBgkIBwgKCgkLDRYPDQwMDRsUFRAWIB0iIiAdHx8kKDQsJCYxJx8fLT0tMTU3Ojo6Iys/RD84QzQ5OjcBCgoKDQwNGg8PGjclHyU3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3N//AABEIAHwAfAMBIgACEQEDEQH/xAAcAAABBQEBAQAAAAAAAAAAAAAFAQIEBgcDAAj/xAA6EAACAQMCAwYCCAUEAwAAAAABAgMABBEFIQYSMRNBUWFxkQciFDJScoGhscEjQtHh8DNjorIVJGL/xAAYAQADAQEAAAAAAAAAAAAAAAABAgMABP/EACERAAICAwACAgMAAAAAAAAAAAABAhEDITESEwRhIkFR/9oADAMBAAIRAxEAPwDSa8aWvUwBtepaSgASvU2aWOCF5pnVI41LO7HAUDqTWS8XcePqzfRNKMkFor/6gYq83t0Hl7+FBugpWXfiTjLT9ElNqAbi8HWNTgJ95v2Gapt7xtq925+jzLAOoWNQB7nNUqBjKS0jkuTkkjOT51J7SQc3YgjAyXXbPr41NtsokkHjxXxAFOdVdX+z2ak/9aZa8b61aT876i1wp/klh+U+w2qt3E7vgyyPgDdT3nyApkV3DzgKox34B29e+hbDo2Th7i+21XljuIxbTsBygtlX9D+1Hjdwc5QSAsOuN6xhsW9mJ7XldBu683zAeI8f7UW0zja7QIiRRPyqFy4JJA9MYoxmLKBq2QRkGkNAuG+IYdWj5GXsptyFz19KO1ROxGqEptOpKICfSU6kIohEpKdTTQAVH4mXv0fhp7ZWw904Tr/KN2/DYD8axpEMrhYvmJBAUDJI9KvnxQvBPr62bFgkVuAB3czHJPtin/D7hpAJ7qSJh24wjsNwvf71GcqZeELKSkKwpzzOVcd2N65NqIjBEcWM9fmzWxXHBFjcHIjAqMeAtMxyyQowPlU/P6Ker+GMz3TOckZqM7Bt2B99x6Vrl78ObDJMDMuegzQa74CWEHlcmm9kQeqRR4LyRYSrMe7pXaxZdpGG2dyOoonqPDsltG3LvioViyRxMsxPJ9VzgcyefmKNp8EcWuh+01CO1WJo5OaRZA/MP6+Yz7Vr1lMLi0hmByHQMD45FYEXET9ke4jcDp5jyrcOGbhbrh/T5kOQYFH4jY/mKaGhZhI0hpTTTVSQSpKWvUTDTSU402sYx/ixG1H4j9hcDMXaRRhfFQAT7nPvWpWkaRoqooVQMADuqm69aRv8S9OkjZW/9cvMPslVYD9varLHqVt9X6RHscfXFcmTp14eB2NlANRpn+bAGK4w3MMwHZzIx/8Alwac6E5welKWSQy4dcULuzzggV3vCcnfFQXkOTvU2USK7rEXMSuM+lUrV7NbeVjgYdTn12q+6o6h899UTiaXkdc9+afHdkMvALGQXi5iQ6kgYxnyrY/hrL2nCkC98cjoffP71i8MmZkB+1W1/DmBYuFLV1Oe2Z5D5EnH7V0x6csuFlNNNONNqhMJ16vUh2omPUw+dPrjcNyQSN4KazClbKRcwNf8WajLCwVoLJIS3m7cx/47UIvY7OOO4S20h5kQgSSvN2YyTjI/rVt0yy+j6nqF0MBbsoQD3coKn9M/jRGXTY7hcyRq2Rg74yPA+Ncd7O1x6Zpw4IpZI5ES5tiTzR87ZDDGevoRWjy3BgsVnlPKDuTTE0u2tcN2afL9UcoOKGcUzlLFIlOzdRSSHgtFd1nU9WlLmC5jEeflLfLUezv9baNmY21wMfVWQFqN2GkQXCpLKOfl/lO6t6jvH40CvuFTbzS3EBKvn5Si4C9MdOvTO/XNMqrYkvJPRybUHuiyzRmKVTuuc+1AOK0H0NH7+arKlm5VJZlBlVcMw76rfFhxZxIOvabe1GFXoWd+OysWzAfMeoHfX0Xo9pHY6VaWsIwkUKqPasa4Y0ZDLFJcqjmfk5FK5xk1uPTp0roi02yE4tJMQ02nGmU5IKV416komPVylTtI2Q/zAiuhptYILZQs/KAQOUdfGpP0hYovnNN1FcBHHXcZoZcEySBMnlX61cc/xdHbjkpK2SJLlrh8qMR9M+NAOJmDbE5x0xRKaze5KNFcPAU+wflb1HSq5qsOo9vk8rY6MN/ypasr5JBXh255ojE45ZV3x4jxopcMpQ8w/KqVYT3UV6kly3zDbmAxn1qyzXYa3zkb91AOmCtYkVVKx7VVNS07/wAnJbJ2nKivl/MUc1CXnJOaHQr2khTmYZGPl60Y62Rlt0EeGES41q3gjXMcLZz3Dl3/AGrRzQDhfRU05GuSjI8igKjdUXqfc/pR410440jnzSUpaEam0pptUIhWkrK9a+JGoXEjJpMa2kPc7qHkPvsP83qtXPEetXRJm1O7PkJSo9htRsJu7bda4vc28f8AqTxJ95wK+fZbu4lyZJpGJ68zE1wc7ZxvWsxuuo6rp8ojghv7WSYvns0mVmIwe4GozkSkKHKk9SvcaxeznktbiO4jOJI2DA1qOmajDfQQ3MTbMNx3g+BrmzR3Z0YZfoIMl4j8qzIw7udcVA1Ga+iXLQQMPBG/tRFh2gx3+ND7qF8YdgB6VM6k0Abi5llkVfobjHgV2/Oi7/wtMd5cZGOWoMzR22SDlvE1ButRe5jSLOI039TStWLJpHO5kBOB4DNWPgW3snFxPzxveI2OTILRrjY47snO/lVNlmySR3mg2t38tjqFpLZyPDcwoGEqHDYO+PQ1bEtnPkejeqQ1n/DPxDjuI1i1cAP07ZB19R/Srva3ttexl7SeOZR1KNnHr4V0HOdjSUpptYBgwORmnkVzP1B611GMeFYIx12Y1yXPyqcZ76kMMrXFB8xPtWMKdhir9wLYibhfUrlBieG7j38VK4x74qh4zWu/BiGO40PVoJBzBpwG8wUG1Bq1QU6dkRL5AOVyUbvDd9R72+5gQjDpRbiDRWs5yjg8h+o+OoqtzWIVvl39BXK1R1qTrQK1GdnblU57tqisWCcooytg8snJDEzue5V3otY8LgES6hjbcQr+5pkr4JJ10q1lpzSRveXRMVnCCzudsgdcVRtRumvr6a6YcvaNlV+yvQD8BgVfPiXqojih0q3YKXHPIF7kHQfif0rPQM1aMaIylZ6MspypIorbaxeW88E1vLJHNFkB43KnHht19DkUPRCa7RxnnPlTCmkaD8QmYLDq0XN/vR7H8R09sVdbXVLG6hEsF3EUPiwB9jWFKpB2qQtzNGOVHYAeFEAxz/DXHjXUHYZHdUYHNvD90fpUg93pWMKWwRSqoGc9TXMDcGuvSsYRq0z4VazZ6JomrXd8ziJLiPZF5mJYAAAetZmx+UVb+CG57DVIXUMnbWux82YH9Kxi/wB9x7pF+HtJdLvipAPM6ouAejD5j/gqux3uhRXym5nu2tWO/LDgr97fOPugmoWsxpDfyrGuAgVR6cuf1Jqr6nO6q2DS5JY40mtnb8f4mXJB5E6ibZZpp81ks2lNA9s3R4iCCfPz9d6EaxdR20UjFgqopZmPcBVc4MhXS3WO1Z8XKq0vMxPMceHT8qjfEe4ki0dkRsCaUI/pgnH5UTllV6Mw1a7k1PUZ7yTP8RsqD3L3D2qOkea7hRmnLsRWFFSMADxpVIMzquCBj3/zFcbt2VoYlOBIxBI64qVCqqOVVAA2GKJh6rivYxS5wBSHY1gH/9k=,suggestion_type=33,suggest_truncate_start=false,is_answer=false,is_entity=true,is_personal=false,suggest_raw_text=andy burnham,group_id=web499142,response_id=7a3fd
+05-20 10:00:59.048  1134  1134 D SearchTargetUtil: layoutType=short_icon_row resultType=131072 packageName=com.google.android.googlequicksearchbox extras=Bundle{suggestion_type=33,suggest_truncate_start=false,is_answer=false,is_entity=false,is_personal=false,suggest_raw_text=polycystic ovary syndrome,group_id=web499142,response_id=7a3fd82a-62c3-45b9-a8f0-1253f00944f6,support_query_builder=false,} searchAction=polycystic ovary syndrome searchActionExtras=Bundle{learn_more_url=https://support.google.com/websearch/answer/106230?hl=106230,suggestion_action_text=Report this,should_start_for_result=true,allow_pinning=true,skip_logging_in_target_handler=false,suggestion_action_rpc=2,}ParentID: null targetID: 344820c8-7211-47e1-9040-f88bcaf8da5c
+05-20 10:00:59.048  1134  1134 D SearchTargetUtil: layoutType=short_icon_row resultType=131072 packageName=com.google.android.googlequicksearchbox extras=Bundle{suggestion_type=33,suggest_truncate_start=false,is_answer=false,is_entity=false,is_personal=false,suggest_raw_text=ap swatch strap,group_id=web499142,response_id=7a3fd82a-62c3-45b9-a8f0-1253f00944f6,support_query_builder=false,} searchAction=ap swatch strap searchActionExtras=Bundle{learn_more_url=https://support.google.com/websearch/answer/106230?hl=106230,suggestion_action_text=Report this,should_start_for_result=true,allow_pinning=true,skip_logging_in_target_handler=false,suggestion_action_rpc=2,}ParentID: null targetID: 2beee3d8-c8db-40ee-a8ca-4b546f985452
+05-20 10:00:59.048  1134  1134 D SearchTargetUtil: layoutType=short_icon_row resultType=131072 packageName=com.google.android.googlequicksearchbox extras=Bundle{suggestion_type=33,suggest_truncate_start=false,is_answer=false,is_entity=false,is_personal=false,suggest_raw_text=fa youth cup final,group_id=web499142,response_id=7a3fd82a-62c3-45b9-a8f0-1253f00944f6,support_query_builder=false,} searchAction=fa youth cup final searchActionExtras=Bundle{learn_more_url=https://support.google.com/websearch/answer/106230?hl=106230,suggestion_action_text=Report this,should_start_for_result=true,allow_pinning=true,skip_logging_in_target_handler=false,suggestion_action_rpc=2,}ParentID: null targetID: e9a28ce1-ad54-406b-979b-97a2b8b96604
+05-20 10:00:59.049  1134  1134 D SearchTargetUtil: layoutType=short_icon_row resultType=131072 packageName=com.google.android.googlequicksearchbox extras=Bundle{suggestion_type=33,suggest_truncate_start=false,is_answer=false,is_entity=false,is_personal=false,suggest_raw_text=forza horizon 6 review,group_id=web499142,response_id=7a3fd82a-62c3-45b9-a8f0-1253f00944f6,support_query_builder=false,} searchAction=forza horizon 6 review searchActionExtras=Bundle{learn_more_url=https://support.google.com/websearch/answer/106230?hl=106230,suggestion_action_text=Report this,should_start_for_result=true,allow_pinning=true,skip_logging_in_target_handler=false,suggestion_action_rpc=2,}ParentID: null targetID: 62bf0ecc-cf84-4686-81e8-498a47154973
+05-20 10:00:59.049  1134  1134 D SearchTargetUtil: layoutType=short_icon_row resultType=131072 packageName=com.google.android.googlequicksearchbox extras=Bundle{suggestion_type=33,suggest_truncate_start=false,is_answer=false,is_entity=false,is_personal=false,suggest_raw_text=celtic penalty,group_id=web499142,response_id=7a3fd82a-62c3-45b9-a8f0-1253f00944f6,support_query_builder=false,} searchAction=celtic penalty searchActionExtras=Bundle{learn_more_url=https://support.google.com/websearch/answer/106230?hl=106230,suggestion_action_text=Report this,should_start_for_result=true,allow_pinning=true,skip_logging_in_target_handler=false,suggestion_action_rpc=2,}ParentID: null targetID: 1ca355d8-905b-4360-874c-1c4b484f8e2c
+05-20 10:00:59.049  1134  1134 D SearchTargetUtil: layoutType=short_icon_row resultType=131072 packageName=com.google.android.googlequicksearchbox extras=Bundle{suggestion_type=33,suggest_truncate_start=false,is_answer=false,is_entity=false,is_personal=false,suggest_raw_text=igor mykhaylovych lytvynchuk,group_id=web499142,response_id=7a3fd82a-62c3-45b9-a8f0-1253f00944f6,support_query_builder=false,} searchAction=igor mykhaylovych lytvynchuk searchActionExtras=Bundle{learn_more_url=https://support.google.com/websearch/answer/106230?hl=106230,suggestion_action_text=Report this,should_start_for_result=true,allow_pinning=true,skip_logging_in_target_handler=false,suggestion_action_rpc=2,}ParentID: null targetID: faebdf63-fd9c-4dad-9a48-20ca4d532606
+05-20 10:00:59.050  1134  1134 D SearchTargetUtil: layoutType=short_icon_row resultType=131072 packageName=com.google.android.googlequicksearchbox extras=Bundle{suggestion_type=33,suggest_truncate_start=false,is_answer=false,is_entity=false,is_personal=false,suggest_raw_text=hit the wall gracie abrams lyrics,group_id=web499142,response_id=7a3fd82a-62c3-45b9-a8f0-1253f00944f6,support_query_builder=false,} searchAction=hit the wall gracie abrams lyrics searchActionExtras=Bundle{learn_more_url=https://support.google.com/websearch/answer/106230?hl=106230,suggestion_action_text=Report this,should_start_for_result=true,allow_pinning=true,skip_logging_in_target_handler=false,suggestion_action_rpc=2,}ParentID: null targetID: 182a0907-3c9c-418f-958f-1184ce976809
+05-20 10:00:59.050  1134  1134 D SearchTargetUtil: layoutType=short_icon_row resultType=131072 packageName=com.google.android.googlequicksearchbox extras=Bundle{suggestion_type=33,suggest_truncate_start=false,is_answer=false,is_entity=false,is_personal=false,suggest_raw_text=delta goodrem eurovision,group_id=web499142,response_id=7a3fd82a-62c3-45b9-a8f0-1253f00944f6,support_query_builder=false,} searchAction=delta goodrem eurovision searchActionExtras=Bundle{learn_more_url=https://support.google.com/websearch/answer/106230?hl=106230,suggestion_action_text=Report this,should_start_for_result=true,allow_pinning=true,skip_logging_in_target_handler=false,suggestion_action_rpc=2,}ParentID: null targetID: 59841090-59d3-4fed-a42f-80602a816df5
+05-20 10:00:59.051  1436  1436 I GoogleInputMethodService: GoogleInputMethodService.onFinishInput():3227 
+05-20 10:00:59.064  1134  1134 D SearchTargetUtil: layoutType=short_icon_row resultType=131072 packageName=com.google.android.googlequicksearchbox extras=Bundle{suggestion_type=33,suggest_truncate_start=false,is_answer=false,is_entity=false,is_personal=false,suggest_raw_text=thailand dinosaurs,group_id=web499142,response_id=7a3fd82a-62c3-45b9-a8f0-1253f00944f6,support_query_builder=false,} searchAction=thailand dinosaurs searchActionExtras=Bundle{learn_more_url=https://support.google.com/websearch/answer/106230?hl=106230,suggestion_action_text=Report this,should_start_for_result=true,allow_pinning=true,skip_logging_in_target_handler=false,suggestion_action_rpc=2,}ParentID: null targetID: 3ba00b7a-feb5-41a4-b64d-876ff4349674
+05-20 10:00:59.065  1134  1134 D SearchTargetUtil: layoutType=short_icon_row resultType=131072 packageName=com.google.android.googlequicksearchbox extras=Bundle{suggestion_type=33,suggest_truncate_start=false,is_answer=false,is_entity=false,is_personal=false,suggest_raw_text=iphone 18 pro max,group_id=web499142,response_id=7a3fd82a-62c3-45b9-a8f0-1253f00944f6,support_query_builder=false,} searchAction=iphone 18 pro max searchActionExtras=Bundle{learn_more_url=https://support.google.com/websearch/answer/106230?hl=106230,suggestion_action_text=Report this,should_start_for_result=true,allow_pinning=true,skip_logging_in_target_handler=false,suggestion_action_rpc=2,}ParentID: null targetID: 658397b9-4c2d-42b5-beca-686b1e8ad2a2
+05-20 10:00:59.074  1436  1436 I GoogleInputMethodService: GoogleInputMethodService.updateDeviceLockedStatus():2087 repeatCheckTimes = 0, unlocked = true
+05-20 10:00:59.074  1436  1436 I GoogleInputMethodService: GoogleInputMethodService.onStartInput():1877 onStartInput(EditorInfo{inputType=0x0(NULL) imeOptions=0x0 privateImeOptions=null actionName=UNSPECIFIED actionLabel=null actionId=0 initialSelStart=-1 initialSelEnd=-1 initialCapsMode=0x0 hintText=null label=null packageName=com.google.android.apps.nexuslauncher fieldId=0 fieldName=null extras=null}, false)
+05-20 10:00:59.075  1436  1436 I GoogleInputMethodService: GoogleInputMethodService.shouldHideHeaderOnInitialState():4008 ShouldHideHeaderOnInitialState = false
+05-20 10:00:59.076  1436  1436 I GoogleInputMethodService: GoogleInputMethodService.updateDeviceLockedStatus():2087 repeatCheckTimes = 2, unlocked = true
+05-20 10:00:59.167   771   912 D EGL_emulation: app_time_stats: avg=88.52ms min=3.16ms max=674.01ms count=11
+05-20 10:00:59.267   759   759 I wpa_supplicant: wlan0: CTRL-EVENT-BEACON-LOSS 
+05-20 10:00:59.274  5560  5560 I CamRelay: Init OK, calling StartPPPP...
+05-20 10:00:59.277  5560  5560 D SHIX-jni: Java_object_p2pipcam_nativecaller_NativeCaller_StartPPPP:enter
+05-20 10:00:59.277  5560  5560 W SHIX-jni: NativeCaller_StartPPPP1 [DGOG-HCAM03247542ABAMS]
+05-20 10:00:59.277  5560  5560 W SHIX-jni: CY ID：DGOG-HCAM03247542ABAMS
+05-20 10:00:59.277  5560  5560 W SHIX-jni: PPPPCHANEL  Start 0:DGOG-HCAM03247542ABAMS
+05-20 10:00:59.277  5560  5560 W SHIX-jni: connectType:2  szDID[DGOG-HCAM03247542ABAMS]
+05-20 10:00:59.277  5560  5560 W SHIX-jni: PPPPCHANEL1111  Start 1:DGOG-HCAM03247542ABAMS
+05-20 10:00:59.280  5560  5560 W SHIX-jni: PPPPCHANEL  Start 2:DGOG-HCAM03247542ABAMS
+05-20 10:00:59.280  5560  5596 D SHIX-jni: PPPP_Connect begin...DGOG-HCAM03247542ABAMS isbat[0]
+05-20 10:00:59.280  5560  5560 D SHIX-jni: Java_object_p2pipcam_nativecaller_NativeCaller_StartPPPP:leave
+05-20 10:00:59.281  5560  5560 I CamRelay: StartPPPP called - waiting...
+05-20 10:00:59.282  5560  5596 I CamRelay: PPPPMsg
+05-20 10:00:59.338   771   771 D StatusBarIconController: ignoring old pipeline callbacks, because the new mobile icons are enabled
+05-20 10:00:59.426   405   451 W VsyncModulator: setTransactionSchedule: Unexpected EarlyEnd
+05-20 10:00:59.432   771   912 D EGL_emulation: app_time_stats: avg=15.39ms min=1.52ms max=49.27ms count=51
+05-20 10:00:59.644   771   828 V WindowManagerShell: Transition animation finished (aborted=false), notifying core (#13)android.os.BinderProxy@ce3c80d@1
+05-20 10:00:59.645   549   579 V WindowManager: Finish Transition #13: created at 05-20 10:00:58.411 collect-started=0.018ms request-sent=0.074ms started=4.124ms ready=502.371ms sent=595.191ms finished=1233.489ms
+05-20 10:00:59.646   771   828 V WindowManagerShell: Track 1 became idle
+05-20 10:00:59.646   771   828 V WindowManagerShell: All active transition animations finished
+05-20 10:00:59.662   549  5544 W InputManager-JNI: Input channel object '3abd1db Splash Screen shix.cam365.camera (client)' was disposed without first being removed with the input manager!
+05-20 10:00:59.702   549  2770 W WindowManager: Failed looking up window session=Session{379589a 771:u0a10168} callers=com.android.server.wm.WindowManagerService.windowForClientLocked:6034 com.android.server.wm.WindowManagerService.relayoutWindow:2190 com.android.server.wm.Session.relayout:249 
+05-20 10:00:59.704   771   865 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=falsecallback=android.view.ViewRootImpl$$ExternalSyntheticLambda17@8e277a0
+05-20 10:00:59.705   549  2770 W WindowManager: Failed looking up window session=Session{379589a 771:u0a10168} callers=com.android.server.wm.WindowManagerService.windowForClientLocked:6034 com.android.server.wm.Session.setOnBackInvokedCallbackInfo:944 android.view.IWindowSession$Stub.onTransact:1145 
+05-20 10:00:59.705   549  2770 I WindowManager: setOnBackInvokedCallback(): No window state for package:com.android.systemui
+05-20 10:00:59.705   549  2079 W WindowManager: Failed looking up window session=Session{379589a 771:u0a10168} callers=com.android.server.wm.WindowManagerService.windowForClientLocked:6034 com.android.server.wm.WindowManagerService.removeWindow:1974 com.android.server.wm.Session.remove:231 
+05-20 10:01:00.031  1534  1781 I AiAiEcho: Predicting[0]: 
+05-20 10:01:00.031  1534  1781 I AiAiEcho: EchoTargets: 
+05-20 10:01:00.031  1534  1781 I AiAiEcho: Filtered by AiAi flag check: 
+05-20 10:01:00.032  1534  1781 I AiAiEcho: Ranked targets strategy: SORT, count: 0, ranking metadata: 
+05-20 10:01:00.033  1534  1781 I AiAiEcho: #postPredictionTargets: Sending updates to UISurface lockscreen with targets# 0 (types=[])
+05-20 10:01:00.045   771   771 W PageIndicator: Total number of pages invalid: 0. Assuming 1 page.
+05-20 10:01:00.418   549  5544 D ConnectivityService: requestNetwork for uid/pid:10132/1640 activeRequest: null callbackRequest: 156 [NetworkRequest [ REQUEST id=156, [ Transports: CELLULAR Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VPN&NOT_VCN_MANAGED Uid: 10132 RequestorUid: 10132 RequestorPkg: com.google.android.googlequicksearchbox UnderlyingNetworks: Null] ]] callback flags: 0 order: 2147483647
+05-20 10:01:00.420   361   361 I netd    : networkSetPermissionForNetwork(100, 0) <0.95ms>
+05-20 10:01:00.425   549   698 D ConnectivityService: NetReassign [156 : null → 100] [c 0] [a 6] [i 1]
+05-20 10:01:00.425   549   698 D ConnectivityService: reportNetworkConnectivity(101, false) by 10132
+05-20 10:01:00.427   822  2817 D NetworkMonitor/101: Forcing reevaluation for UID 10132. Dns signal count: 0
+05-20 10:01:00.431   822  5599 D TrafficStats: tagSocket(6) with statsTag=0xffffff81, statsUid=-1
+05-20 10:01:00.431   822  5600 D TrafficStats: tagSocket(69) with statsTag=0xffffff81, statsUid=-1
+05-20 10:01:00.431   822  5599 D TrafficStats: tagSocket(108) with statsTag=0xffffff81, statsUid=-1
+05-20 10:01:00.432   822  5600 D TrafficStats: tagSocket(6) with statsTag=0xffffff81, statsUid=-1
+05-20 10:01:00.432   361  5601 I resolv  : ResNSendHandler::run: 0 / {101 983141 101 983141 1073 1}
+05-20 10:01:00.435   361  5602 I resolv  : ResNSendHandler::run: 0 / {101 983141 101 983141 1073 1}
+05-20 10:01:00.436   361  5603 I resolv  : ResNSendHandler::run: 0 / {101 983141 101 983141 1073 1}
+05-20 10:01:00.438   361  5604 I resolv  : ResNSendHandler::run: 0 / {101 983141 101 983141 1073 1}
+05-20 10:01:00.441   771   912 D EGL_emulation: app_time_stats: avg=7.45ms min=0.69ms max=52.36ms count=52
+05-20 10:01:00.445   361  5601 I resolv  : res_nsend: used send_dg 256 terrno: 0
+05-20 10:01:00.445   361  5604 I resolv  : res_nsend: used send_dg 63 terrno: 0
+05-20 10:01:00.449   361  5603 I resolv  : res_nsend: used send_dg 160 terrno: 0
+05-20 10:01:00.451   822   822 D TrafficStats: tagSocket(69) with statsTag=0xffffffff, statsUid=-1
+05-20 10:01:00.452   822   822 D TrafficStats: tagSocket(69) with statsTag=0xffffffff, statsUid=-1
+05-20 10:01:00.454   822   822 D TrafficStats: tagSocket(69) with statsTag=0xffffffff, statsUid=-1
+05-20 10:01:00.454   822   822 D TrafficStats: tagSocket(69) with statsTag=0xffffffff, statsUid=-1
+05-20 10:01:00.456   822   822 D TrafficStats: tagSocket(69) with statsTag=0xffffffff, statsUid=-1
+05-20 10:01:00.457   822   822 D TrafficStats: tagSocket(69) with statsTag=0xffffffff, statsUid=-1
+05-20 10:01:00.458   822   822 D TrafficStats: tagSocket(69) with statsTag=0xffffffff, statsUid=-1
+05-20 10:01:00.459   822   822 D TrafficStats: tagSocket(69) with statsTag=0xffffffff, statsUid=-1
+05-20 10:01:00.460   361  5602 I resolv  : res_nsend: used send_dg 75 terrno: 0
+05-20 10:01:00.462   822   822 D TrafficStats: tagSocket(69) with statsTag=0xffffffff, statsUid=-1
+05-20 10:01:00.464   822   822 D TrafficStats: tagSocket(69) with statsTag=0xffffffff, statsUid=-1
+05-20 10:01:00.466   822   822 D TrafficStats: tagSocket(69) with statsTag=0xffffffff, statsUid=-1
+05-20 10:01:00.467   822   822 D TrafficStats: tagSocket(69) with statsTag=0xffffffff, statsUid=-1
+05-20 10:01:00.469   822   822 D TrafficStats: tagSocket(69) with statsTag=0xffffffff, statsUid=-1
+05-20 10:01:00.470   822   822 D TrafficStats: tagSocket(69) with statsTag=0xffffffff, statsUid=-1
+05-20 10:01:00.472   822   822 D TrafficStats: tagSocket(69) with statsTag=0xffffffff, statsUid=-1
+05-20 10:01:00.476   822   822 D TrafficStats: tagSocket(69) with statsTag=0xffffffff, statsUid=-1
+05-20 10:01:00.477   822   822 D TrafficStats: tagSocket(6) with statsTag=0xffffffff, statsUid=-1
+05-20 10:01:00.478   822   822 D TrafficStats: tagSocket(6) with statsTag=0xffffffff, statsUid=-1
+05-20 10:01:00.478   822  5600 D NetworkMonitor/101: PROBE_DNS connectivitycheck.gstatic.com 47ms OK 142.250.204.67,2404:6800:4016:80e::2003
+05-20 10:01:00.478   822  5599 D NetworkMonitor/101: PROBE_DNS www.google.com 47ms OK 142.251.157.119,142.251.153.119,142.251.156.119,142.251.154.119,142.251.151.119,142.251.155.119,142.251.150.119,142.251.152.119,2001:4860:4829:7700::,2001:4860:4827:7700::,2001:4860:482d:7700::,2001:4860:482b:7700::,2001:4860:4828:7700::,2001:4860:482c:7700::,2001:4860:482a:7700::,2001:4860:4826:7700::
+05-20 10:01:00.480   361  5605 I resolv  : GetAddrInfoHandler::run: {101 983141 101 983141 1073 1}
+05-20 10:01:00.480   361  5606 I resolv  : GetAddrInfoHandler::run: {101 983141 101 983141 1073 1}
+05-20 10:01:00.481   361  5607 I resolv  : res_nmkquery: (QUERY, IN, AAAA)
+05-20 10:01:00.481   361  5608 I resolv  : res_nmkquery: (QUERY, IN, AAAA)
+05-20 10:01:00.481   361  5607 I resolv  : resolv_cache_lookup: FOUND IN CACHE entry=0x7ec45274a4d0
+05-20 10:01:00.481   361  5607 I resolv  : doQuery: rcode=0, ancount=1, return value=75
+05-20 10:01:00.481   361  5608 I resolv  : resolv_cache_lookup: FOUND IN CACHE entry=0x7ec4d2746a90
+05-20 10:01:00.481   361  5608 I resolv  : doQuery: rcode=0, ancount=8, return value=256
+05-20 10:01:00.482   361  5610 I resolv  : res_nmkquery: (QUERY, IN, A)
+05-20 10:01:00.482   361  5610 I resolv  : resolv_cache_lookup: FOUND IN CACHE entry=0x7ec452749350
+05-20 10:01:00.482   361  5610 I resolv  : doQuery: rcode=0, ancount=1, return value=63
+05-20 10:01:00.482   822  5600 D TrafficStats: tagSocket(69) with statsTag=0xffffff81, statsUid=-1
+05-20 10:01:00.482   361  5609 I resolv  : res_nmkquery: (QUERY, IN, A)
+05-20 10:01:00.483   361  5609 I resolv  : resolv_cache_lookup: FOUND IN CACHE entry=0x7ec472753070
+05-20 10:01:00.483   361  5609 I resolv  : doQuery: rcode=0, ancount=8, return value=160
+05-20 10:01:00.484   822  5599 D TrafficStats: tagSocket(6) with statsTag=0xffffff81, statsUid=-1
+05-20 10:01:00.621   771   771 D StatusBarIconController: ignoring old pipeline callback because the new wifi icon is enabled
+05-20 10:01:00.681   822  5600 D NetworkMonitor/101: PROBE_HTTP http://connectivitycheck.gstatic.com/generate_204 time=201ms ret=204 request={Connection=[close], User-Agent=[Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.32 Safari/537.36]} headers={null=[HTTP/1.1 204 No Content], Connection=[close], Content-Length=[0], Cross-Origin-Resource-Policy=[cross-origin], Date=[Wed, 20 May 2026 03:01:01 GMT], X-Android-Received-Millis=[1779246060681], X-Android-Response-Source=[NETWORK 204], X-Android-Selected-Protocol=[http/1.1], X-Android-Sent-Millis=[1779246060526]}
+05-20 10:01:00.687   822  5599 D NetworkMonitor/101: PROBE_HTTPS https://www.google.com/generate_204 time=208ms ret=204 request={Connection=[close], User-Agent=[Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.32 Safari/537.36]} headers={null=[HTTP/1.1 204 No Content], Alt-Svc=[h3=":443"; ma=2592000,h3-29=":443"; ma=2592000], Connection=[close], Content-Length=[0], Cross-Origin-Resource-Policy=[cross-origin], Date=[Wed, 20 May 2026 03:01:01 GMT], X-Android-Received-Millis=[1779246060687], X-Android-Response-Source=[NETWORK 204], X-Android-Selected-Protocol=[http/1.1], X-Android-Sent-Millis=[1779246060682]}
+05-20 10:01:00.689   822  5598 D NetworkMonitor/101: isCaptivePortal: isSuccessful()=true isPortal()=false RedirectUrl=null isPartialConnectivity()=false Time=260ms
+05-20 10:01:00.692   549   698 D ConnectivityService: [101 WIFI] validation passed
+05-20 10:01:00.969     0     0 W healthd : battery l=100 v=5000 t=25.0 h=2 st=2 c=900000 fc=3000000 cc=10 chg=a
+05-20 10:01:01.506   549  1609 E TaskPersister: File error accessing recents directory (directory doesn't exist?).
+05-20 10:01:02.619  1640  5583 W A       : [Download] response code: 400
+05-20 10:01:03.618   361   361 I netd    : setProcSysNet(4, 2, wlan0, retrans_time_ms, 750) <0.07ms>
+05-20 10:01:03.618   361   361 I netd    : setProcSysNet(4, 2, wlan0, ucast_solicit, 10) <0.01ms>
+05-20 10:01:03.618   361   361 I netd    : setProcSysNet(6, 2, wlan0, retrans_time_ms, 750) <0.02ms>
+05-20 10:01:03.618   361   361 I netd    : setProcSysNet(6, 2, wlan0, ucast_solicit, 10) <0.01ms>
+05-20 10:01:04.930  5560  5596 E SHIX-jni: StartPPPP m_hSessionHandle:1,szDID:DGOG-HCAM03247542ABAMS
+05-20 10:01:04.930  5560  5596 I CamRelay: PPPPMsg
+05-20 10:01:04.933  5560  5596 D SHIX-jni: ====StartPlaybackChannel====
+05-20 10:01:04.933  5560  5617 D SHIX-jni: ===============AlarmProcess==========================
+05-20 10:01:04.933  5560  5618 D SHIX-jni: ====PlaybackThread-AttachCurrentThread====status:0
+05-20 10:01:04.934  5560  5618 D SHIX-jni: PlaybackProcess=============PlaybackProcess 1024 * 1024 nCurrSize[0]========== productType:0 connectType:2 
+05-20 10:01:04.934  5560  5596 W SHIX-jni: SHIXJNI cgi_get_common:{"pro":"check_user","cmd":100,"devmac":"0000","user":"admin","pwd":"1234"} CMD:80a0
+05-20 10:01:04.934  5560  5596 D SHIX-jni: zhao2-DID: DGOG-HCAM03247542ABAMS
+05-20 10:01:04.935  5560  5596 W SHIX-jni: CommandProcess send Pro PPCS_Write[82]
+05-20 10:01:05.940  5560  5614 W SHIX-jni: ZHAORECEVE CommandRecvProcess res[0] len[131]
+05-20 10:01:05.940  5560  5614 W SHIX-jni: ZHAORECEVE CommandRecvProcess res[0] recv:{
+05-20 10:01:05.940  5560  5614 W SHIX-jni: 	"cmd":	100,
+05-20 10:01:05.940  5560  5614 W SHIX-jni: 	"admin":	1,
+05-20 10:01:05.940  5560  5614 W SHIX-jni: 	"result":	0,
+05-20 10:01:05.940  5560  5614 W SHIX-jni: 	"mode":	110,
+05-20 10:01:05.940  5560  5614 W SHIX-jni: 	"type":	100,
+05-20 10:01:05.940  5560  5614 W SHIX-jni: 	"restrict":	0,
+05-20 10:01:05.940  5560  5614 W SHIX-jni: 	"checkstr":	"SHIX",
+05-20 10:01:05.940  5560  5614 W SHIX-jni: 	"cloud_key":	"685FDC"
+05-20 10:01:05.940  5560  5614 W SHIX-jni: }
+05-20 10:01:05.940  5560  5614 W SHIX-jni: ZHAORECEVE CommandRecvProcess ProcessCommand start cmd:80a1
+05-20 10:01:05.940  5560  5614 D SHIX-jni: ZHAORECEVE ProcessCommand UTF cmd: 32929, len: 131 pbuf:{
+05-20 10:01:05.940  5560  5614 D SHIX-jni: 	"cmd":	100,
+05-20 10:01:05.940  5560  5614 D SHIX-jni: 	"admin":	1,
+05-20 10:01:05.940  5560  5614 D SHIX-jni: 	"result":	0,
+05-20 10:01:05.940  5560  5614 D SHIX-jni: 	"mode":	110,
+05-20 10:01:05.940  5560  5614 D SHIX-jni: 	"type":	100,
+05-20 10:01:05.940  5560  5614 D SHIX-jni: 	"restrict":	0,
+05-20 10:01:05.940  5560  5614 D SHIX-jni: 	"checkstr":	"SHIX",
+05-20 10:01:05.940  5560  5614 D SHIX-jni: 	"cloud_key":	"685FDC"
+05-20 10:01:05.940  5560  5614 D SHIX-jni: }
+05-20 10:01:05.941  5560  5614 D SHIX-jni: SHIXJNI  CHECK result:0, admin:1,mode:110,type:100
+05-20 10:01:05.941  5560  5614 D SHIX-jni: ------------------ pbuf UTF-8----------------
+05-20 10:01:05.941  5560  5614 I CamRelay: TYPEMODE - starting stream thread
+05-20 10:01:05.941  5560  5614 I CamRelay: TYPEMODE: calling StartPPPPLivestream with res=0
+05-20 10:01:05.941  5560  5614 D SHIX-jni: Java_object_p2pipcam_nativecaller_NativeCaller_StartPPPPLivestream:enter
+05-20 10:01:05.941  5560  5614 W SHIX-jni: StartPPPPLivestream  [DGOG-HCAM03247542ABAMS]
+05-20 10:01:05.941  5560  5614 W SHIX-jni: cgi_livestream  bstart[1] streamid[0]  camsmode[0]  [DGOG-HCAM03247542ABAMS]
+05-20 10:01:05.941  5560  5614 W SHIX-jni: cgi_livestream Create
+05-20 10:01:05.941  5560  5614 W SHIX-jni: SHIXJNI cgi_get_common:{"pro":"stream","cmd":111,"video":0,"camsmode":0,"user":"admin","pwd":"1234"} CMD:80a0
+05-20 10:01:05.941  5560  5614 D SHIX-jni: zhao2-DID: DGOG-HCAM03247542ABAMS
+05-20 10:01:05.941  5560  5614 D SHIX-jni: Java_object_p2pipcam_nativecaller_NativeCaller_StartPPPPLivestream:leave
+05-20 10:01:05.941  5560  5614 W CamRelay: Livestream(res=0) returned: 1 - trying res=2...
+05-20 10:01:05.941  5560  5614 D SHIX-jni: Java_object_p2pipcam_nativecaller_NativeCaller_StartPPPPLivestream:enter
+05-20 10:01:05.941  5560  5614 W SHIX-jni: StartPPPPLivestream  [DGOG-HCAM03247542ABAMS]
+05-20 10:01:05.941  5560  5614 W SHIX-jni: cgi_livestream  bstart[1] streamid[2]  camsmode[0]  [DGOG-HCAM03247542ABAMS]
+05-20 10:01:05.941  5560  5614 W SHIX-jni: cgi_livestream Create
+05-20 10:01:05.941  5560  5614 W SHIX-jni: SHIXJNI cgi_get_common:{"pro":"stream","cmd":111,"video":2,"camsmode":0,"user":"admin","pwd":"1234"} CMD:80a0
+05-20 10:01:05.941  5560  5614 D SHIX-jni: zhao2-DID: DGOG-HCAM03247542ABAMS
+05-20 10:01:05.941  5560  5614 D SHIX-jni: Java_object_p2pipcam_nativecaller_NativeCaller_StartPPPPLivestream:leave
+05-20 10:01:05.941  5560  5614 W CamRelay: Livestream(res=2) returned: 1
+05-20 10:01:05.941  5560  5614 W CamRelay: =============================================
+05-20 10:01:05.941  5560  5614 W CamRelay: CAMERA: DGOG-HCAM03247542ABAMS | RELAY: 36.137.199.114 | KEY:685FDC
+05-20 10:01:05.941  5560  5614 W CamRelay: =============================================
+05-20 10:01:05.941  5560  5614 W SHIX-jni: ZHAORECEVE CommandRecvProcess ProcessCommand end
+05-20 10:01:05.947  5560  5596 W SHIX-jni: CommandProcess send Pro PPCS_Write[85]
+05-20 10:01:05.947  5560  5596 W SHIX-jni: CommandProcess send Pro PPCS_Write[85]
+05-20 10:01:06.384   549   639 W CpuMonitorService: Current CPU frequency (4379878) is greater than maximum CPU frequency (2) for policy ID (1). Skipping CPU frequency policy
+05-20 10:01:06.384   549   639 W CpuMonitorService: Current CPU frequency (4459804) is greater than maximum CPU frequency (2) for policy ID (2). Skipping CPU frequency policy
+05-20 10:01:07.391   549   591 W ProcessStats: Tracking association SourceState{d9cb4f7 com.google.android.apps.nexuslauncher/10169 BTop #4819} whose proc state 2 is better than process ProcessState{d9b3c5d com.google.android.googlequicksearchbox:search/10132 pkg=com.google.android.googlequicksearchbox} proc state 5 (83 skipped)
+05-20 10:01:07.392   549   635 W DeviceIdleController: motion timeout went off and device isn't stationary
+05-20 10:01:07.412  1215  4477 I NetworkScheduler.Stats: Task com.google.android.gms/com.google.android.gms.tapandpay.gcmtask.TapAndPayGcmTaskService started execution. cause:4 exec_start_elapsed_seconds: 673 [CONTEXT service_id=218 ]
+05-20 10:01:07.417  1215  4477 V NFC     : this device does not have NFC support
+05-20 10:01:07.419  1215  4477 W TapAndPay: NfcAdapter is null while obtaining CardEmulation instance. [CONTEXT service_id=79 ]
+05-20 10:01:07.419  1215  4477 W TapAndPay: java.lang.NullPointerException: NfcAdapter is null
+05-20 10:01:07.419  1215  4477 W TapAndPay: 	at android.nfc.cardemulation.CardEmulation.getInstance(CardEmulation.java:152)
+05-20 10:01:07.419  1215  4477 W TapAndPay: 	at cdoy.<init>(:com.google.android.gms@231818047@23.18.18 (190800-535401451):0)
+05-20 10:01:07.419  1215  4477 W TapAndPay: 	at com.google.android.gms.tapandpay.hce.task.TapAndPayAidRegistrationTaskOperation.a(:com.google.android.gms@231818047@23.18.18 (190800-535401451):5)
+05-20 10:01:07.419  1215  4477 W TapAndPay: 	at com.google.android.gms.tapandpay.gcmtask.TapAndPayGcmTaskChimeraService.a(:com.google.android.gms@231818047@23.18.18 (190800-535401451):4)
+05-20 10:01:07.419  1215  4477 W TapAndPay: 	at avzs.call(:com.google.android.gms@231818047@23.18.18 (190800-535401451):4)
+05-20 10:01:07.419  1215  4477 W TapAndPay: 	at java.util.concurrent.FutureTask.run(FutureTask.java:264)
+05-20 10:01:07.419  1215  4477 W TapAndPay: 	at aced.c(:com.google.android.gms@231818047@23.18.18 (190800-535401451):6)
+05-20 10:01:07.419  1215  4477 W TapAndPay: 	at aced.run(:com.google.android.gms@231818047@23.18.18 (190800-535401451):7)
+05-20 10:01:07.419  1215  4477 W TapAndPay: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+05-20 10:01:07.419  1215  4477 W TapAndPay: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:644)
+05-20 10:01:07.419  1215  4477 W TapAndPay: 	at acjn.run(:com.google.android.gms@231818047@23.18.18 (190800-535401451):0)
+05-20 10:01:07.419  1215  4477 W TapAndPay: 	at java.lang.Thread.run(Thread.java:1012)
+05-20 10:01:07.425  1215  4477 I NetworkScheduler.Stats: Task com.google.android.gms/com.google.android.gms.tapandpay.gcmtask.TapAndPayGcmTaskService finished executing. cause:4 result: 3 elapsed_millis: 20 uptime_millis: 20 exec_start_elapsed_seconds: 673 [CONTEXT service_id=218 ]
+05-20 10:01:07.457   759   759 I wpa_supplicant: wlan0: CTRL-EVENT-BEACON-LOSS 
+05-20 10:01:07.493   549  2079 D ActivityManager: sync unfroze 1671 com.google.android.gms for 6
+05-20 10:01:07.506  1215  4651 I NetworkScheduler.Stats: Task com.google.android.gms/com.google.android.gms.wallet.service.WalletGcmTaskService started execution. cause:5 exec_start_elapsed_seconds: 674 [CONTEXT service_id=218 ]
+05-20 10:01:07.507  1215  4477 I NetworkScheduler.Stats: Task com.google.android.gms/com.google.android.gms.gass.chimera.SchedulePeriodicTasksService started execution. cause:5 exec_start_elapsed_seconds: 674 [CONTEXT service_id=218 ]
+05-20 10:01:07.509  1671  4783 I WalletGcmTaskService: Running GcmTask w/ tag INSTANTBUY_SYNC_GCM_TASK_STEP_1
+05-20 10:01:07.515  1215  4651 I NetworkScheduler.Stats: Task com.google.android.gms/com.google.android.gms.wallet.service.WalletGcmTaskService finished executing. cause:5 result: 1 elapsed_millis: 73 uptime_millis: 73 exec_start_elapsed_seconds: 674 [CONTEXT service_id=218 ]
+05-20 10:01:07.522  1215  4651 I NetworkScheduler.Stats: Task com.google.android.gms/com.google.android.gms.gass.chimera.SchedulePeriodicTasksService finished executing. cause:5 result: 1 elapsed_millis: 69 uptime_millis: 69 exec_start_elapsed_seconds: 674 [CONTEXT service_id=218 ]
+05-20 10:01:07.535  1215  4651 I NetworkScheduler.Stats: Task com.google.android.gms/com.google.android.gms.auth.account.be.legacy.AuthCronService started execution. cause:5 exec_start_elapsed_seconds: 674 [CONTEXT service_id=218 ]
+05-20 10:01:07.540  5560  5615 W SHIX-jni: DataProcess avhead.type:3, avhead.streamid:3, avhead.militime:0, avhead.sectime:0, avhead.len:3612, avhead.frameno:358
+05-20 10:01:07.540  5560  5615 D SHIX-jni: SHIXDEC CH264Decoder-h264_h265:1 
+05-20 10:01:07.541  5560  5615 W SHIX-jni: SHIXDEC  ENUM_FRAME_TYPE_H264
+05-20 10:01:07.541  5560  5615 W SHIX-jni: 
+05-20 10:01:07.541  5560  5615 W SHIX-jni: DataProcess  m_EnumVideoMode: 0
+05-20 10:01:07.541  5560  5615 W SHIX-jni: DataProcess  m_avhead.type: 3
+05-20 10:01:07.542  5560  5615 W SHIX-jni: DataProcess  write MJ: 3660
+05-20 10:01:07.542  5560  5621 D SHIX-jni: PlayThread:enter
+05-20 10:01:07.542  5560  5621 I CamRelay: VIDEO len=3612
+05-20 10:01:07.548   549  5544 D ActivityManager: sync unfroze 2891 com.google.android.gms.unstable for 6
+05-20 10:01:07.600  2891  5622 W libc    : Access denied finding property "persist.adb.tls_server.enable"
+05-20 10:01:07.600  2891  5622 W libc    : Access denied finding property "service.adb.tls.port"
+05-20 10:01:07.595  2891  2891 W binder:2891_8: type=1400 audit(0.0:32): avc:  denied  { read } for  name="u:object_r:system_adbd_prop:s0" dev="tmpfs" ino=292 scontext=u:r:gmscore_app:s0:c512,c768 tcontext=u:object_r:system_adbd_prop:s0 tclass=file permissive=0 app=com.google.android.gms
+05-20 10:01:07.595  2891  2891 W binder:2891_8: type=1400 audit(0.0:33): avc:  denied  { read } for  name="u:object_r:adbd_prop:s0" dev="tmpfs" ino=60 scontext=u:r:gmscore_app:s0:c512,c768 tcontext=u:object_r:adbd_prop:s0 tclass=file permissive=0 app=com.google.android.gms
+05-20 10:01:07.617   361  5625 I resolv  : GetAddrInfoHandler::run: {101 786533 101 983141 10129 0}
+05-20 10:01:07.617  2891  5622 D TrafficStats: tagSocket(80) with statsTag=0x1809, statsUid=-1
+05-20 10:01:07.627  1215  1334 W GmsUrlRequestImpl: Content-Type header is overwritten.
+05-20 10:01:07.628   361  5626 I resolv  : GetAddrInfoHandler::run: {101 786533 101 983141 10129 0}
+05-20 10:01:07.628   361  5627 I resolv  : res_nmkquery: (QUERY, IN, AAAA)
+05-20 10:01:07.628   361  5628 I resolv  : res_nmkquery: (QUERY, IN, A)
+05-20 10:01:07.738   361  5627 I resolv  : res_nsend: used send_dg 152 terrno: 0
+05-20 10:01:07.738   361  5628 I resolv  : res_nsend: used send_dg 104 terrno: 0
+05-20 10:01:07.738   361  5627 I resolv  : doQuery: rcode=0, ancount=4, return value=152
+05-20 10:01:07.738   361  5628 I resolv  : doQuery: rcode=0, ancount=4, return value=104
+05-20 10:01:07.740  1215  4028 D TrafficStats: tagSocket(219) with statsTag=0x401, statsUid=10129
+05-20 10:01:07.748  5560  5615 W SHIX-jni: DataProcess avhead.type:3, avhead.streamid:3, avhead.militime:0, avhead.sectime:0, avhead.len:3684, avhead.frameno:359
+05-20 10:01:07.748  5560  5615 W SHIX-jni: DataProcess  m_EnumVideoMode: 0
+05-20 10:01:07.748  5560  5615 W SHIX-jni: DataProcess  m_avhead.type: 3
+05-20 10:01:07.748  5560  5615 W SHIX-jni: DataProcess  write MJ: 3732
+05-20 10:01:07.750  5560  5621 I CamRelay: VIDEO len=3684
+05-20 10:01:07.852  1215  1334 W GLSUser : [AppCertManager] Exception while requesting key: 
+05-20 10:01:07.852  1215  1334 W GLSUser : java.util.concurrent.ExecutionException: avvw: Parse Proto Exception.
+05-20 10:01:07.852  1215  1334 W GLSUser : 	at dlnv.s(:com.google.android.gms@231818047@23.18.18 (190800-535401451):3)
+05-20 10:01:07.852  1215  1334 W GLSUser : 	at dlnv.get(:com.google.android.gms@231818047@23.18.18 (190800-535401451):7)
+05-20 10:01:07.852  1215  1334 W GLSUser : 	at oub.b(:com.google.android.gms@231818047@23.18.18 (190800-535401451):78)
+05-20 10:01:07.852  1215  1334 W GLSUser : 	at otz.b(:com.google.android.gms@231818047@23.18.18 (190800-535401451):4)
+05-20 10:01:07.852  1215  1334 W GLSUser : 	at otu.a(:com.google.android.gms@231818047@23.18.18 (190800-535401451):0)
+05-20 10:01:07.852  1215  1334 W GLSUser : 	at otx.a(:com.google.android.gms@231818047@23.18.18 (190800-535401451):6)
+05-20 10:01:07.852  1215  1334 W GLSUser : 	at lzq.call(:com.google.android.gms@231818047@23.18.18 (190800-535401451):14)
+05-20 10:01:07.852  1215  1334 W GLSUser : 	at java.util.concurrent.FutureTask.run(FutureTask.java:264)
+05-20 10:01:07.852  1215  1334 W GLSUser : 	at aced.c(:com.google.android.gms@231818047@23.18.18 (190800-535401451):6)
+05-20 10:01:07.852  1215  1334 W GLSUser : 	at aced.run(:com.google.android.gms@231818047@23.18.18 (190800-535401451):7)
+05-20 10:01:07.852  1215  1334 W GLSUser : 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+05-20 10:01:07.852  1215  1334 W GLSUser : 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:644)
+05-20 10:01:07.852  1215  1334 W GLSUser : 	at acjn.run(:com.google.android.gms@231818047@23.18.18 (190800-535401451):0)
+05-20 10:01:07.852  1215  1334 W GLSUser : 	at java.lang.Thread.run(Thread.java:1012)
+05-20 10:01:07.852  1215  1334 W GLSUser : Caused by: avvw: Parse Proto Exception.
+05-20 10:01:07.852  1215  1334 W GLSUser : 	at avwn.f(:com.google.android.gms@231818047@23.18.18 (190800-535401451):5)
+05-20 10:01:07.852  1215  1334 W GLSUser : 	at avxk.onSucceeded(:com.google.android.gms@231818047@23.18.18 (190800-535401451):0)
+05-20 10:01:07.852  1215  1334 W GLSUser : 	at jf.onSucceeded(:com.google.android.gms.dynamite_cronetdynamite@231818047@23.18.18 (190800-0):0)
+05-20 10:01:07.852  1215  1334 W GLSUser : 	at ie.run(:com.google.android.gms.dynamite_cronetdynamite@231818047@23.18.18 (190800-0):4)
+05-20 10:01:07.852  1215  1334 W GLSUser : 	... 6 more
+05-20 10:01:07.852  1215  1334 W GLSUser : Caused by: dzfz: Protocol message contained an invalid tag (zero).
+05-20 10:01:07.852  1215  1334 W GLSUser : 	at dzdb.k(:com.google.android.gms@231818047@23.18.18 (190800-535401451):13)
+05-20 10:01:07.852  1215  1334 W GLSUser : 	at dzha.c(:com.google.android.gms@231818047@23.18.18 (190800-535401451):47)
+05-20 10:01:07.852  1215  1334 W GLSUser : 	at dzha.h(:com.google.android.gms@231818047@23.18.18 (190800-535401451):45)
+05-20 10:01:07.852  1215  1334 W GLSUser : 	at dzfd.A(:com.google.android.gms@231818047@23.18.18 (190800-535401451):2)
+05-20 10:01:07.852  1215  1334 W GLSUser : 	at dzex.f(:com.google.android.gms@231818047@23.18.18 (190800-535401451):0)
+05-20 10:01:07.852  1215  1334 W GLSUser : 	at dzcx.d(:com.google.android.gms@231818047@23.18.18 (190800-535401451):0)
+05-20 10:01:07.852  1215  1334 W GLSUser : 	at dzcx.c(:com.google.android.gms@231818047@23.18.18 (190800-535401451):0)
+05-20 10:01:07.852  1215  1334 W GLSUser : 	at dzcx.n(:com.google.android.gms@231818047@23.18.18 (190800-535401451):0)
+05-20 10:01:07.852  1215  1334 W GLSUser : 	at avwn.h(:com.google.android.gms@231818047@23.18.18 (190800-535401451):7)
+05-20 10:01:07.852  1215  1334 W GLSUser : 	at avwn.f(:com.google.android.gms@231818047@23.18.18 (190800-535401451):1)
+05-20 10:01:07.852  1215  1334 W GLSUser : 	... 9 more
+05-20 10:01:07.859  1215  4477 I NetworkScheduler.Stats: Task com.google.android.gms/com.google.android.gms.auth.account.be.legacy.AuthCronService finished executing. cause:5 result: 3 elapsed_millis: 332 uptime_millis: 332 exec_start_elapsed_seconds: 674 [CONTEXT service_id=218 ]
+05-20 10:01:07.965  5560  5615 W SHIX-jni: DataProcess avhead.type:3, avhead.streamid:3, avhead.militime:0, avhead.sectime:0, avhead.len:3788, avhead.frameno:360
+05-20 10:01:07.965  5560  5615 W SHIX-jni: DataProcess  m_EnumVideoMode: 0
+05-20 10:01:07.966  5560  5615 W SHIX-jni: DataProcess  m_avhead.type: 3
+05-20 10:01:07.966  5560  5615 W SHIX-jni: DataProcess  write MJ: 3836
+05-20 10:01:07.973   549  5544 W AppOps  : Noting op not finished: uid 10129 pkg com.google.android.gms code 113 startTime of in progress event=1779245415773
+05-20 10:01:07.976  5560  5621 I CamRelay: VIDEO len=3788
+05-20 10:01:07.976   549  5544 W AppOps  : Noting op not finished: uid 10129 pkg com.google.android.gms code 113 startTime of in progress event=1779245415773
+05-20 10:01:07.979   549  5544 W AlarmManager: Window length 3074457345618258602ms too long; limiting to 1 day
+05-20 10:01:08.177  5560  5615 W SHIX-jni: DataProcess avhead.type:3, avhead.streamid:3, avhead.militime:0, avhead.sectime:0, avhead.len:3820, avhead.frameno:361
+05-20 10:01:08.177  5560  5615 W SHIX-jni: DataProcess  m_EnumVideoMode: 0
+05-20 10:01:08.177  5560  5615 W SHIX-jni: DataProcess  m_avhead.type: 3
+05-20 10:01:08.177  5560  5615 W SHIX-jni: DataProcess  write MJ: 3868
+05-20 10:01:08.186  5560  5621 I CamRelay: VIDEO len=3820
+05-20 10:01:08.389  5560  5615 W SHIX-jni: DataProcess avhead.type:3, avhead.streamid:3, avhead.militime:0, avhead.sectime:0, avhead.len:3892, avhead.frameno:362
+05-20 10:01:08.389  5560  5615 W SHIX-jni: DataProcess  m_EnumVideoMode: 0
+05-20 10:01:08.389  5560  5615 W SHIX-jni: DataProcess  m_avhead.type: 3
+05-20 10:01:08.390  5560  5615 W SHIX-jni: DataProcess  write MJ: 3940
+05-20 10:01:08.396  5560  5621 I CamRelay: VIDEO len=3892
+05-20 10:01:08.599  5560  5615 W SHIX-jni: DataProcess avhead.type:3, avhead.streamid:3, avhead.militime:0, avhead.sectime:0, avhead.len:7160, avhead.frameno:363
+05-20 10:01:08.620  5560  5615 W SHIX-jni: DataProcess  m_EnumVideoMode: 0
+05-20 10:01:08.620  5560  5615 W SHIX-jni: DataProcess  m_avhead.type: 3
+05-20 10:01:08.620  5560  5615 W SHIX-jni: DataProcess  write MJ: 7208
+05-20 10:01:08.628  5560  5621 I CamRelay: VIDEO len=7160
+05-20 10:01:08.810  5560  5615 W SHIX-jni: DataProcess avhead.type:3, avhead.streamid:3, avhead.militime:0, avhead.sectime:0, avhead.len:7192, avhead.frameno:364
+05-20 10:01:08.851  5560  5615 W SHIX-jni: DataProcess  m_EnumVideoMode: 0
+05-20 10:01:08.851  5560  5615 W SHIX-jni: DataProcess  m_avhead.type: 3
+05-20 10:01:08.851  5560  5615 W SHIX-jni: DataProcess  write MJ: 7240
+05-20 10:01:08.861  5560  5621 I CamRelay: VIDEO len=7192
+05-20 10:01:09.018  5560  5615 W SHIX-jni: DataProcess avhead.type:3, avhead.streamid:3, avhead.militime:0, avhead.sectime:0, avhead.len:7208, avhead.frameno:365
+05-20 10:01:09.059  5560  5615 W SHIX-jni: DataProcess  m_EnumVideoMode: 0
+05-20 10:01:09.059  5560  5615 W SHIX-jni: DataProcess  m_avhead.type: 3
+05-20 10:01:09.059  5560  5615 W SHIX-jni: DataProcess  write MJ: 7256
+05-20 10:01:09.060  5560  5621 I CamRelay: VIDEO len=7208
+05-20 10:01:09.208  5560  5615 W SHIX-jni: DataProcess avhead.type:3, avhead.streamid:3, avhead.militime:0, avhead.sectime:0, avhead.len:7124, avhead.frameno:366
+05-20 10:01:09.250  5560  5615 W SHIX-jni: DataProcess  m_EnumVideoMode: 0
+05-20 10:01:09.250  5560  5615 W SHIX-jni: DataProcess  m_avhead.type: 3
+05-20 10:01:09.250  5560  5615 W SHIX-jni: DataProcess  write MJ: 7172
+05-20 10:01:09.251  5560  5621 I CamRelay: VIDEO len=7124
+05-20 10:01:09.320   771   771 D StatusBarIconController: ignoring old pipeline callbacks, because the new mobile icons are enabled
+05-20 10:01:09.440  5560  5615 W SHIX-jni: DataProcess avhead.type:3, avhead.streamid:3, avhead.militime:0, avhead.sectime:0, avhead.len:7112, avhead.frameno:367
+05-20 10:01:09.460  5560  5615 W SHIX-jni: DataProcess  m_EnumVideoMode: 0
+05-20 10:01:09.461  5560  5615 W SHIX-jni: DataProcess  m_avhead.type: 3
+05-20 10:01:09.461  5560  5615 W SHIX-jni: DataProcess  write MJ: 7160
+05-20 10:01:09.469  5560  5621 I CamRelay: VIDEO len=7112
+05-20 10:01:09.648  5560  5615 W SHIX-jni: DataProcess avhead.type:3, avhead.streamid:3, avhead.militime:0, avhead.sectime:0, avhead.len:7164, avhead.frameno:368
+05-20 10:01:09.667   549   643 D ActivityManager: freezing 5560 shix.cam365.camera
+05-20 10:01:13.381   863  1113 D BtGatt.ScanManager: uid 10129 isForeground true scanMode -1
+05-20 10:01:15.393   759   759 I wpa_supplicant: wlan0: CTRL-EVENT-BEACON-LOSS 
+05-20 10:01:15.637   771   771 D StatusBarIconController: ignoring old pipeline callback because the new wifi icon is enabled
+05-20 10:01:17.552   549   643 D ActivityManager: freezing 1671 com.google.android.gms
+05-20 10:01:19.321   771   771 D StatusBarIconController: ignoring old pipeline callbacks, because the new mobile icons are enabled
+05-20 10:01:19.340   771   912 D EGL_emulation: app_time_stats: avg=6722.07ms min=21.89ms max=19310.17ms count=3
+05-20 10:01:22.652   549   643 D ActivityManager: freezing 2891 com.google.android.gms.unstable
+05-20 10:01:23.329   759   759 I wpa_supplicant: wlan0: CTRL-EVENT-BEACON-LOSS 
+05-20 10:01:29.320   771   771 D StatusBarIconController: ignoring old pipeline callbacks, because the new mobile icons are enabled
+05-20 10:01:31.265   759   759 I wpa_supplicant: wlan0: CTRL-EVENT-BEACON-LOSS 
+05-20 10:01:33.672   771   771 D StatusBarIconController: ignoring old pipeline callback because the new wifi icon is enabled
+05-20 10:01:39.338   771   771 D StatusBarIconController: ignoring old pipeline callbacks, because the new mobile icons are enabled
+05-20 10:01:39.456   759   759 I wpa_supplicant: wlan0: CTRL-EVENT-BEACON-LOSS 
+05-20 10:01:39.671   771   771 D StatusBarIconController: ignoring old pipeline callback because the new wifi icon is enabled
+05-20 10:01:40.419   549   698 D ConnectivityService: releasing NetworkRequest [ REQUEST id=156, [ Transports: CELLULAR Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VPN&NOT_VCN_MANAGED Uid: 10132 RequestorUid: 10132 RequestorPkg: com.google.android.googlequicksearchbox UnderlyingNetworks: Null] ] (release request)
+05-20 10:01:40.420   549   698 I ConnectivityService: Update capabilities for net 100 : -FOREGROUND
+05-20 10:01:40.422   361   361 I netd    : networkSetPermissionForNetwork(100, 1) <1.96ms>
+05-20 10:01:42.671   771   771 D StatusBarIconController: ignoring old pipeline callback because the new wifi icon is enabled
+05-20 10:01:45.687   771   771 D StatusBarIconController: ignoring old pipeline callback because the new wifi icon is enabled
+05-20 10:01:47.393   759   759 I wpa_supplicant: wlan0: CTRL-EVENT-BEACON-LOSS 
+05-20 10:01:48.686   771   771 D StatusBarIconController: ignoring old pipeline callback because the new wifi icon is enabled
+05-20 10:01:49.338   771   771 D StatusBarIconController: ignoring old pipeline callbacks, because the new mobile icons are enabled
+05-20 10:01:53.793   549  2770 W BatteryExternalStatsWorker: error reading Bluetooth stats: 11
+05-20 10:01:55.329   759   759 I wpa_supplicant: wlan0: CTRL-EVENT-BEACON-LOSS 

@@ -1,0 +1,190 @@
+strace: Process 5466 attached with 26 threads
+[pid  5499] sendto(85, "\0\r\0S\10\0\0\37\0R\0!", 12, 0, {sa_family=AF_INET, sin_port=htons(55226), sin_addr=inet_addr("36.137.199.114")}, 16 <unfinished ...>
+[pid  5500] sendto(85, "\5", 1, 0, {sa_family=AF_INET, sin_port=htons(55226), sin_addr=inet_addr("36.137.199.114")}, 16) = 1
+[pid  5499] <... sendto resumed> )      = 12
+[pid  5499] sendto(85, "\0\r\0T\10\0\0 \0S\4L", 12, 0, {sa_family=AF_INET, sin_port=htons(55226), sin_addr=inet_addr("36.137.199.114")}, 16) = 12
+strace: Process 5527 attached
+[pid  5499] sendto(85, "\0\r\0U\10\0\0 \0T\4L", 12, 0, {sa_family=AF_INET, sin_port=htons(55226), sin_addr=inet_addr("36.137.199.114")}, 16) = 12
+[pid  5483] write(66, "\1\0\0\0\0\0\0\0", 8 <unfinished ...>
+[pid  5499] sendto(85, "\0\r\0V\10\0\0 \0U\4L", 12, 0, {sa_family=AF_INET, sin_port=htons(55226), sin_addr=inet_addr("36.137.199.114")}, 16 <unfinished ...>
+[pid  5483] <... write resumed> )       = 8
+[pid  5499] <... sendto resumed> )      = 12
+[pid  5499] sendto(85, "\0\r\0W\10\0\0 \0V\3\35", 12, 0, {sa_family=AF_INET, sin_port=htons(55226), sin_addr=inet_addr("36.137.199.114")}, 16) = 12
+[pid  5499] sendto(85, "\0\r\0X\10\0\0!\0W\4L", 12, 0, {sa_family=AF_INET, sin_port=htons(55226), sin_addr=inet_addr("36.137.199.114")}, 16) = 12
+[pid  5499] sendto(85, "\0\r\0Y\10\0\0!\0X\4L", 12, 0, {sa_family=AF_INET, sin_port=htons(55226), sin_addr=inet_addr("36.137.199.114")}, 16) = 12
+[pid  5513] writev(79, [{iov_base="\0\211\25\225#\rjI8}\2", iov_len=11}, {iov_base="\5", iov_len=1}, {iov_base="SHIX-jni\0", iov_len=9}, {iov_base="DataProcess avhead.type:3, avhea"..., iov_len=120}], 4) = 141
+[pid  5499] sendto(85, "\0\r\0Z\10\0\0!\0Y\1\231", 12, 0, {sa_family=AF_INET, sin_port=htons(55226), sin_addr=inet_addr("36.137.199.114")}, 16) = 12
+[pid  5513] writev(80, [{iov_base="l\224\0\323'Z\25", iov_len=7}, {iov_base="\0\211\25\225#\rjI8}\2", iov_len=11}, {iov_base="\5", iov_len=1}, {iov_base="SHIX-jni\0", iov_len=9}, {iov_base="DataProcess avhead.type:3, avhea"..., iov_len=120}], 5) = 148
+[pid  5466] write(73, "\1\0\0\0\0\0\0\0", 8 <unfinished ...>
+[pid  5499] sendto(85, "\0\r\0[\10\0\0\"\0Z\0!", 12, 0, {sa_family=AF_INET, sin_port=htons(55226), sin_addr=inet_addr("36.137.199.114")}, 16 <unfinished ...>
+[pid  5466] <... write resumed> )       = 8
+[pid  5513] writev(79, [{iov_base="\0\211\25\225#\rj\33,<\3", iov_len=11}, {iov_base="\5", iov_len=1}, {iov_base="SHIX-jni\0", iov_len=9}, {iov_base="DataProcess  m_EnumVideoMode: 0\0", iov_len=32}], 4 <unfinished ...>
+[pid  5499] <... sendto resumed> )      = 12
+[pid  5513] <... writev resumed> )      = 53
+[pid  5513] writev(80, [{iov_base="l<\0\323'Z\25", iov_len=7}, {iov_base="\0\211\25\225#\rj\33,<\3", iov_len=11}, {iov_base="\5", iov_len=1}, {iov_base="SHIX-jni\0", iov_len=9}, {iov_base="DataProcess  m_EnumVideoMode: 0\0", iov_len=32}], 5 <unfinished ...>
+[pid  5499] sendto(85, "\0\r\0\\\10\0\0#\0[\4L", 12, 0, {sa_family=AF_INET, sin_port=htons(55226), sin_addr=inet_addr("36.137.199.114")}, 16 <unfinished ...>
+[pid  5513] <... writev resumed> )      = 60
+[pid  5499] <... sendto resumed> )      = 12
+[pid  5513] writev(79, [{iov_base="\0\211\25\225#\rj\303I\272\3", iov_len=11}, {iov_base="\5", iov_len=1}, {iov_base="SHIX-jni\0", iov_len=9}, {iov_base="DataProcess  m_avhead.type: 3\0", iov_len=30}], 4) = 51
+[pid  5513] writev(80, [{iov_base="l:\0\323'Z\25", iov_len=7}, {iov_base="\0\211\25\225#\rj\303I\272\3", iov_len=11}, {iov_base="\5", iov_len=1}, {iov_base="SHIX-jni\0", iov_len=9}, {iov_base="DataProcess  m_avhead.type: 3\0", iov_len=30}], 5) = 58
+[pid  5499] sendto(85, "\0\r\0]\10\0\0#\0\\\4L", 12, 0, {sa_family=AF_INET, sin_port=htons(55226), sin_addr=inet_addr("36.137.199.114")}, 16) = 12
+[pid  5513] writev(79, [{iov_base="\0\211\25\225#\rjj\226(\4", iov_len=11}, {iov_base="\5", iov_len=1}, {iov_base="SHIX-jni\0", iov_len=9}, {iov_base="DataProcess  write MJ: 6752\0", iov_len=28}], 4) = 49
+[pid  5513] writev(80, [{iov_base="l8\0\323'Z\25", iov_len=7}, {iov_base="\0\211\25\225#\rjj\226(\4", iov_len=11}, {iov_base="\5", iov_len=1}, {iov_base="SHIX-jni\0", iov_len=9}, {iov_base="DataProcess  write MJ: 6752\0", iov_len=28}], 5) = 56
+[pid  5513] writev(79, [{iov_base="\0\211\25\225#\rj\375\247P\4", iov_len=11}, {iov_base="\5", iov_len=1}, {iov_base="SHIX-jni\0", iov_len=9}, {iov_base="DataProcess avhead.type:3, avhea"..., iov_len=120}], 4 <unfinished ...>
+[pid  5499] sendto(85, "\0\r\0^\10\0\0#\0]\4L", 12, 0, {sa_family=AF_INET, sin_port=htons(55226), sin_addr=inet_addr("36.137.199.114")}, 16 <unfinished ...>
+[pid  5513] <... writev resumed> )      = 141
+[pid  5499] <... sendto resumed> )      = 12
+[pid  5513] writev(80, [{iov_base="l\224\0\323'Z\25", iov_len=7}, {iov_base="\0\211\25\225#\rj\375\247P\4", iov_len=11}, {iov_base="\5", iov_len=1}, {iov_base="SHIX-jni\0", iov_len=9}, {iov_base="DataProcess avhead.type:3, avhea"..., iov_len=120}], 5) = 148
+[pid  5477] writev(3, [{iov_base="\0e\25\225#\rj\27\235\323\4", iov_len=11}, {iov_base="\5", iov_len=1}, {iov_base="x.cam365.camera\0", iov_len=16}, {iov_base="Cleared Reference was only reach"..., iov_len=73}], 4) = 101
+[pid  5499] sendto(85, "\0\r\0_\10\0\0#\0^\3\35", 12, 0, {sa_family=AF_INET, sin_port=htons(55226), sin_addr=inet_addr("36.137.199.114")}, 16 <unfinished ...>
+[pid  5477] writev(4, [{iov_base="ll\0\323'Z\25", iov_len=7}, {iov_base="\0e\25\225#\rj\27\235\323\4", iov_len=11}, {iov_base="\5", iov_len=1}, {iov_base="x.cam365.camera\0", iov_len=16}, {iov_base="Cleared Reference was only reach"..., iov_len=73}], 5 <unfinished ...>
+[pid  5499] <... sendto resumed> )      = 12
+[pid  5477] <... writev resumed> )      = 108
+[pid  5499] sendto(85, "\0\r\0`\10\0\0$\0_\4L", 12, 0, {sa_family=AF_INET, sin_port=htons(55226), sin_addr=inet_addr("36.137.199.114")}, 16) = 12
+[pid  5517] writev(3, [{iov_base="\0\215\25\225#\rj\210A\361\4", iov_len=11}, {iov_base="\4", iov_len=1}, {iov_base="CamRelay\0", iov_len=9}, {iov_base="VIDEO len=6704\0", iov_len=15}], 4) = 36
+[pid  5499] sendto(85, "\0\r\0a\10\0\0$\0`\4L", 12, 0, {sa_family=AF_INET, sin_port=htons(55226), sin_addr=inet_addr("36.137.199.114")}, 16 <unfinished ...>
+[pid  5517] writev(4, [{iov_base="l+\0\323'Z\25", iov_len=7}, {iov_base="\0\215\25\225#\rj\210A\361\4", iov_len=11}, {iov_base="\4", iov_len=1}, {iov_base="CamRelay\0", iov_len=9}, {iov_base="VIDEO len=6704\0", iov_len=15}], 5 <unfinished ...>
+[pid  5499] <... sendto resumed> )      = 12
+[pid  5499] sendto(85, "\0\r\0b\10\0\0$\0a\1e", 12, 0, {sa_family=AF_INET, sin_port=htons(55226), sin_addr=inet_addr("36.137.199.114")}, 16) = 12
+[pid  5499] sendto(85, "\0\r\0c\10\0\0%\0b\0!", 12, 0, {sa_family=AF_INET, sin_port=htons(55226), sin_addr=inet_addr("36.137.199.114")}, 16) = 12
+[pid  5499] sendto(85, "\0\r\0d\10\0\0&\0c\4L", 12, 0, {sa_family=AF_INET, sin_port=htons(55226), sin_addr=inet_addr("36.137.199.114")}, 16) = 12
+[pid  5517] <... writev resumed> )      = 43
+[pid  5499] sendto(85, "\0\r\0e\10\0\0&\0d\4L", 12, 0, {sa_family=AF_INET, sin_port=htons(55226), sin_addr=inet_addr("36.137.199.114")}, 16) = 12
+[pid  5517] write(87, "\377\330\377\333\0\204\0\10\6\6\7\6\5\10\7\7\7\t\t\10\n\f\24\r\f\v\v\f\31\22\23\17"..., 6704) = 6704
+[pid  5499] sendto(85, "\0\r\0f\10\0\0&\0e\4L", 12, 0, {sa_family=AF_INET, sin_port=htons(55226), sin_addr=inet_addr("36.137.199.114")}, 16) = 12
+[pid  5499] sendto(85, "\0\r\0g\10\0\0&\0f\3\35", 12, 0, {sa_family=AF_INET, sin_port=htons(55226), sin_addr=inet_addr("36.137.199.114")}, 16) = 12
+[pid  5499] sendto(85, "\0\r\0h\10\0\0'\0g\4L", 12, 0, {sa_family=AF_INET, sin_port=htons(55226), sin_addr=inet_addr("36.137.199.114")}, 16) = 12
+[pid  5513] writev(79, [{iov_base="\0\211\25\225#\rjf\2\317\5", iov_len=11}, {iov_base="\5", iov_len=1}, {iov_base="SHIX-jni\0", iov_len=9}, {iov_base="DataProcess  m_EnumVideoMode: 0\0", iov_len=32}], 4) = 53
+[pid  5513] writev(80, [{iov_base="l<\0\323'Z\25", iov_len=7}, {iov_base="\0\211\25\225#\rjf\2\317\5", iov_len=11}, {iov_base="\5", iov_len=1}, {iov_base="SHIX-jni\0", iov_len=9}, {iov_base="DataProcess  m_EnumVideoMode: 0\0", iov_len=32}], 5) = 60
+[pid  5499] sendto(85, "\0\r\0i\10\0\0'\0h\4L", 12, 0, {sa_family=AF_INET, sin_port=htons(55226), sin_addr=inet_addr("36.137.199.114")}, 16 <unfinished ...>
+[pid  5513] writev(79, [{iov_base="\0\211\25\225#\rj\331x\357\5", iov_len=11}, {iov_base="\5", iov_len=1}, {iov_base="SHIX-jni\0", iov_len=9}, {iov_base="DataProcess  m_avhead.type: 3\0", iov_len=30}], 4) = 51
+[pid  5499] <... sendto resumed> )      = 12
+[pid  5513] writev(80, [{iov_base="l:\0\323'Z\25", iov_len=7}, {iov_base="\0\211\25\225#\rj\331x\357\5", iov_len=11}, {iov_base="\5", iov_len=1}, {iov_base="SHIX-jni\0", iov_len=9}, {iov_base="DataProcess  m_avhead.type: 3\0", iov_len=30}], 5) = 58
+[pid  5513] writev(79, [{iov_base="\0\211\25\225#\rj\255\34\34\6", iov_len=11}, {iov_base="\5", iov_len=1}, {iov_base="SHIX-jni\0", iov_len=9}, {iov_base="DataProcess  write MJ: 6700\0", iov_len=28}], 4 <unfinished ...>
+[pid  5499] sendto(85, "\0\r\0j\10\0\0'\0i\1m", 12, 0, {sa_family=AF_INET, sin_port=htons(55226), sin_addr=inet_addr("36.137.199.114")}, 16 <unfinished ...>
+[pid  5513] <... writev resumed> )      = 49
+[pid  5499] <... sendto resumed> )      = 12
+[pid  5513] writev(80, [{iov_base="l8\0\323'Z\25", iov_len=7}, {iov_base="\0\211\25\225#\rj\255\34\34\6", iov_len=11}, {iov_base="\5", iov_len=1}, {iov_base="SHIX-jni\0", iov_len=9}, {iov_base="DataProcess  write MJ: 6700\0", iov_len=28}], 5) = 56
+[pid  5499] sendto(85, "\0\r\0j\10\0\0\37\0R\0!", 12, 0, {sa_family=AF_INET, sin_port=htons(55226), sin_addr=inet_addr("36.137.199.114")}, 16 <unfinished ...>
+[pid  5513] writev(79, [{iov_base="\0\211\25\225#\rj\304\232:\6", iov_len=11}, {iov_base="\5", iov_len=1}, {iov_base="SHIX-jni\0", iov_len=9}, {iov_base="DataProcess avhead.type:3, avhea"..., iov_len=120}], 4 <unfinished ...>
+[pid  5499] <... sendto resumed> )      = 12
+[pid  5513] <... writev resumed> )      = 141
+[pid  5517] writev(3, [{iov_base="\0\215\25\225#\rj\267\321W\6", iov_len=11}, {iov_base="\4", iov_len=1}, {iov_base="CamRelay\0", iov_len=9}, {iov_base="VIDEO len=6652\0", iov_len=15}], 4) = 36
+[pid  5513] writev(80, [{iov_base="l\224\0\323'Z\25", iov_len=7}, {iov_base="\0\211\25\225#\rj\304\232:\6", iov_len=11}, {iov_base="\5", iov_len=1}, {iov_base="SHIX-jni\0", iov_len=9}, {iov_base="DataProcess avhead.type:3, avhea"..., iov_len=120}], 5) = 148
+[pid  5517] writev(4, [{iov_base="l+\0\323'Z\25", iov_len=7}, {iov_base="\0\215\25\225#\rj\267\321W\6", iov_len=11}, {iov_base="\4", iov_len=1}, {iov_base="CamRelay\0", iov_len=9}, {iov_base="VIDEO len=6652\0", iov_len=15}], 5) = 43
+[pid  5513] writev(79, [{iov_base="\0\211\25\225#\rj(4k\6", iov_len=11}, {iov_base="\5", iov_len=1}, {iov_base="SHIX-jni\0", iov_len=9}, {iov_base="DataProcess  m_EnumVideoMode: 0\0", iov_len=32}], 4 <unfinished ...>
+[pid  5499] sendto(85, "\0\r\0j\10\0\0 \0S\4L", 12, 0, {sa_family=AF_INET, sin_port=htons(55226), sin_addr=inet_addr("36.137.199.114")}, 16 <unfinished ...>
+[pid  5513] <... writev resumed> )      = 53
+[pid  5499] <... sendto resumed> )      = 12
+[pid  5513] writev(80, [{iov_base="l<\0\323'Z\25", iov_len=7}, {iov_base="\0\211\25\225#\rj(4k\6", iov_len=11}, {iov_base="\5", iov_len=1}, {iov_base="SHIX-jni\0", iov_len=9}, {iov_base="DataProcess  m_EnumVideoMode: 0\0", iov_len=32}], 5) = 60
+[pid  5499] sendto(85, "\0\r\0j\10\0\0 \0T\4L", 12, 0, {sa_family=AF_INET, sin_port=htons(55226), sin_addr=inet_addr("36.137.199.114")}, 16 <unfinished ...>
+[pid  5513] writev(79, [{iov_base="\0\211\25\225#\rj\t\362\232\6", iov_len=11}, {iov_base="\5", iov_len=1}, {iov_base="SHIX-jni\0", iov_len=9}, {iov_base="DataProcess  m_avhead.type: 3\0", iov_len=30}], 4) = 51
+[pid  5499] <... sendto resumed> )      = 12
+[pid  5513] writev(80, [{iov_base="l:\0\323'Z\25", iov_len=7}, {iov_base="\0\211\25\225#\rj\t\362\232\6", iov_len=11}, {iov_base="\5", iov_len=1}, {iov_base="SHIX-jni\0", iov_len=9}, {iov_base="DataProcess  m_avhead.type: 3\0", iov_len=30}], 5) = 58
+[pid  5499] sendto(85, "\0\r\0j\10\0\0 \0U\4L", 12, 0, {sa_family=AF_INET, sin_port=htons(55226), sin_addr=inet_addr("36.137.199.114")}, 16) = 12
+[pid  5517] write(6, "\377\330\377\333\0\204\0\10\6\6\7\6\5\10\7\7\7\t\t\10\n\f\24\r\f\v\v\f\31\22\23\17"..., 6652 <unfinished ...>
+[pid  5513] writev(79, [{iov_base="\0\211\25\225#\rj\26M\310\6", iov_len=11}, {iov_base="\5", iov_len=1}, {iov_base="SHIX-jni\0", iov_len=9}, {iov_base="DataProcess  write MJ: 6708\0", iov_len=28}], 4 <unfinished ...>
+[pid  5517] <... write resumed> )       = 6652
+[pid  5513] <... writev resumed> )      = 49
+[pid  5499] sendto(85, "\0\r\0j\10\0\0 \0V\3\35", 12, 0, {sa_family=AF_INET, sin_port=htons(55226), sin_addr=inet_addr("36.137.199.114")}, 16 <unfinished ...>
+[pid  5513] writev(80, [{iov_base="l8\0\323'Z\25", iov_len=7}, {iov_base="\0\211\25\225#\rj\26M\310\6", iov_len=11}, {iov_base="\5", iov_len=1}, {iov_base="SHIX-jni\0", iov_len=9}, {iov_base="DataProcess  write MJ: 6708\0", iov_len=28}], 5 <unfinished ...>
+[pid  5499] <... sendto resumed> )      = 12
+[pid  5513] <... writev resumed> )      = 56
+[pid  5499] sendto(85, "\0\r\0j\10\0\0!\0W\4L", 12, 0, {sa_family=AF_INET, sin_port=htons(55226), sin_addr=inet_addr("36.137.199.114")}, 16) = 12
+[pid  5499] sendto(85, "\0\r\0j\10\0\0!\0X\4L", 12, 0, {sa_family=AF_INET, sin_port=htons(55226), sin_addr=inet_addr("36.137.199.114")}, 16) = 12
+[pid  5499] sendto(85, "\0\r\0j\10\0\0!\0Y\1\231", 12, 0, {sa_family=AF_INET, sin_port=htons(55226), sin_addr=inet_addr("36.137.199.114")}, 16) = 12
+[pid  5499] sendto(85, "\0\r\0j\10\0\0\"\0Z\0!", 12, 0, {sa_family=AF_INET, sin_port=htons(55226), sin_addr=inet_addr("36.137.199.114")}, 16) = 12
+[pid  5499] sendto(85, "\0\r\0j\10\0\0#\0[\4L", 12, 0, {sa_family=AF_INET, sin_port=htons(55226), sin_addr=inet_addr("36.137.199.114")}, 16) = 12
+[pid  5499] sendto(85, "\0\r\0j\10\0\0#\0\\\4L", 12, 0, {sa_family=AF_INET, sin_port=htons(55226), sin_addr=inet_addr("36.137.199.114")}, 16) = 12
+[pid  5499] sendto(85, "\0\r\0j\10\0\0#\0]\4L", 12, 0, {sa_family=AF_INET, sin_port=htons(55226), sin_addr=inet_addr("36.137.199.114")}, 16) = 12
+[pid  5499] sendto(85, "\0\r\0j\10\0\0#\0^\3\35", 12, 0, {sa_family=AF_INET, sin_port=htons(55226), sin_addr=inet_addr("36.137.199.114")}, 16) = 12
+[pid  5499] sendto(85, "\0\r\0j\10\0\0$\0_\4L", 12, 0, {sa_family=AF_INET, sin_port=htons(55226), sin_addr=inet_addr("36.137.199.114")}, 16) = 12
+[pid  5499] sendto(85, "\0\r\0j\10\0\0$\0`\4L", 12, 0, {sa_family=AF_INET, sin_port=htons(55226), sin_addr=inet_addr("36.137.199.114")}, 16) = 12
+[pid  5499] sendto(85, "\0\r\0j\10\0\0$\0a\1e", 12, 0, {sa_family=AF_INET, sin_port=htons(55226), sin_addr=inet_addr("36.137.199.114")}, 16) = 12
+[pid  5499] sendto(85, "\2", 1, 0, {sa_family=AF_INET, sin_port=htons(55226), sin_addr=inet_addr("36.137.199.114")}, 16) = 1
+[pid  5499] sendto(85, "\2", 1, 0, {sa_family=AF_INET, sin_port=htons(55226), sin_addr=inet_addr("36.137.199.114")}, 16) = 1
+[pid  5499] sendto(85, "\0\r\0j\10\0\0\37\0R\0!", 12, 0, {sa_family=AF_INET, sin_port=htons(55226), sin_addr=inet_addr("36.137.199.114")}, 16) = 12
+[pid  5499] sendto(85, "\0\r\0j\10\0\0 \0S\4L", 12, 0, {sa_family=AF_INET, sin_port=htons(55226), sin_addr=inet_addr("36.137.199.114")}, 16) = 12
+[pid  5499] sendto(85, "\0\r\0j\10\0\0 \0T\4L", 12, 0, {sa_family=AF_INET, sin_port=htons(55226), sin_addr=inet_addr("36.137.199.114")}, 16) = 12
+[pid  5499] sendto(85, "\0\r\0j\10\0\0 \0U\4L", 12, 0, {sa_family=AF_INET, sin_port=htons(55226), sin_addr=inet_addr("36.137.199.114")}, 16) = 12
+[pid  5499] sendto(85, "\0\r\0j\10\0\0 \0V\3\35", 12, 0, {sa_family=AF_INET, sin_port=htons(55226), sin_addr=inet_addr("36.137.199.114")}, 16) = 12
+[pid  5499] sendto(85, "\0\r\0j\10\0\0!\0W\4L", 12, 0, {sa_family=AF_INET, sin_port=htons(55226), sin_addr=inet_addr("36.137.199.114")}, 16) = 12
+[pid  5499] sendto(85, "\0\r\0j\10\0\0!\0X\4L", 12, 0, {sa_family=AF_INET, sin_port=htons(55226), sin_addr=inet_addr("36.137.199.114")}, 16) = 12
+[pid  5499] sendto(85, "\0\r\0j\10\0\0!\0Y\1\231", 12, 0, {sa_family=AF_INET, sin_port=htons(55226), sin_addr=inet_addr("36.137.199.114")}, 16) = 12
+[pid  5499] sendto(85, "\0\r\0j\10\0\0\"\0Z\0!", 12, 0, {sa_family=AF_INET, sin_port=htons(55226), sin_addr=inet_addr("36.137.199.114")}, 16) = 12
+[pid  5499] sendto(85, "\0\r\0j\10\0\0#\0[\4L", 12, 0, {sa_family=AF_INET, sin_port=htons(55226), sin_addr=inet_addr("36.137.199.114")}, 16) = 12
+[pid  5499] sendto(85, "\0\r\0j\10\0\0#\0\\\4L", 12, 0, {sa_family=AF_INET, sin_port=htons(55226), sin_addr=inet_addr("36.137.199.114")}, 16) = 12
+[pid  5499] sendto(85, "\0\r\0j\10\0\0#\0]\4L", 12, 0, {sa_family=AF_INET, sin_port=htons(55226), sin_addr=inet_addr("36.137.199.114")}, 16) = 12
+[pid  5499] sendto(85, "\0\r\0j\10\0\0#\0^\3\35", 12, 0, {sa_family=AF_INET, sin_port=htons(55226), sin_addr=inet_addr("36.137.199.114")}, 16) = 12
+[pid  5499] sendto(85, "\0\r\0j\10\0\0$\0_\4L", 12, 0, {sa_family=AF_INET, sin_port=htons(55226), sin_addr=inet_addr("36.137.199.114")}, 16) = 12
+[pid  5499] sendto(85, "\0\r\0j\10\0\0$\0`\4L", 12, 0, {sa_family=AF_INET, sin_port=htons(55226), sin_addr=inet_addr("36.137.199.114")}, 16) = 12
+[pid  5499] sendto(85, "\0\r\0j\10\0\0$\0a\1e", 12, 0, {sa_family=AF_INET, sin_port=htons(55226), sin_addr=inet_addr("36.137.199.114")}, 16) = 12
+[pid  5499] sendto(85, "\0\r\0j\10\0\0%\0b\0!", 12, 0, {sa_family=AF_INET, sin_port=htons(55226), sin_addr=inet_addr("36.137.199.114")}, 16) = 12
+[pid  5499] sendto(85, "\0\r\0j\10\0\0&\0c\4L", 12, 0, {sa_family=AF_INET, sin_port=htons(55226), sin_addr=inet_addr("36.137.199.114")}, 16) = 12
+[pid  5499] sendto(85, "\0\r\0j\10\0\0&\0d\4L", 12, 0, {sa_family=AF_INET, sin_port=htons(55226), sin_addr=inet_addr("36.137.199.114")}, 16) = 12
+[pid  5499] sendto(85, "\0\r\0j\10\0\0&\0e\4L", 12, 0, {sa_family=AF_INET, sin_port=htons(55226), sin_addr=inet_addr("36.137.199.114")}, 16) = 12
+[pid  5499] sendto(85, "\0\r\0j\10\0\0&\0f\3\35", 12, 0, {sa_family=AF_INET, sin_port=htons(55226), sin_addr=inet_addr("36.137.199.114")}, 16) = 12
+[pid  5499] sendto(85, "\0\r\0j\10\0\0'\0g\4L", 12, 0, {sa_family=AF_INET, sin_port=htons(55226), sin_addr=inet_addr("36.137.199.114")}, 16) = 12
+[pid  5499] sendto(85, "\0\r\0j\10\0\0'\0h\4L", 12, 0, {sa_family=AF_INET, sin_port=htons(55226), sin_addr=inet_addr("36.137.199.114")}, 16) = 12
+[pid  5499] sendto(85, "\0\r\0j\10\0\0'\0i\1m", 12, 0, {sa_family=AF_INET, sin_port=htons(55226), sin_addr=inet_addr("36.137.199.114")}, 16) = 12
+[pid  5499] sendto(85, "\2", 1, 0, {sa_family=AF_INET, sin_port=htons(55226), sin_addr=inet_addr("36.137.199.114")}, 16) = 1
+[pid  5499] sendto(85, "\2", 1, 0, {sa_family=AF_INET, sin_port=htons(55226), sin_addr=inet_addr("36.137.199.114")}, 16) = 1
+[pid  5499] sendto(85, "\0\r\0j\10\0\0\37\0R\0!", 12, 0, {sa_family=AF_INET, sin_port=htons(55226), sin_addr=inet_addr("36.137.199.114")}, 16) = 12
+[pid  5499] sendto(85, "\0\r\0j\10\0\0 \0S\4L", 12, 0, {sa_family=AF_INET, sin_port=htons(55226), sin_addr=inet_addr("36.137.199.114")}, 16) = 12
+[pid  5499] sendto(85, "\0\r\0j\10\0\0 \0T\4L", 12, 0, {sa_family=AF_INET, sin_port=htons(55226), sin_addr=inet_addr("36.137.199.114")}, 16) = 12
+[pid  5499] sendto(85, "\0\r\0j\10\0\0 \0U\4L", 12, 0, {sa_family=AF_INET, sin_port=htons(55226), sin_addr=inet_addr("36.137.199.114")}, 16) = 12
+[pid  5499] sendto(85, "\0\r\0j\10\0\0 \0V\3\35", 12, 0, {sa_family=AF_INET, sin_port=htons(55226), sin_addr=inet_addr("36.137.199.114")}, 16) = 12
+[pid  5499] sendto(85, "\0\r\0j\10\0\0!\0W\4L", 12, 0, {sa_family=AF_INET, sin_port=htons(55226), sin_addr=inet_addr("36.137.199.114")}, 16) = 12
+[pid  5499] sendto(85, "\0\r\0j\10\0\0!\0X\4L", 12, 0, {sa_family=AF_INET, sin_port=htons(55226), sin_addr=inet_addr("36.137.199.114")}, 16 <unfinished ...>
+[pid  5517] writev(3, [{iov_base="\0\215\25\225#\rj\350@\364\7", iov_len=11}, {iov_base="\4", iov_len=1}, {iov_base="CamRelay\0", iov_len=9}, {iov_base="VIDEO len=6660\0", iov_len=15}], 4 <unfinished ...>
+[pid  5499] <... sendto resumed> )      = 12
+[pid  5499] sendto(85, "\0\r\0j\10\0\0!\0Y\1\231", 12, 0, {sa_family=AF_INET, sin_port=htons(55226), sin_addr=inet_addr("36.137.199.114")}, 16) = 12
+[pid  5499] sendto(85, "\0\r\0j\10\0\0\"\0Z\0!", 12, 0, {sa_family=AF_INET, sin_port=htons(55226), sin_addr=inet_addr("36.137.199.114")}, 16) = 12
+[pid  5499] sendto(85, "\0\r\0j\10\0\0#\0[\4L", 12, 0, {sa_family=AF_INET, sin_port=htons(55226), sin_addr=inet_addr("36.137.199.114")}, 16) = 12
+[pid  5499] sendto(85, "\0\r\0j\10\0\0#\0\\\4L", 12, 0, {sa_family=AF_INET, sin_port=htons(55226), sin_addr=inet_addr("36.137.199.114")}, 16) = 12
+[pid  5499] sendto(85, "\0\r\0j\10\0\0#\0]\4L", 12, 0, {sa_family=AF_INET, sin_port=htons(55226), sin_addr=inet_addr("36.137.199.114")}, 16) = 12
+[pid  5517] <... writev resumed> )      = 36
+[pid  5499] sendto(85, "\0\r\0j\10\0\0#\0^\3\35", 12, 0, {sa_family=AF_INET, sin_port=htons(55226), sin_addr=inet_addr("36.137.199.114")}, 16) = 12
+[pid  5499] sendto(85, "\0\r\0j\10\0\0$\0_\4L", 12, 0, {sa_family=AF_INET, sin_port=htons(55226), sin_addr=inet_addr("36.137.199.114")}, 16) = 12
+[pid  5499] sendto(85, "\0\r\0j\10\0\0$\0`\4L", 12, 0, {sa_family=AF_INET, sin_port=htons(55226), sin_addr=inet_addr("36.137.199.114")}, 16) = 12
+[pid  5499] sendto(85, "\0\r\0j\10\0\0$\0a\1e", 12, 0, {sa_family=AF_INET, sin_port=htons(55226), sin_addr=inet_addr("36.137.199.114")}, 16) = 12
+[pid  5499] sendto(85, "\0\r\0j\10\0\0%\0b\0!", 12, 0, {sa_family=AF_INET, sin_port=htons(55226), sin_addr=inet_addr("36.137.199.114")}, 16) = 12
+[pid  5499] sendto(85, "\0\r\0j\10\0\0&\0c\4L", 12, 0, {sa_family=AF_INET, sin_port=htons(55226), sin_addr=inet_addr("36.137.199.114")}, 16) = 12
+[pid  5499] sendto(85, "\0\r\0j\10\0\0&\0d\4L", 12, 0, {sa_family=AF_INET, sin_port=htons(55226), sin_addr=inet_addr("36.137.199.114")}, 16) = 12
+[pid  5499] sendto(85, "\0\r\0j\10\0\0&\0e\4L", 12, 0, {sa_family=AF_INET, sin_port=htons(55226), sin_addr=inet_addr("36.137.199.114")}, 16) = 12
+[pid  5499] sendto(85, "\0\r\0j\10\0\0&\0f\3\35", 12, 0, {sa_family=AF_INET, sin_port=htons(55226), sin_addr=inet_addr("36.137.199.114")}, 16) = 12
+[pid  5499] sendto(85, "\0\r\0j\10\0\0'\0g\4L", 12, 0, {sa_family=AF_INET, sin_port=htons(55226), sin_addr=inet_addr("36.137.199.114")}, 16) = 12
+[pid  5499] sendto(85, "\0\r\0j\10\0\0'\0h\4L", 12, 0, {sa_family=AF_INET, sin_port=htons(55226), sin_addr=inet_addr("36.137.199.114")}, 16) = 12
+[pid  5499] sendto(85, "\0\r\0j\10\0\0'\0i\1m", 12, 0, {sa_family=AF_INET, sin_port=htons(55226), sin_addr=inet_addr("36.137.199.114")}, 16) = 12
+[pid  5499] sendto(85, "\2", 1, 0, {sa_family=AF_INET, sin_port=htons(55226), sin_addr=inet_addr("36.137.199.114")}, 16) = 1
+[pid  5499] sendto(85, "\0\r\0j\10\0\0\37\0R\0!", 12, 0, {sa_family=AF_INET, sin_port=htons(55226), sin_addr=inet_addr("36.137.199.114")}, 16) = 12
+[pid  5499] sendto(85, "\0\r\0j\10\0\0 \0S\4L", 12, 0, {sa_family=AF_INET, sin_port=htons(55226), sin_addr=inet_addr("36.137.199.114")}, 16) = 12
+[pid  5499] sendto(85, "\0\r\0j\10\0\0 \0T\4L", 12, 0, {sa_family=AF_INET, sin_port=htons(55226), sin_addr=inet_addr("36.137.199.114")}, 16) = 12
+[pid  5499] sendto(85, "\0\r\0j\10\0\0 \0U\4L", 12, 0, {sa_family=AF_INET, sin_port=htons(55226), sin_addr=inet_addr("36.137.199.114")}, 16) = 12
+[pid  5499] sendto(85, "\0\r\0j\10\0\0 \0V\3\35", 12, 0, {sa_family=AF_INET, sin_port=htons(55226), sin_addr=inet_addr("36.137.199.114")}, 16) = 12
+[pid  5499] sendto(85, "\0\r\0j\10\0\0!\0W\4L", 12, 0, {sa_family=AF_INET, sin_port=htons(55226), sin_addr=inet_addr("36.137.199.114")}, 16) = 12
+[pid  5499] sendto(85, "\0\r\0j\10\0\0!\0X\4L", 12, 0, {sa_family=AF_INET, sin_port=htons(55226), sin_addr=inet_addr("36.137.199.114")}, 16) = 12
+[pid  5499] sendto(85, "\0\r\0j\10\0\0!\0Y\1\231", 12, 0, {sa_family=AF_INET, sin_port=htons(55226), sin_addr=inet_addr("36.137.199.114")}, 16) = 12
+[pid  5499] sendto(85, "\0\r\0j\10\0\0\"\0Z\0!", 12, 0, {sa_family=AF_INET, sin_port=htons(55226), sin_addr=inet_addr("36.137.199.114")}, 16) = 12
+[pid  5499] sendto(85, "\0\r\0j\10\0\0#\0[\4L", 12, 0, {sa_family=AF_INET, sin_port=htons(55226), sin_addr=inet_addr("36.137.199.114")}, 16) = 12
+[pid  5499] sendto(85, "\0\r\0j\10\0\0#\0\\\4L", 12, 0, {sa_family=AF_INET, sin_port=htons(55226), sin_addr=inet_addr("36.137.199.114")}, 16) = 12
+[pid  5499] sendto(85, "\0\r\0j\10\0\0#\0]\4L", 12, 0, {sa_family=AF_INET, sin_port=htons(55226), sin_addr=inet_addr("36.137.199.114")}, 16) = 12
+[pid  5499] sendto(85, "\0\r\0j\10\0\0#\0^\3\35", 12, 0, {sa_family=AF_INET, sin_port=htons(55226), sin_addr=inet_addr("36.137.199.114")}, 16) = 12
+[pid  5499] sendto(85, "\0\r\0j\10\0\0$\0_\4L", 12, 0, {sa_family=AF_INET, sin_port=htons(55226), sin_addr=inet_addr("36.137.199.114")}, 16) = 12
+[pid  5499] sendto(85, "\0\r\0j\10\0\0$\0`\4L", 12, 0, {sa_family=AF_INET, sin_port=htons(55226), sin_addr=inet_addr("36.137.199.114")}, 16) = 12
+[pid  5499] sendto(85, "\0\r\0j\10\0\0$\0a\1e", 12, 0, {sa_family=AF_INET, sin_port=htons(55226), sin_addr=inet_addr("36.137.199.114")}, 16) = 12
+[pid  5499] sendto(85, "\0\r\0j\10\0\0%\0b\0!", 12, 0, {sa_family=AF_INET, sin_port=htons(55226), sin_addr=inet_addr("36.137.199.114")}, 16) = 12
+[pid  5499] sendto(85, "\0\r\0j\10\0\0&\0c\4L", 12, 0, {sa_family=AF_INET, sin_port=htons(55226), sin_addr=inet_addr("36.137.199.114")}, 16) = 12
+[pid  5517] writev(4, [{iov_base="l+\0\323'Z\25", iov_len=7}, {iov_base="\0\215\25\225#\rj\350@\364\7", iov_len=11}, {iov_base="\4", iov_len=1}, {iov_base="CamRelay\0", iov_len=9}, {iov_base="VIDEO len=6660\0", iov_len=15}], 5) = 43
+[pid  5517] write(6, "\377\330\377\333\0\204\0\10\6\6\7\6\5\10\7\7\7\t\t\10\n\f\24\r\f\v\v\f\31\22\23\17"..., 6660) = 6660
+[pid  5500] sendto(85, "\5", 1, 0, {sa_family=AF_INET, sin_port=htons(55226), sin_addr=inet_addr("36.137.199.114")}, 16) = 1
+[pid  5500] sendto(85, "\5", 1, 0, {sa_family=AF_INET, sin_port=htons(55226), sin_addr=inet_addr("36.137.199.114")}, 16) = 1
+[pid  5500] sendto(85, "\1\0j", 3, 0, {sa_family=AF_INET, sin_port=htons(55226), sin_addr=inet_addr("36.137.199.114")}, 16) = 3
+[pid  5500] sendto(85, "\5", 1, 0, {sa_family=AF_INET, sin_port=htons(55226), sin_addr=inet_addr("36.137.199.114")}, 16) = 1
+[pid  5500] sendto(85, "\1\0j", 3, 0, {sa_family=AF_INET, sin_port=htons(55226), sin_addr=inet_addr("36.137.199.114")}, 16) = 3
+[pid  5500] sendto(85, "\5", 1, 0, {sa_family=AF_INET, sin_port=htons(55226), sin_addr=inet_addr("36.137.199.114")}, 16) = 1
+[pid  5500] sendto(85, "\1\0j", 3, 0, {sa_family=AF_INET, sin_port=htons(55226), sin_addr=inet_addr("36.137.199.114")}, 16) = 3
+[pid  5500] sendto(85, "\5", 1, 0, {sa_family=AF_INET, sin_port=htons(55226), sin_addr=inet_addr("36.137.199.114")}, 16) = 1
+[pid  5500] sendto(85, "\1\0j", 3, 0, {sa_family=AF_INET, sin_port=htons(55226), sin_addr=inet_addr("36.137.199.114")}, 16) = 3
+[pid  5500] sendto(85, "\1\0j", 3, 0, {sa_family=AF_INET, sin_port=htons(55226), sin_addr=inet_addr("36.137.199.114")}, 16) = 3
+[pid  5500] sendto(85, "\1\0j", 3, 0, {sa_family=AF_INET, sin_port=htons(55226), sin_addr=inet_addr("36.137.199.114")}, 16) = 3

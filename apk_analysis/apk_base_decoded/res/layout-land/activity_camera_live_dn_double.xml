@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:background="#90000000" android:fitsSystemWindows="true" android:layout_width="fill_parent" android:layout_height="fill_parent" android:keepScreenOn="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/lyHeader" android:background="@color/color_H_Main" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="50.0dip" android:layout_marginTop="0.0dip" android:layout_alignParentTop="true">
+        <RelativeLayout android:id="@id/lyBack" android:layout_width="100.0dip" android:layout_height="fill_parent">
+            <Button android:id="@id/ivBack" android:layout_alignParentLeft="true" android:layout_centerVertical="true" style="@style/button_back_style1" />
+        </RelativeLayout>
+        <TextView android:textSize="18.0sp" android:textStyle="bold" android:textColor="@color/color_white" android:gravity="center" android:id="@id/tvHeaderTitle" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_centerInParent="true" />
+        <ImageView android:id="@id/ivOperator1" android:background="@drawable/listitem2_pressed_selector" android:padding="5.0dip" android:layout_width="35.0dip" android:layout_height="35.0dip" android:layout_marginRight="5.0dip" android:layout_marginBottom="4.0dip" android:src="@mipmap/qh_play_set" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" />
+        <ImageView android:id="@id/ivOperator" android:padding="5.0dip" android:visibility="gone" android:layout_width="35.0dip" android:layout_height="35.0dip" android:layout_marginRight="20.0dip" android:layout_toLeftOf="@id/ivOperator1" android:layout_centerVertical="true" />
+    </RelativeLayout>
+    <ImageButton android:id="@id/im_play1" android:visibility="gone" android:layout_width="0.0dip" android:layout_height="0.0dip" />
+    <ImageButton android:id="@id/im_play2" android:visibility="gone" android:layout_width="0.0dip" android:layout_height="0.0dip" />
+    <ImageView android:id="@id/btn_full1" android:visibility="gone" android:layout_width="0.0dip" android:layout_height="0.0dip" />
+    <ImageView android:id="@id/btn_full2" android:visibility="gone" android:layout_width="0.0dip" android:layout_height="0.0dip" />
+    <ImageView android:id="@id/ll_zsd" android:visibility="gone" android:layout_width="0.0dip" android:layout_height="0.0dip" />
+    <Button android:textSize="14.0sp" android:textColor="@color/color_n_play_buttom_normal" android:id="@id/btn_config" android:background="@drawable/n_configwifi_selector" android:paddingLeft="5.0dip" android:paddingRight="5.0dip" android:visibility="gone" android:layout_width="150.0dip" android:layout_height="60.0dip" android:layout_marginTop="20.0dip" android:text="@string/n_play_config" android:layout_centerHorizontal="true" android:layout_centerVertical="true" />
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/lyHeader">
+        <FrameLayout android:id="@id/framlay" android:background="#ff000000" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <android.opengl.GLSurfaceView android:id="@id/glVideo" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+            <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <ImageView android:id="@id/videoView" android:background="#ff000000" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="fitXY" />
+                <ImageView android:id="@id/videoView2" android:background="#ff000000" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="fitXY" />
+                <TextView android:id="@id/tv_zsd" android:background="#ff000000" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+            </LinearLayout>
+            <Button android:id="@id/btnTouch" android:background="#00ffffff" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+            <TextView android:textColor="#ffffffff" android:gravity="center_vertical" android:id="@id/tv_name1" android:layout_width="236.0dip" android:layout_height="30.0dip" android:layout_marginLeft="30.0dip" android:text="设备名称" />
+            <TextView android:textColor="#ffffffff" android:gravity="center_horizontal" android:layout_gravity="center_horizontal" android:id="@id/tv_name2" android:layout_width="136.0dip" android:layout_height="30.0dip" android:text="" />
+            <ImageView android:layout_gravity="center|right|top" android:id="@id/ivSingn" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:layout_marginRight="80.0dip" android:src="@mipmap/hz_wifisign" android:layout_alignParentTop="true" android:layout_alignParentRight="true" />
+            <ImageView android:layout_gravity="center|right|top" android:id="@id/ivBattery" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:layout_marginRight="50.0dip" android:src="@mipmap/home_power_100" android:layout_alignParentTop="true" android:layout_alignParentRight="true" />
+            <TextView android:textSize="9.0sp" android:textColor="#ffffffff" android:layout_gravity="center|right|top" android:id="@id/tv_Electricity" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:layout_marginRight="25.0dip" android:text="" />
+            <ImageView android:layout_gravity="center|right|top" android:id="@id/ivBatterying" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:layout_marginTop="7.0dip" android:layout_marginRight="5.0dip" android:src="@mipmap/home_power_ing" />
+            <LinearLayout android:gravity="center" android:layout_gravity="center|right" android:orientation="vertical" android:id="@id/ll_h_right" android:layout_width="60.0dip" android:layout_height="220.0dip" android:layout_marginRight="10.0dip">
+                <LinearLayout android:gravity="center" android:orientation="vertical" android:visibility="gone" android:layout_width="60.0dip" android:layout_height="60.0dip" android:layout_weight="1.0">
+                    <ImageView android:id="@id/im_jx_ud" android:background="@drawable/listitem2_pressed_selector" android:padding="3.0dip" android:layout_width="@dimen/VIDEO_IMG_TOPW" android:layout_height="@dimen/VIDEO_IMG_TOPH" android:src="@mipmap/hz_l_ud" />
+                    <TextView android:textSize="@dimen/VIDEO_TEXT_SIZEH" android:textColor="@color/color_white" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/play_updown" />
+                </LinearLayout>
+                <LinearLayout android:gravity="center" android:orientation="vertical" android:visibility="gone" android:layout_width="60.0dip" android:layout_height="112.0dip" android:layout_weight="1.0">
+                    <ImageView android:id="@id/im_jx_rl" android:background="@drawable/listitem2_pressed_selector" android:padding="3.0dip" android:layout_width="@dimen/VIDEO_IMG_TOPW" android:layout_height="@dimen/VIDEO_IMG_TOPW" android:src="@mipmap/hz_l_lf" />
+                    <TextView android:textSize="@dimen/VIDEO_TEXT_SIZEH" android:textColor="@color/color_white" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/play_lf" />
+                </LinearLayout>
+                <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/ll_flip" android:visibility="gone" android:layout_width="60.0dip" android:layout_height="wrap_content">
+                    <ImageView android:padding="3.0dip" android:layout_width="@dimen/VIDEO_IMG_TOPW" android:layout_height="@dimen/VIDEO_IMG_TOPW" android:tint="@color/color_white" />
+                    <TextView android:textSize="@dimen/VIDEO_TEXT_SIZEH" android:textColor="@color/color_white" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                </LinearLayout>
+                <LinearLayout android:id="@id/ll_dg" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                <LinearLayout android:id="@id/ll_ircut" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                <LinearLayout android:id="@id/ll_mk" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                <LinearLayout android:id="@id/ll_cloud" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                <LinearLayout android:id="@id/ll_preset" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                <ImageView android:id="@id/iv_dg" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            </LinearLayout>
+            <RelativeLayout android:layout_gravity="bottom|center|right" android:id="@id/rl_h_bm" android:layout_width="fill_parent" android:layout_height="70.0dip" android:layout_marginRight="10.0dip" android:layout_marginBottom="30.0dip">
+                <LinearLayout android:layout_gravity="right" android:orientation="vertical" android:id="@id/ll_talk" android:layout_width="50.0dip" android:layout_height="70.0dip" android:layout_centerInParent="true">
+                    <ImageView android:id="@id/im_talk" android:layout_width="50.0dip" android:layout_height="50.0dip" android:src="@mipmap/hz_l_talkno" />
+                    <TextView android:textSize="@dimen/VIDEO_TEXT_SIZE" android:textColor="@color/color_white" android:id="@id/tv_talk" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="3.0dip" android:text="@string/n_play_buttom_talk" />
+                </LinearLayout>
+                <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/llhz_full" android:layout_width="60.0dip" android:layout_height="60.0dip" android:layout_alignParentRight="true" android:layout_centerVertical="true">
+                    <ImageView android:id="@id/btn_full" android:background="@drawable/listitem2_pressed_selector" android:padding="3.0dip" android:layout_width="@dimen/VIDEO_IMG_TOPW" android:layout_height="@dimen/VIDEO_IMG_TOPW" android:src="@mipmap/hz_port" />
+                    <TextView android:textSize="@dimen/VIDEO_TEXT_SIZEH" android:textColor="@color/color_white" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/n_play_sport" />
+                </LinearLayout>
+                <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/llhz_hz" android:layout_width="60.0dip" android:layout_height="60.0dip" android:layout_marginRight="20.0dip" android:layout_toLeftOf="@id/llhz_full" android:layout_centerVertical="true">
+                    <ImageView android:id="@id/im_k" android:background="@drawable/listitem2_pressed_selector" android:padding="3.0dip" android:layout_width="@dimen/VIDEO_IMG_TOPW" android:layout_height="@dimen/VIDEO_IMG_TOPW" android:src="@mipmap/hz_l_hd" />
+                    <TextView android:textSize="@dimen/VIDEO_TEXT_SIZEH" android:textColor="@color/color_white" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/play_rs" />
+                </LinearLayout>
+                <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/ll_audio" android:layout_width="60.0dip" android:layout_height="wrap_content" android:layout_marginRight="20.0dip" android:layout_toLeftOf="@id/llhz_hz" android:layout_centerVertical="true">
+                    <ImageView android:id="@id/im_audio" android:padding="3.0dip" android:layout_width="@dimen/VIDEO_IMG_TOPW" android:layout_height="@dimen/VIDEO_IMG_TOPW" android:src="@mipmap/hz_l_audiono" />
+                    <TextView android:textSize="@dimen/VIDEO_TEXT_SIZE" android:textColor="@color/color_white" android:id="@id/tv_audio" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="3.0dip" android:text="@string/n_play_buttom_audio" />
+                </LinearLayout>
+            </RelativeLayout>
+            <RelativeLayout android:layout_gravity="center|right" android:orientation="vertical" android:id="@id/ll_batstatus" android:layout_width="60.0dip" android:layout_height="220.0dip" android:layout_marginRight="10.0dip" />
+            <ProgressBar android:layout_gravity="center" android:id="@id/progressBar" android:layout_width="wrap_content" android:layout_height="wrap_content" style="?android:progressBarStyleLarge" />
+            <TextView android:gravity="center_vertical" android:id="@id/tv_info" android:paddingLeft="10.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="分辨率：1280*720   实时帧率：15" />
+        </FrameLayout>
+        <RelativeLayout android:background="#fff8f8f8" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/framlay">
+            <LinearLayout android:gravity="top" android:orientation="horizontal" android:id="@id/ll_fun_top" android:background="#00000000" android:layout_width="fill_parent" android:layout_height="60.0dip" android:layout_marginTop="5.0dip">
+                <LinearLayout android:gravity="center" android:orientation="vertical" android:visibility="gone" android:layout_width="0.0dip" android:layout_height="60.0dip" android:layout_weight="1.0">
+                    <ImageView android:id="@id/im_zsd" android:background="@drawable/listitem2_pressed_selector" android:padding="3.0dip" android:layout_width="@dimen/VIDEO_IMG_W" android:layout_height="@dimen/VIDEO_IMG_H" />
+                </LinearLayout>
+                <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="60.0dip" android:layout_weight="1.0">
+                    <ImageView android:id="@id/im_ircut" android:background="@drawable/listitem2_pressed_selector" android:padding="3.0dip" android:layout_width="@dimen/VIDEO_IMG_TOPW" android:layout_height="@dimen/VIDEO_IMG_TOPW" android:src="@mipmap/n_playview_t_zsd_ircutclose" />
+                    <TextView android:textSize="@dimen/VIDEO_TEXT_SIZEH" android:textColor="@color/color_play_toptext" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="夜视" />
+                </LinearLayout>
+                <LinearLayout android:gravity="center" android:orientation="vertical" android:visibility="gone" android:layout_width="0.0dip" android:layout_height="60.0dip" android:layout_weight="1.0">
+                    <ImageView android:id="@id/im_t" android:background="@drawable/listitem2_pressed_selector" android:padding="3.0dip" android:layout_width="@dimen/VIDEO_IMG_W" android:layout_height="@dimen/VIDEO_IMG_H" android:src="@mipmap/n_playview_t_zsd_topen" />
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="240.0dip" android:layout_centerHorizontal="true" android:layout_centerVertical="true">
+                <FrameLayout android:id="@id/fl_bg" android:background="@mipmap/n_ptz_bg" android:layout_width="180.0dip" android:layout_height="180.0dip">
+                    <ImageButton android:layout_gravity="center|top" android:id="@id/btnPtz_up" android:background="#00000000" android:layout_width="90.0dip" android:layout_height="60.0dip" android:src="@mipmap/n_ptz_up" />
+                    <ImageButton android:layout_gravity="bottom|center" android:id="@id/btnPtz_down" android:background="#00000000" android:layout_width="90.0dip" android:layout_height="60.0dip" android:src="@mipmap/n_ptz_down" />
+                    <ImageButton android:layout_gravity="center|left" android:id="@id/btnPtz_left" android:background="#00000000" android:layout_width="60.0dip" android:layout_height="90.0dip" android:src="@mipmap/n_ptz_left" />
+                    <ImageButton android:layout_gravity="center|right" android:id="@id/btnPtz_right" android:background="#00000000" android:layout_width="60.0dip" android:layout_height="90.0dip" android:src="@mipmap/n_ptz_right" />
+                    <Button android:textSize="16.0sp" android:textColor="@color/color_H_Main" android:layout_gravity="center" android:id="@id/btnPtz_cer" android:background="@drawable/btn_pzt_reset_sele" android:layout_width="70.0dip" android:layout_height="70.0dip" android:text="@string/n_cloudset_reset" />
+                </FrameLayout>
+            </LinearLayout>
+            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/shix_LL_buttom" android:background="#00ffffff" android:layout_width="fill_parent" android:layout_height="125.0dip" android:layout_alignParentBottom="true">
+                <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/ll_video" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+                    <ImageView android:id="@id/im_video" android:layout_width="@dimen/VIDEO_IMG_W" android:layout_height="@dimen/VIDEO_IMG_H" android:src="@mipmap/n_play_buttom_video" />
+                    <TextView android:textSize="@dimen/VIDEO_TEXT_SIZE" android:textColor="@color/color_play_toptext" android:id="@id/tv_video" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="3.0dip" android:text="@string/n_play_buttom_video" />
+                </LinearLayout>
+                <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/ll_pic" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+                    <ImageView android:id="@id/im_pic" android:layout_width="@dimen/VIDEO_IMG_W" android:layout_height="@dimen/VIDEO_IMG_H" android:src="@mipmap/n_play_buttom_pic" />
+                    <TextView android:textSize="@dimen/VIDEO_TEXT_SIZE" android:textColor="@color/color_play_toptext" android:id="@id/tv_pic" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="3.0dip" android:text="@string/n_play_buttom_pic" />
+                </LinearLayout>
+                <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/ll_more" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+                    <ImageView android:id="@id/im_more" android:layout_width="@dimen/VIDEO_IMG_W" android:layout_height="@dimen/VIDEO_IMG_H" android:src="@mipmap/n_play_buttom_more" />
+                    <TextView android:textSize="@dimen/VIDEO_TEXT_SIZE" android:textColor="@color/color_play_toptext" android:id="@id/tv_more" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="3.0dip" android:text="@string/n_play_buttom_more" />
+                </LinearLayout>
+            </LinearLayout>
+        </RelativeLayout>
+        <LinearLayout android:gravity="center" android:layout_gravity="center|right|top" android:orientation="horizontal" android:id="@id/llRecordTips" android:background="@drawable/bg_border_video" android:visibility="gone" android:layout_width="100.0dip" android:layout_height="30.0dip" android:layout_marginTop="5.0dip" android:layout_alignParentTop="true" android:layout_centerHorizontal="true">
+            <ImageView android:id="@id/ivRecordTips" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@mipmap/preview_icon_red" />
+            <TextView android:textSize="13.0sp" android:textColor="#ffffffff" android:id="@id/tvRecordTime" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:text="00:00" />
+            <ImageButton android:id="@id/im_showhide" android:background="#00000000" android:visibility="gone" android:layout_width="@dimen/VIDEO_IMG_W" android:layout_height="@dimen/VIDEO_IMG_H" android:layout_marginTop="70.0dip" android:layout_marginRight="20.0dip" android:src="@mipmap/huang_play_up" android:layout_alignParentRight="true" />
+        </LinearLayout>
+    </RelativeLayout>
+</RelativeLayout>

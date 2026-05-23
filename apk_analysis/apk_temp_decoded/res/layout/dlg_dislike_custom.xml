@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.bytedance.sdk.openadsdk.dislike.TTDislikeListView android:id="@id/lv_dislike_custom" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <TextView android:textColor="#ffeeb4b4" android:gravity="center" android:id="@id/tv_personalize_prompt" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="40.0dip" />
+</LinearLayout>

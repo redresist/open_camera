@@ -1,0 +1,60 @@
+.class Lcom/shix/shixipc/activity/PlayBackActivity$10;
+.super Ljava/lang/Thread;
+.source "PlayBackActivity.java"
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingMethod;
+    value = Lcom/shix/shixipc/activity/PlayBackActivity;->takePicture(Landroid/graphics/Bitmap;)V
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x0
+    name = null
+.end annotation
+
+
+# instance fields
+.field final synthetic this$0:Lcom/shix/shixipc/activity/PlayBackActivity;
+
+.field final synthetic val$bmp:Landroid/graphics/Bitmap;
+
+
+# direct methods
+.method constructor <init>(Lcom/shix/shixipc/activity/PlayBackActivity;Landroid/graphics/Bitmap;)V
+    .locals 0
+    .annotation system Ldalvik/annotation/MethodParameters;
+        accessFlags = {
+            0x8010,
+            0x1010
+        }
+        names = {
+            null,
+            null
+        }
+    .end annotation
+
+    .line 836
+    iput-object p1, p0, Lcom/shix/shixipc/activity/PlayBackActivity$10;->this$0:Lcom/shix/shixipc/activity/PlayBackActivity;
+
+    iput-object p2, p0, Lcom/shix/shixipc/activity/PlayBackActivity$10;->val$bmp:Landroid/graphics/Bitmap;
+
+    invoke-direct {p0}, Ljava/lang/Thread;-><init>()V
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public run()V
+    .locals 2
+
+    .line 838
+    iget-object v0, p0, Lcom/shix/shixipc/activity/PlayBackActivity$10;->this$0:Lcom/shix/shixipc/activity/PlayBackActivity;
+
+    iget-object v1, p0, Lcom/shix/shixipc/activity/PlayBackActivity$10;->val$bmp:Landroid/graphics/Bitmap;
+
+    invoke-static {v0, v1}, Lcom/shix/shixipc/activity/PlayBackActivity;->-$$Nest$msavePicToSDcard(Lcom/shix/shixipc/activity/PlayBackActivity;Landroid/graphics/Bitmap;)V
+
+    return-void
+.end method

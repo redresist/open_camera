@@ -1,0 +1,29 @@
+.class public interface abstract Lcom/google/android/gms/internal/ads/zzbvl;
+.super Ljava/lang/Object;
+.source "com.google.android.gms:play-services-ads-api@@25.2.0"
+
+# interfaces
+.implements Landroid/os/IInterface;
+
+
+# annotations
+.annotation runtime Ljava/lang/Deprecated;
+.end annotation
+
+
+# virtual methods
+.method public abstract zze()Lcom/google/android/gms/dynamic/IObjectWrapper;
+    .annotation system Ldalvik/annotation/Throws;
+        value = {
+            Landroid/os/RemoteException;
+        }
+    .end annotation
+.end method
+
+.method public abstract zzf()Z
+    .annotation system Ldalvik/annotation/Throws;
+        value = {
+            Landroid/os/RemoteException;
+        }
+    .end annotation
+.end method

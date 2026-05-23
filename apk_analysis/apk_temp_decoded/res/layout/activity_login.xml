@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@mipmap/qh_allbg" android:fitsSystemWindows="true" android:clipToPadding="true" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:gravity="center_vertical" android:id="@id/Relative_top" android:background="@color/color_H_Main" android:layout_width="fill_parent" android:layout_height="50.0dip">
+        <com.shix.shixipc.view.MyTextView android:textSize="18.0sp" android:textStyle="bold" android:textColor="@color/color_white" android:ellipsize="marquee" android:layout_gravity="center_vertical" android:focusableInTouchMode="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:maxWidth="150.0dip" android:text="@string/login" android:scrollHorizontally="true" android:singleLine="true" android:shadowDx="1.0" android:shadowDy="1.0" android:shadowRadius="1.0" android:layout_centerInParent="true" android:marqueeRepeatLimit="marquee_forever" />
+    </RelativeLayout>
+    <ImageView android:layout_gravity="center_horizontal" android:layout_width="121.0dip" android:layout_height="130.0dip" android:layout_marginTop="40.0dip" android:src="@mipmap/app2" />
+    <LinearLayout android:orientation="horizontal" android:background="@drawable/selector_input" android:layout_width="fill_parent" android:layout_height="40.0dip" android:layout_marginLeft="42.5dip" android:layout_marginTop="50.0dip" android:layout_marginRight="42.5dip">
+        <EditText android:textSize="13.0sp" android:textColor="@color/z2" android:textColorHint="@color/z2" android:id="@id/etAccount" android:background="@null" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="19.5dip" android:hint="@string/hint_input_account" android:maxLines="1" />
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:background="@drawable/selector_input" android:layout_width="fill_parent" android:layout_height="40.0dip" android:layout_marginLeft="42.0dip" android:layout_marginTop="10.0dip" android:layout_marginRight="43.0dip">
+        <EditText android:textSize="13.0sp" android:textColor="@color/z2" android:textColorHint="@color/z2" android:id="@id/etPwd" android:background="@null" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginLeft="20.0dip" android:hint="@string/hint_pwd" android:maxLines="1" android:layout_weight="1.0" android:inputType="textPassword" />
+        <ImageView android:layout_gravity="center_vertical" android:id="@id/ivShowPwd" android:padding="3.0dip" android:layout_width="20.0dip" android:layout_height="fill_parent" android:layout_marginRight="20.0dip" android:src="@mipmap/btn_eye" />
+    </LinearLayout>
+    <TextView android:textSize="15.0sp" android:textColor="@color/color_white" android:gravity="center" android:id="@id/tvLogin" android:background="@drawable/btn_blue_selector" android:layout_width="fill_parent" android:layout_height="43.0dip" android:layout_marginLeft="42.0dip" android:layout_marginTop="15.0dip" android:layout_marginRight="43.0dip" android:text="@string/login" />
+    <LinearLayout android:orientation="horizontal" android:paddingTop="19.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:textColor="@color/color_H_Main" android:id="@id/tvForgetPwd" android:layout_width="wrap_content" android:layout_height="40.0dip" android:layout_marginLeft="63.0dip" android:text="@string/forget_pwd" android:layout_weight="1.0" />
+        <TextView android:textColor="@color/color_H_Main" android:gravity="right" android:id="@id/tvRegister" android:layout_width="wrap_content" android:layout_height="40.0dip" android:layout_marginRight="63.0dip" android:text="@string/register_account" android:layout_weight="1.0" />
+    </LinearLayout>
+    <TextView android:textColor="#ff99d75d" android:gravity="center" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="30.0dip" android:text="一键登录" />
+    <ImageView android:layout_gravity="center_horizontal" android:id="@id/imwx" android:layout_width="40.0dip" android:layout_height="40.0dip" android:layout_marginTop="5.0dip" android:src="@mipmap/login_wx" />
+    <LinearLayout android:gravity="bottom|center" android:orientation="vertical" android:background="#00000000" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0">
+        <TextView android:textColor="@color/color_H_Main" android:gravity="right" android:id="@id/tvHelp" android:layout_width="wrap_content" android:layout_height="40.0dip" android:text="@string/heye_xy" />
+    </LinearLayout>
+</LinearLayout>

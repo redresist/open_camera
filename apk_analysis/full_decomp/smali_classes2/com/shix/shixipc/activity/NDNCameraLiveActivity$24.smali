@@ -1,0 +1,59 @@
+.class Lcom/shix/shixipc/activity/NDNCameraLiveActivity$24;
+.super Ljava/lang/Object;
+.source "NDNCameraLiveActivity.java"
+
+# interfaces
+.implements Landroid/widget/PopupWindow$OnDismissListener;
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingMethod;
+    value = Lcom/shix/shixipc/activity/NDNCameraLiveActivity;->initExitPopupWindow_Icut()V
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x0
+    name = null
+.end annotation
+
+
+# instance fields
+.field final synthetic this$0:Lcom/shix/shixipc/activity/NDNCameraLiveActivity;
+
+
+# direct methods
+.method constructor <init>(Lcom/shix/shixipc/activity/NDNCameraLiveActivity;)V
+    .locals 0
+    .annotation system Ldalvik/annotation/MethodParameters;
+        accessFlags = {
+            0x8010
+        }
+        names = {
+            null
+        }
+    .end annotation
+
+    .line 2022
+    iput-object p1, p0, Lcom/shix/shixipc/activity/NDNCameraLiveActivity$24;->this$0:Lcom/shix/shixipc/activity/NDNCameraLiveActivity;
+
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public onDismiss()V
+    .locals 1
+
+    .line 2027
+    iget-object v0, p0, Lcom/shix/shixipc/activity/NDNCameraLiveActivity$24;->this$0:Lcom/shix/shixipc/activity/NDNCameraLiveActivity;
+
+    invoke-static {v0}, Lcom/shix/shixipc/activity/NDNCameraLiveActivity;->-$$Nest$fgetpopupWindow_Icut(Lcom/shix/shixipc/activity/NDNCameraLiveActivity;)Landroid/widget/PopupWindow;
+
+    move-result-object v0
+
+    invoke-virtual {v0}, Landroid/widget/PopupWindow;->dismiss()V
+
+    return-void
+.end method

@@ -1,0 +1,39 @@
+--------- beginning of kernel
+05-20 12:46:14.904     0     0 I logd    : logdr: UID=0 GID=0 PID=8902 b tail=0 logMask=99 pid=0 start=0ns deadline=0ns
+--------- beginning of main
+05-20 12:46:15.981  1134  1134 D TaplEvents: TIS / TouchInteractionService.onInputEvent: MotionEvent { action=ACTION_DOWN, actionButton=0, id[0]=0, x[0]=540.0, y[0]=962.0, toolType[0]=TOOL_TYPE_FINGER, buttonState=0, classification=NONE, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=10582536, downTime=10582536, deviceId=-1, source=0x1002, displayId=0, eventId=-129514480 }
+05-20 12:46:15.982  1134  1134 D TaplEvents: TIS / TouchInteractionService.onInputEvent: MotionEvent { action=ACTION_UP, actionButton=0, id[0]=0, x[0]=540.0, y[0]=962.0, toolType[0]=TOOL_TYPE_FINGER, buttonState=0, classification=NONE, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=10582536, downTime=10582536, deviceId=-1, source=0x1002, displayId=0, eventId=-635224213 }
+--------- beginning of system
+05-20 12:46:15.989   549   639 W CpuMonitorService: Current CPU frequency (4475023) is greater than maximum CPU frequency (2) for policy ID (0). Skipping CPU frequency policy
+05-20 12:46:15.990   549   639 W CpuMonitorService: Current CPU frequency (4523383) is greater than maximum CPU frequency (2) for policy ID (1). Skipping CPU frequency policy
+05-20 12:46:15.990   549   639 W CpuMonitorService: Current CPU frequency (4450047) is greater than maximum CPU frequency (2) for policy ID (2). Skipping CPU frequency policy
+05-20 12:46:15.990   549   639 W CpuMonitorService: Current CPU frequency (4359995) is greater than maximum CPU frequency (2) for policy ID (3). Skipping CPU frequency policy
+05-20 12:46:15.998  8426  8471 D EGL_emulation: app_time_stats: avg=26411.06ms min=22.30ms max=52799.82ms count=2
+05-20 12:46:16.005   401  3967 W AudioFlinger: createTrack_l(): mismatch between requested flags (00000004) and output flags (00000002)
+05-20 12:46:16.005   401  3967 D AF::TrackHandle: OpPlayAudio: track:58 usage:13 not muted
+05-20 12:46:16.009  8426  8426 E LOG     : NNN--checkPermissionLocation: 34
+05-20 12:46:16.011   401  3967 D audioserver: FGS Logger Transaction failed
+05-20 12:46:16.011   401  3967 D audioserver: -129
+05-20 12:46:16.011  8426  8426 E LOG     : NNN--checkPermissionLocation: 34
+05-20 12:46:16.020   549  2254 D CoreBackPreview: Window{4b5c213 u0 shix.cam365.camera/com.shix.shixipc.activity.AddCameraActivity}: Setting back callback OnBackInvokedCallbackInfo{mCallback=android.window.IOnBackInvokedCallback$Stub$Proxy@d315605, mPriority=0, mIsAnimationCallback=false}
+05-20 12:46:16.063   405   666 I BpBinder: onLastStrongRef automatically unlinking death recipients: 
+05-20 12:46:16.073   771   912 D EGL_emulation: app_time_stats: avg=29214.38ms min=33.32ms max=175002.50ms count=6
+05-20 12:46:16.176   401   511 D audioserver: FGS Logger Transaction failed
+05-20 12:46:16.176   401   511 D audioserver: -129
+05-20 12:46:16.179   549  1368 I ImeTracker: shix.cam365.camera:684d9339: onRequestHide at ORIGIN_SERVER_HIDE_INPUT reason HIDE_UNSPECIFIED_WINDOW
+05-20 12:46:16.179   549  1368 I ImeTracker: shix.cam365.camera:684d9339: onCancelled at PHASE_SERVER_SHOULD_HIDE
+05-20 12:46:16.181  1436  1436 I GoogleInputMethodService: GoogleInputMethodService.onFinishInput():3227 
+05-20 12:46:16.183  1436  1436 I GoogleInputMethodService: GoogleInputMethodService.updateDeviceLockedStatus():2087 repeatCheckTimes = 0, unlocked = true
+05-20 12:46:16.184  1436  1436 I GoogleInputMethodService: GoogleInputMethodService.onStartInput():1877 onStartInput(EditorInfo{inputType=0x0(NULL) imeOptions=0x0 privateImeOptions=null actionName=UNSPECIFIED actionLabel=null actionId=0 initialSelStart=-1 initialSelEnd=-1 initialCapsMode=0x0 hintText=null label=null packageName=shix.cam365.camera fieldId=0 fieldName=null extras=null}, false)
+05-20 12:46:16.184  1436  1436 I GoogleInputMethodService: GoogleInputMethodService.shouldHideHeaderOnInitialState():4008 ShouldHideHeaderOnInitialState = false
+05-20 12:46:16.185  1436  1436 I GoogleInputMethodService: GoogleInputMethodService.updateDeviceLockedStatus():2087 repeatCheckTimes = 2, unlocked = true
+05-20 12:46:19.053   365  3506 D android.hardware.audio@7.1-impl.ranchu: threadLoop: entering standby, frames: 2383808
+05-20 12:46:19.265   759   759 I wpa_supplicant: wlan0: CTRL-EVENT-BEACON-LOSS 
+05-20 12:46:19.505   771   912 D EGL_emulation: app_time_stats: avg=19484.40ms min=19484.40ms max=19484.40ms count=1
+05-20 12:46:19.506   771   771 D StatusBarIconController: ignoring old pipeline callbacks, because the new mobile icons are enabled
+05-20 12:46:27.458   759   759 I wpa_supplicant: wlan0: CTRL-EVENT-BEACON-LOSS 
+05-20 12:46:29.502   771   771 D StatusBarIconController: ignoring old pipeline callbacks, because the new mobile icons are enabled
+05-20 12:46:33.433  8227  8298 I GMS_MM_Logger: Memory Metric Logging not allowed. Stopping.
+05-20 12:46:35.393   759   759 I wpa_supplicant: wlan0: CTRL-EVENT-BEACON-LOSS 
+05-20 12:46:39.502   771   771 D StatusBarIconController: ignoring old pipeline callbacks, because the new mobile icons are enabled
+05-20 12:46:43.329   759   759 I wpa_supplicant: wlan0: CTRL-EVENT-BEACON-LOSS 

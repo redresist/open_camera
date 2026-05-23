@@ -1,0 +1,41 @@
+.class final Lcom/google/android/gms/internal/ads/zzfqb;
+.super Ljava/lang/Object;
+.source "com.google.android.gms:play-services-ads@@25.2.0"
+
+# interfaces
+.implements Lcom/google/android/gms/internal/ads/zzhbt;
+
+
+# instance fields
+.field final synthetic zza:Lcom/google/android/gms/internal/ads/zzfpw;
+
+
+# direct methods
+.method constructor <init>(Lcom/google/android/gms/internal/ads/zzfpw;)V
+    .locals 0
+
+    iput-object p1, p0, Lcom/google/android/gms/internal/ads/zzfqb;->zza:Lcom/google/android/gms/internal/ads/zzfpw;
+
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public final zza(Ljava/lang/Throwable;)V
+    .locals 0
+
+    return-void
+.end method
+
+.method public final zzb(Ljava/lang/Object;)V
+    .locals 0
+
+    .line 1
+    iget-object p1, p0, Lcom/google/android/gms/internal/ads/zzfqb;->zza:Lcom/google/android/gms/internal/ads/zzfpw;
+
+    invoke-interface {p1}, Lcom/google/android/gms/internal/ads/zzfpw;->zza()Lcom/google/android/gms/internal/ads/zzfpw;
+
+    return-void
+.end method

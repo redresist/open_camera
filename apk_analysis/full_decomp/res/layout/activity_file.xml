@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@mipmap/qh_allbg" android:fitsSystemWindows="true" android:clipToPadding="true" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:gravity="center_vertical" android:id="@id/Relative_top" android:background="@color/color_H_Main" android:layout_width="fill_parent" android:layout_height="50.0dip">
+        <Button android:id="@id/back" android:visibility="gone" android:layout_alignParentLeft="true" android:layout_centerVertical="true" style="@style/button_back_style1" />
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="50.0dip" android:layout_centerInParent="true">
+            <Button android:textColor="@color/color_H_Main" android:gravity="center" android:layout_gravity="center|right" android:id="@id/picture_phone" android:background="@mipmap/checktopleft_pressed" android:layout_width="75.0dip" android:layout_height="30.0dip" android:text="@string/main_file_photo" android:singleLine="true" android:textAllCaps="false" />
+            <Button android:textColor="@color/color_white" android:gravity="center" android:layout_gravity="center|right" android:id="@id/picture_remote" android:background="@mipmap/checkright_normal" android:layout_width="75.0dip" android:layout_height="30.0dip" android:text="@string/main_file_video" android:singleLine="true" android:textAllCaps="false" />
+        </LinearLayout>
+        <Button android:gravity="center|right" android:id="@id/ok" android:text="@string/door_white_list_edit" android:layout_alignParentRight="true" android:layout_centerVertical="true" android:textAllCaps="false" style="@style/button_done_style" />
+    </RelativeLayout>
+    <FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <com.hichip.widget.stickygridheadersshix.StickyGridHeadersGridView android:id="@id/asset_grid" android:paddingBottom="50.0dip" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_margin="3.0dip" android:horizontalSpacing="3.0dip" android:verticalSpacing="3.0dip" android:columnWidth="90.0dip" android:numColumns="auto_fit" />
+        <LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="vertical" android:id="@id/ll_empshow" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@mipmap/empty" />
+            <TextView android:textSize="14.0sp" android:textColor="@color/color_qh_bom_normal" android:gravity="center" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/emptyshow" />
+        </LinearLayout>
+    </FrameLayout>
+    <LinearLayout android:gravity="center" android:id="@id/ll_anim" android:background="#fff40b45" android:layout_width="fill_parent" android:layout_height="50.0dip">
+        <Button android:textSize="16.0sp" android:textColor="#ffffffff" android:background="#00ffffff" android:focusable="false" android:focusableInTouchMode="false" android:clickable="false" android:layout_width="80.0dip" android:layout_height="fill_parent" android:text="@string/delete" android:textAllCaps="false" />
+    </LinearLayout>
+</LinearLayout>

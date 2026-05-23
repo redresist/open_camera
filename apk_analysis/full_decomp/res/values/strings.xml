@@ -1,0 +1,1256 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="ClearAll">Clear</string>
+    <string name="N_A">N/A</string>
+    <string name="Pause">pause</string>
+    <string name="Play">play</string>
+    <string name="TrackType_audio">Audio</string>
+    <string name="TrackType_metadata">Meta data</string>
+    <string name="TrackType_subtitle">Subtitle</string>
+    <string name="TrackType_timedtext">Timed text</string>
+    <string name="TrackType_unknown">Unknown</string>
+    <string name="TrackType_video">Video</string>
+    <string name="VideoView_ar_16_9_fit_parent">16:9 / Fit parent</string>
+    <string name="VideoView_ar_4_3_fit_parent">4:3 / Fit parent</string>
+    <string name="VideoView_ar_aspect_fill_parent">Aspect / Fill parent</string>
+    <string name="VideoView_ar_aspect_fit_parent">Aspect / Fit parent</string>
+    <string name="VideoView_ar_aspect_wrap_content">Aspect / Wrap content</string>
+    <string name="VideoView_ar_match_parent">Free / Fill parent</string>
+    <string name="VideoView_error_button">OK</string>
+    <string name="VideoView_error_text_invalid_progressive_playback">Invalid progressive playback</string>
+    <string name="VideoView_error_text_unknown">Unknown</string>
+    <string name="a_cache">a-cache</string>
+    <string name="abc_action_bar_home_description">Navigate home</string>
+    <string name="abc_action_bar_up_description">Navigate up</string>
+    <string name="abc_action_menu_overflow_description">More options</string>
+    <string name="abc_action_mode_done">Done</string>
+    <string name="abc_activity_chooser_view_see_all">See all</string>
+    <string name="abc_activitychooserview_choose_application">Choose an app</string>
+    <string name="abc_capital_off">OFF</string>
+    <string name="abc_capital_on">ON</string>
+    <string name="abc_menu_alt_shortcut_label">Alt+</string>
+    <string name="abc_menu_ctrl_shortcut_label">Ctrl+</string>
+    <string name="abc_menu_delete_shortcut_label">delete</string>
+    <string name="abc_menu_enter_shortcut_label">enter</string>
+    <string name="abc_menu_function_shortcut_label">Function+</string>
+    <string name="abc_menu_meta_shortcut_label">Meta+</string>
+    <string name="abc_menu_shift_shortcut_label">Shift+</string>
+    <string name="abc_menu_space_shortcut_label">space</string>
+    <string name="abc_menu_sym_shortcut_label">Sym+</string>
+    <string name="abc_prepend_shortcut_label">Menu+</string>
+    <string name="abc_search_hint">Search…</string>
+    <string name="abc_searchview_description_clear">Clear query</string>
+    <string name="abc_searchview_description_query">Search query</string>
+    <string name="abc_searchview_description_search">Search</string>
+    <string name="abc_searchview_description_submit">Submit query</string>
+    <string name="abc_searchview_description_voice">Voice search</string>
+    <string name="abc_shareactionprovider_share_with">Share with</string>
+    <string name="abc_shareactionprovider_share_with_application">Share with %s</string>
+    <string name="abc_toolbar_collapse_description">Collapse</string>
+    <string name="activity_forget_pwd">forget the password</string>
+    <string name="ad_show">This is a third-party advertisement, which has nothing to do with software functions.</string>
+    <string name="add_camer_invi">The ID number is invalid and does not comply with the rules!</string>
+    <string name="add_camer_no_add">The cameras you added have reached the system maximum. Please delete some useless cameras before adding them again!</string>
+    <string name="add_camera">Add device</string>
+    <string name="add_camera_wifi_pwd">Wi-Fi password</string>
+    <string name="add_camera_wifi_ssid">Wi-Fi name</string>
+    <string name="add_device_audio">Device detected, please select how to add it</string>
+    <string name="add_device_danale_dialog_more">"Choose a WiFi with a strong signal, and fill in the WiFi password correctly to quickly connect the device to the Internet. 
+The following problems may cause the device to fail to connect to the Internet, and it is recommended to avoid
+1. Check whether the WiFi anti-robbing network is turned on. This setting may cause the device to fail Normal network connection. You can temporarily turn off the anti-robbing network, and then restore the router settings after the device is successfully connected to the Internet; 
+2. If your home has a dual-band router, please check whether the WiFi connected to the device is a 5GHz band WiFi, and please allow the device to connect 2.4GHz band WiFi; 
+3. The device does not currently support WPA/WPA2 enterprise-level WiFi, please choose other WiFi; 
+4. If your home WiFi is bridged, your network may be very unstable due to bridging reasons. Stable, it is recommended to connect to non-bridged WiFi"</string>
+    <string name="add_device_danale_dialog_more_title">What are the Wi-Fi requirements for the device?</string>
+    <string name="add_device_danale_more">learn more</string>
+    <string name="add_device_danale_next">Next step</string>
+    <string name="add_device_danale_wifi">"Didn't get wifi link"</string>
+    <string name="add_device_danale_wifi1_1">Please connect your router first</string>
+    <string name="add_device_danale_wifi_24g">Only supports 2.4GHz wifi</string>
+    <string name="add_device_danale_wifi_introduction">Before configuring the network, please confirm that the device is powered on and in AP state.</string>
+    <string name="add_device_danale_wifi_pass">Please enter password</string>
+    <string name="add_device_danale_wifi_ssid">Please enter the router name</string>
+    <string name="add_search_no">Not found, please try again...</string>
+    <string name="add_search_result">search results</string>
+    <string name="add_show_config1">Configure the device to connect to a WiFi network</string>
+    <string name="add_show_config1_show">"You have a new device and need to connect it to your home for WiFi use, or need to reconfigure an old device's WiFi connection and access it remotely, please choose this."</string>
+    <string name="add_show_config2">Add online camera</string>
+    <string name="add_show_config2_show">Your device is already connected to the router and you need to add it to the App. Please select this.</string>
+    <string name="add_show_config3">Mobile phone connects directly to device</string>
+    <string name="add_show_config3_show">"You want to connect your phone directly to your device's WiFi, a direct point-to-point connection, and use it at close range, not like connecting to your router for remote access, choose this."</string>
+    <string name="add_show_other">Other ways to add</string>
+    <string name="add_show_other_msg">No device has been found yet, please make sure the device is connected to a power source and turned on</string>
+    <string name="add_tools_show">Please select this option for tools such as smart ear monitors, smart blackhead monitors, and smart dental monitors.</string>
+    <string name="add_tools_titles">Tools and equipment</string>
+    <string name="add_tools_titles_1">Smart ear instrument</string>
+    <string name="add_twodimensioncode">Starting the QR code program...</string>
+    <string name="add_video_help">Device usage help</string>
+    <string name="add_video_show">"Video tutorial on how to use the device
+It is recommended to watch it first when using it for the first time"</string>
+    <string name="alarm_pir_push">Alarm push</string>
+    <string name="alarm_setting_1">Motion detection switch</string>
+    <string name="alarm_setting_2">Motion detection video</string>
+    <string name="alarm_setting_3">Alarm recording duration (s)</string>
+    <string name="alarm_setting_4">Alarm delay(s)</string>
+    <string name="alarm_setting_5">Motion detection sensitivity</string>
+    <string name="alarm_setting_5_L">Low</string>
+    <string name="alarm_setting_5_M">middle</string>
+    <string name="alarm_setting_5_h">high</string>
+    <string name="aleary_add_device">added</string>
+    <string name="aler_cancel">neglect</string>
+    <string name="aler_ok">Check</string>
+    <string name="aler_ok_show">The program has exited and cannot be viewed!</string>
+    <string name="alerm_detector_layout">Motion detection arming</string>
+    <string name="alerm_detector_sensitivity">Motion detection sensitivity</string>
+    <string name="alerm_getparams">Obtaining alarm information...</string>
+    <string name="alerm_getparams_failed">Failed to obtain alarm information</string>
+    <string name="alerm_gpio_alarm">IO linkage alarm</string>
+    <string name="alerm_io_layout">Alarm input arming</string>
+    <string name="alerm_io_move">IO linkage after alarm</string>
+    <string name="alerm_ioin_levelhight">high level</string>
+    <string name="alerm_ioin_levellow">low level</string>
+    <string name="alerm_ioout_level">Output level</string>
+    <string name="alerm_log">Alarm log</string>
+    <string name="alerm_mail_inform">Email notification after alarm</string>
+    <string name="alerm_motion_alarm">Motion detection alarm</string>
+    <string name="alerm_no_log">No alarm log</string>
+    <string name="alerm_preset_no">none</string>
+    <string name="alerm_presetsit">Preset position linkage during alarm</string>
+    <string name="alerm_record">Video recording after alarm</string>
+    <string name="alerm_sensitivity_desc">(The smaller the value, the more sensitive it is)</string>
+    <string name="alerm_set_failed">Alarm setting failed</string>
+    <string name="alerm_setting">Alarm Settings</string>
+    <string name="alerm_trigger_event">Alarm trigger event</string>
+    <string name="alerm_trigger_level">trigger level</string>
+    <string name="alerm_upload_picture">Upload pictures after calling the police</string>
+    <string name="alerm_upload_picture_time_interval">Time interval for uploading pictures (seconds)</string>
+    <string name="alerm_uploadinterval_toolong">Upload time 1-30 seconds</string>
+    <string name="alerm_uploadinterval_toolong1">The upload time cannot exceed 3600 seconds</string>
+    <string name="alerm_uploadpic_prompt">0 or empty means not to upload images</string>
+    <string name="alerm_void">Enable alarm sound</string>
+    <string name="androidx_startup">androidx.startup</string>
+    <string name="ap_add_title">AP hotspot mode</string>
+    <string name="ap_add_title1">Go to add</string>
+    <string name="ap_add_title2">Is the device added by the AP equipped with a network?</string>
+    <string name="ap_add_title3">Distribution network</string>
+    <string name="ap_next">Go to WIFI configuration</string>
+    <string name="app_name">365Cam</string>
+    <string name="app_name_show">HDWIFI</string>
+    <string name="app_running">running</string>
+    <string name="appbar_scrolling_view_behavior">com.google.android.material.appbar.AppBarLayout$ScrollingViewBehavior</string>
+    <string name="back">return</string>
+    <string name="bell_album">Local Album</string>
+    <string name="bell_pushcheck">Push permissions</string>
+    <string name="bit_rate">bit_rate</string>
+    <string name="biz_add_cancel">Cancel</string>
+    <string name="biz_add_creat">Sure</string>
+    <string name="biz_add_edit_show">Please enter a username of at least 5 characters</string>
+    <string name="biz_add_edit_show1">Please enter a password of at least 6 digits</string>
+    <string name="biz_add_edit_show2">Please enter the new password for this user</string>
+    <string name="biz_add_edit_show_sucess">Password reset complete</string>
+    <string name="biz_add_poup_show">Please enter new username/password</string>
+    <string name="biz_add_poup_show111">Edit administrator password</string>
+    <string name="biz_add_poup_show2">change Password</string>
+    <string name="biz_add_poup_title">Please enter a username of at least 5 digits and a password of at least 6 digits</string>
+    <string name="biz_add_show_pwd">Please enter a password of at least 6 digits</string>
+    <string name="biz_add_show_user">Please enter a username of at least 5 characters</string>
+    <string name="biz_main_exit">Exit software</string>
+    <string name="biz_main_out">Background process</string>
+    <string name="biz_main_wifi">Configure WIFI</string>
+    <string name="blt_show1">"Go to the mobile phone wireless settings,
+Connect to the hotspot"</string>
+    <string name="blt_show2">After returning, click on the device to use it directly point-to-point.</string>
+    <string name="blt_show_add_show1">Only supports router 2.4G channels, does not support 5G channels</string>
+    <string name="blt_show_add_show2">After returning, click on the device to use it directly point-to-point.</string>
+    <string name="blt_show_add_show3">Camera detected, please select</string>
+    <string name="blt_title_1">Camera detected</string>
+    <string name="blt_title_2">please choose</string>
+    <string name="bottom_sheet_behavior">com.google.android.material.bottomsheet.BottomSheetBehavior</string>
+    <string name="btl_tv_cancel">give up</string>
+    <string name="btl_tv_title">direct connect device</string>
+    <string name="btn_delete_video_local">delete</string>
+    <string name="btn_downlinad_video_online">Download video to mobile phone</string>
+    <string name="btn_no">no</string>
+    <string name="btn_ok">yes</string>
+    <string name="btn_play_video_local">play</string>
+    <string name="btn_play_video_online">play</string>
+    <string name="call_notification_answer_action">Answer</string>
+    <string name="call_notification_answer_video_action">Video</string>
+    <string name="call_notification_decline_action">Decline</string>
+    <string name="call_notification_hang_up_action">Hang Up</string>
+    <string name="call_notification_incoming_text">Incoming call</string>
+    <string name="call_notification_ongoing_text">Ongoing call</string>
+    <string name="call_notification_screening_text">Screening an incoming call</string>
+    <string name="camera_addr">IP address</string>
+    <string name="camera_id">Device ID</string>
+    <string name="camera_name">name</string>
+    <string name="camera_not_online">The camera is disconnected, please go back to the home page to reconnect.</string>
+    <string name="camera_port">port</string>
+    <string name="camera_pwd">password</string>
+    <string name="camera_type">Camera type</string>
+    <string name="camera_type_h264">H.264</string>
+    <string name="camera_type_mjpeg">MJPEG</string>
+    <string name="camera_user">username</string>
+    <string name="cancel">Cancel</string>
+    <string name="cannot_call_cloud">Please wake up the doorbell first before accessing cloud storage</string>
+    <string name="character_counter_content_description">Characters entered %1$d of %2$d</string>
+    <string name="character_counter_overflowed_content_description">Character limit exceeded %1$d of %2$d</string>
+    <string name="character_counter_pattern">%1$d/%2$d</string>
+    <string name="check_app_cancel">Do not prompt</string>
+    <string name="check_app_msg">New version detected</string>
+    <string name="check_app_msg2">Upgrade?</string>
+    <string name="check_app_ok">Go to upgrade</string>
+    <string name="check_app_title">version upgrade</string>
+    <string name="check_cloud_cancel">Do not prompt</string>
+    <string name="check_cloud_msg">Cloud video storage service is discounted, do you want to check it out?</string>
+    <string name="check_cloud_ok">Go check</string>
+    <string name="check_cloud_title">Cloud deposit discount tips</string>
+    <string name="check_localpic">View snapshot</string>
+    <string name="check_localvid">View local</string>
+    <string name="check_push_open">to open</string>
+    <string name="check_push_show">If you do not enable permission, you will not receive push notifications~</string>
+    <string name="check_push_title">It is detected that the notification permission is not turned on!</string>
+    <string name="chip_text">Chip text</string>
+    <string name="choose_stream">Select stream</string>
+    <string name="choose_year">Years</string>
+    <string name="clear_text_end_icon_content_description">Clear text</string>
+    <string name="close">Close</string>
+    <string name="cloud_log">cloud record</string>
+    <string name="cloud_playvideo">Play cloud-saved videos</string>
+    <string name="common_google_play_services_enable_button">Enable</string>
+    <string name="common_google_play_services_enable_text">"%1$s won't work unless you enable Google Play services."</string>
+    <string name="common_google_play_services_enable_title">Enable Google Play services</string>
+    <string name="common_google_play_services_install_button">Install</string>
+    <string name="common_google_play_services_install_text">"%1$s won't run without Google Play services, which are missing from your device."</string>
+    <string name="common_google_play_services_install_title">Get Google Play services</string>
+    <string name="common_google_play_services_notification_channel_name">Google Play services availability</string>
+    <string name="common_google_play_services_notification_ticker">Google Play services error</string>
+    <string name="common_google_play_services_unknown_issue">%1$s is having trouble with Google Play services. Please try again.</string>
+    <string name="common_google_play_services_unsupported_text">"%1$s won't run without Google Play services, which are not supported by your device."</string>
+    <string name="common_google_play_services_update_button">Update</string>
+    <string name="common_google_play_services_update_text">"%1$s won't run unless you update Google Play services."</string>
+    <string name="common_google_play_services_update_title">Update Google Play services</string>
+    <string name="common_google_play_services_updating_text">"%1$s won't run without Google Play services, which are currently updating."</string>
+    <string name="common_google_play_services_wear_update_text">New version of Google Play services needed. It will update itself shortly.</string>
+    <string name="common_open_on_phone">Open on phone</string>
+    <string name="common_signin_button_text">Sign in</string>
+    <string name="common_signin_button_text_long">Sign in with Google</string>
+    <string name="config_wifi_len_show">Exceeds supported length</string>
+    <string name="configing">Configuring</string>
+    <string name="connect_count">Number of people connected:</string>
+    <string name="connect_failed">Connection failed</string>
+    <string name="connected">connected</string>
+    <string name="connected_time">connected_time</string>
+    <string name="connecting">Getting video...</string>
+    <string name="contact_me" />
+    <string name="copy_toast_msg">Link copied to clipboard</string>
+    <string name="data_loading">loading...</string>
+    <string name="date_alamotu">(GMT +06:00) Almaty, Novosibirsk, Astanan, Dar</string>
+    <string name="date_alaska">(GMT-09:00)Alaska</string>
+    <string name="date_athens">(GMT +02:00) Athens, Jerusalem, Cairo, Helsinki</string>
+    <string name="date_auckland">(GMT +12:00) Auckland, Wellington, Fiji</string>
+    <string name="date_baku">(GMT +04:00) Baku, Tbilisi, Abu Dhabi, Mascot</string>
+    <string name="date_bangkok">(GMT +07:00) Bangkok, Hanoi, Jakarta</string>
+    <string name="date_beijing">(GMT +08:00) Beijing, Singapore, Taipei</string>
+    <string name="date_brasilia">(GMT-03:00) Brasilia, Buenos Aires, Georgetown</string>
+    <string name="date_brussels">(GMT+01:00) Brussels, Paris, Berlin, Rome, Madrid, Stockholm, Belgrade, Prague</string>
+    <string name="date_calcutta">(GMT +05:30) Kolkata, Mumbai, Madras, New Delhi</string>
+    <string name="date_cape_verde_island">(GMT-01:00) Cape Verde Islands</string>
+    <string name="date_center_ocean">(GMT-02:00) Mid-Atlantic</string>
+    <string name="date_darwin">(GMT +09:30) Darwin</string>
+    <string name="date_device_time">Device clock time</string>
+    <string name="date_device_timezone">Device time zone setting</string>
+    <string name="date_eastern_time">(GMT-05:00) Eastern Time (United States and Canada), Lima, Bogota</string>
+    <string name="date_get_params">Getting clock information...</string>
+    <string name="date_greenwich">(GMT) Greenwich Mean Time, London, Lisbon, Casablanca</string>
+    <string name="date_guam">(GMT +10:00) Guam, Melbourne, Sydney, Port Moresby, Vladivostok</string>
+    <string name="date_hawaii">(GMT -10:00) Hawaii</string>
+    <string name="date_islamabad">(GMT +05:00) Islamabad, Karachi, Tasengan</string>
+    <string name="date_kebuer">(GMT +04:30) Cobourg</string>
+    <string name="date_middle_island">(GMT-11:00) Midway Island, Samoa</string>
+    <string name="date_middle_part_time">(GMT-06:00) Central Time (United States and Canada), Mexico City</string>
+    <string name="date_mountain_time">(GMT-07:00) Mountain Time (United States and Canada)</string>
+    <string name="date_nairobi">(GMT +03:00) Nairobi, Riyadh, Moscow</string>
+    <string name="date_newfoundland">(GMT-03:30)Newfoundland</string>
+    <string name="date_ntp_server">NTP server</string>
+    <string name="date_ntp_server_auto_check">Automatic time adjustment using NTP server</string>
+    <string name="date_ntp_server_time_kriss_re_kr">time.kriss.re.kr</string>
+    <string name="date_ntp_server_time_nist_gov">time.nist.gov</string>
+    <string name="date_ntp_server_time_nuri_net">time.nuri.net</string>
+    <string name="date_ntp_server_time_windows_com">time.windows.com</string>
+    <string name="date_ocean_time">(GMT-04:00) Atlantic Time (Canada), San Diego, La Paz</string>
+    <string name="date_pacific_time">(GMT-08:00) Pacific Time (United States and Canada)</string>
+    <string name="date_phone_time_auto_check">Calibrate device clock using phone time</string>
+    <string name="date_seoul">(GMT +09:00) Seoul, Yakutsk, Tokyo</string>
+    <string name="date_setting_failed">Device clock time setting failed</string>
+    <string name="date_setting_success">Device clock time set successfully</string>
+    <string name="date_suolumen">(GMT +11:00)Magadan, Solomon Islands, New Caledonia</string>
+    <string name="date_teheran">(GMT +03:30) Tehran</string>
+    <string name="default_notification_channel_id">1234566465</string>
+    <string name="del_alert">confirm deletion?</string>
+    <string name="del_sucess">successfully deleted</string>
+    <string name="del_sucess_title">confirm deletion?</string>
+    <string name="delect_sucss">successfully deleted</string>
+    <string name="delete">delete</string>
+    <string name="delete_camera">delete</string>
+    <string name="delete_local_all_picture">Delete all photos</string>
+    <string name="delete_local_picture">Delete this photo</string>
+    <string name="dev_date_xls">summer time</string>
+    <string name="device_db">Contrast</string>
+    <string name="device_id_name">ID:</string>
+    <string name="device_ld">brightness</string>
+    <string name="device_mic">Microphone</string>
+    <string name="device_not_network">The pen is not connected to the internet</string>
+    <string name="device_not_on_line">Device is not online</string>
+    <string name="device_spk">trumpet</string>
+    <string name="device_status_name">state:</string>
+    <string name="device_type_name">type:</string>
+    <string name="device_use_video_teaching">Video tutorial on how to use the device</string>
+    <string name="dialog_exit_play_tips">Are you sure you want to exit playback?</string>
+    <string name="disclaimer_conent">.</string>
+    <string name="done">Finish</string>
+    <string name="door_setting_alarm_show1">Please enter time</string>
+    <string name="door_setting_alarm_show2">The start time cannot be greater than the end time</string>
+    <string name="door_white_list_check_show">This user already exists</string>
+    <string name="door_white_list_del">delete</string>
+    <string name="door_white_list_edit">edit</string>
+    <string name="doorbell_alerm">Motion detection alarm</string>
+    <string name="doorbell_alerm11">Sound detection alarm</string>
+    <string name="doorbell_fangke">guest call</string>
+    <string name="doorbell_setting_admin">administrator</string>
+    <string name="doorbell_setting_alarm_statu_close">Alarm off</string>
+    <string name="doorbell_setting_alarm_statu_open">Alarm on</string>
+    <string name="doorbell_setting_user">user</string>
+    <string name="doorbell_setting_user_add">Add to</string>
+    <string name="doorbell_setting_user_statu0">Device not connected</string>
+    <string name="doorbell_setting_user_statu1">Device connected</string>
+    <string name="doorbell_setting_user_statu2">Monitoring</string>
+    <string name="doorbell_setting_user_statu3">Talking</string>
+    <string name="down">Down</string>
+    <string name="download_cancel">abandon download</string>
+    <string name="download_ok">Download video files</string>
+    <string name="download_show">Please do not exit this dialog box during the download process</string>
+    <string name="edit">Revise</string>
+    <string name="edit_camera">Modify device</string>
+    <string name="email_account_correct">Please enter a valid email account</string>
+    <string name="emptyshow">There are no files here yet</string>
+    <string name="er_show">Device scans QR code</string>
+    <string name="er_show1">When the device prompts that the network configuration is successful, please press Finish</string>
+    <string name="errcode_cancel">Send Cancel</string>
+    <string name="errcode_deny">Send rejected</string>
+    <string name="errcode_success">Sent successfully</string>
+    <string name="errcode_unknown">send return</string>
+    <string name="errcode_unsupported">Not supported error</string>
+    <string name="error_icon_content_description">Error</string>
+    <string name="exit">quit</string>
+    <string name="exit_alert">Confirm to exit?</string>
+    <string name="exit_chenxu_show">Confirm to exit the program?</string>
+    <string name="exit_play_show">Confirm to exit playback?</string>
+    <string name="exit_qu">Delete this file</string>
+    <string name="exit_qu_all">Delete all files</string>
+    <string name="exit_qu_show">Cancel</string>
+    <string name="exit_show">hint:</string>
+    <string name="exposed_dropdown_menu_content_description">Show dropdown menu</string>
+    <string name="fab_transformation_scrim_behavior">com.google.android.material.transformation.FabTransformationScrimBehavior</string>
+    <string name="fab_transformation_sheet_behavior">com.google.android.material.transformation.FabTransformationSheetBehavior</string>
+    <string name="fallback_menu_item_copy_link">Copy link</string>
+    <string name="fallback_menu_item_open_in_browser">Open in browser</string>
+    <string name="fallback_menu_item_share_link">Share link</string>
+    <string name="fcm_fallback_notification_channel_label">Miscellaneous</string>
+    <string name="file_read_1">View and agree</string>
+    <string name="file_read_2">privacy agreement</string>
+    <string name="file_read_3">View privacy agreement</string>
+    <string name="file_read_ys_ok">Agree to privacy policy</string>
+    <string name="fileplay_down">Long press the file to download the video or play the downloaded video, or share the video</string>
+    <string name="fileplay_downok">Downloaded</string>
+    <string name="fileplay_share">share</string>
+    <string name="fileplay_start">play</string>
+    <string name="fileplay_stop">pause</string>
+    <string name="find_device">Discover smart devices</string>
+    <string name="find_device_msg">"Discovering nearby devices.
+Please ensure that the device is powered on and turned on"</string>
+    <string name="fl_ble_err_2">Bluetooth search, lack of positioning permission</string>
+    <string name="fl_ble_err_3">Bluetooth search, location service is not turned on</string>
+    <string name="fl_ble_err_4">Bluetooth search, lack of search permission</string>
+    <string name="fl_ble_err_5">Bluetooth search, search error</string>
+    <string name="fl_confing">Distributing network...</string>
+    <string name="fl_dev_ap_con">The device AP is currently connected</string>
+    <string name="fl_err_show">There is currently a problem with the Bluetooth distribution network. Please click the + sign to choose other ways to add devices...</string>
+    <string name="fl_sertch">Searching for nearby devices...</string>
+    <string name="fl_sertchdone">Click to search</string>
+    <string name="fl_status">common problem</string>
+    <string name="focus_in_x">Come into focus</string>
+    <string name="focus_out_x">Exit focus</string>
+    <string name="forget_pwd">forget the password?</string>
+    <string name="four_play_list_title">Please select an online device</string>
+    <string name="four_play_no_show">Please go to the device list to add a device</string>
+    <string name="four_play_pause">pause</string>
+    <string name="four_play_show">Tip: Double-click to go full screen, long press to remove from multi-screen or enter full screen.</string>
+    <string name="four_play_title">multi-screen</string>
+    <string name="four_show_back">Press it again to exit four-screen playback!</string>
+    <string name="fps">fps</string>
+    <string name="fqa_0">Adding a device for the first time</string>
+    <string name="fqa_1">Direct connection is not possible</string>
+    <string name="fqa_10">How to use the infrared light function</string>
+    <string name="fqa_11">How to use Device AP Network Configuration to connect the camera to the router</string>
+    <string name="fqa_12">How to check the device ID (device number)</string>
+    <string name="fqa_13">The mobile phone cannot find the AP hotspot or cannot connect to the hotspot.</string>
+    <string name="fqa_14">How far is the hotspot connection range?</string>
+    <string name="fqa_15">How to establish hotspot mode on camera</string>
+    <string name="fqa_16">Why does the device shake its head after it is started?</string>
+    <string name="fqa_17">Connect device AP hotspot device?</string>
+    <string name="fqa_18">What should I do if the image keeps buffering during the connection?</string>
+    <string name="fqa_19">How to connect to the device after changing the router connection or changing the WiFi password</string>
+    <string name="fqa_2">No WiFi connection through router</string>
+    <string name="fqa_20">Why can’t the camera connect to 5GWiFi?</string>
+    <string name="fqa_3">Settings when changing WiFi environment</string>
+    <string name="fqa_4">Does it support 5GHz WiFi?</string>
+    <string name="fqa_5">Can I share my camera with others?</string>
+    <string name="fqa_6">How many cameras can be registered?</string>
+    <string name="fqa_7">forget the password</string>
+    <string name="fqa_8">What to do if the screen freezes during connection</string>
+    <string name="fqa_9">How to use the indicator light function</string>
+    <string name="fqa_a_0">"1. Power on the camera. 
+
+2. Click the + sign on the 365Cam device interface, and click below to select Device AP Direct Connection. 
+
+3. Follow the App prompts to the next step, connect the camera Wi-Fi hotspot in the Wi-Fi list of the phone, and click Connect. 
+
+5. Return to the App and wait for network configuration and connection."</string>
+    <string name="fqa_a_1">"Please check the following. 
+
+Is the camera on? 
+
+Is the distance between the smartphone and camera too large? (Use the camera within the camera's WiFi range). 
+
+Has the camera's WiFi been selected in the smartphone's WiFi settings? 
+
+For Android devices, permission for location information is required. Please allow this in the app settings
+
+Are other smartphones accessing the camera? 
+It is not possible to view camera images on several smartphones at the same time."</string>
+    <string name="fqa_a_10">For products that support infrared, click the button on the real-time preview screen and expand it to select [IR On] [IR Off] [IR Auto]</string>
+    <string name="fqa_a_11">"1. Open the APP and click the + button
+
+2. Select (Device AP Network Configuration)
+
+3. Select the corresponding model, such as Small Camera
+
+4. Confirm that the red light of the device flashes slowly or the reset is successful. After the device prompts Waiting for network configuration 5. After confirmation, check the Confirmed red light flashes and click Next
+
+6. Click the Go to WiFi Configuration button
+
+7. The mobile phone system wifi connection starts with DGO or AYS Hotspot
+
+8. Return to the APP and the list will be refreshed to AP Mode
+
+9. Click OK on the pop-up window of whether to configure the network and jump to the Wi Fi Settings interface 10. Select from the device list Connect wifi to the device and enter the correct password 11. Click Next
+
+12 The device enters networking mode, and the APP returns to the Device List interface and prompts Network connection successful"</string>
+    <string name="fqa_a_12">"1.ID is the unique identification number of the camera. Each camera only corresponds to one ID
+
+2.DGO appears in the wifi device AP mode. The beginning of DGO is the device number (such as DGO-124556-DFGJK)
+
+3.4G The device can be viewed on the label on the device body. If it is torn, please turn the device on and run it for a while, then shut it down. Take out the SD card and read the 4G uid.txt in the SD card to view the device ID4. If the device has been connected to the APP, you can view it in the device information. View in or View on my devices"</string>
+    <string name="fqa_a_13">"Make sure the device has been started normally and is in hotspot mode (the red light flashes slowly)
+
+2. For devices with external antennas, please confirm that the antennas are connected
+
+3. The Android phone system will pop up a security prompt during the connection process. Please confirm to authorize the system to connect to the hotspot. 
+
+4. In the Apple mobile phone system, please make sure that the APP has turned on the (Local Network) and [Precise Location] permissions. 5. Make sure that the phone system (Positioning) and [Positioning Permissions] are turned on
+
+6. Please try to restart the device or Change the mobile phone connection
+
+7. Make sure the device has sufficient power
+
+8. If the problem cannot be solved after trying the above methods, please contact the merchant for after-sales treatment
+
+Note: The AP hotspot cannot connect to the Internet without a signal from the camera. , so it is normal for the system to prompt Network Unavailable when connecting to the hotspot."</string>
+    <string name="fqa_a_14">"1. The indoor connection distance of the camera is 10-15 meters
+
+2. The outdoor connection distance of the camera is 15-30 meters
+
+Note: The above parameters are reference values, and the actual effect is affected by the user's environment: Do not place the device near the electromagnetic Use in environments with high interference"</string>
+    <string name="fqa_a_15">"For devices whose default connection mode is AP hotspot, no matter what state the device is in (except for 4G devices), the camera can be in hotspot mode after restoring the factory settings. If DGO can be searched in the mobile phone's wifi list, the hotspot signal starting with DGO indicates the hotspot. Established successfully"</string>
+    <string name="fqa_a_16">"1. Equipment self-test refers to the function of a camera with a pan/tilt that automatically rotates the pan/tilt when the system is started to detect the motor and correct the pan/tilt coordinates
+
+2. After the camera self-check is completed for the first time when it is powered on, it generally faces the center position and sets the guard position. After powering off and then powering on again, the camera will face the set guard position after completing the self-test."</string>
+    <string name="fqa_a_17">"1. The device cannot be removed due to low battery power and insufficient power supply. It is recommended to connect the power supply
+
+2. The mobile phone system has not successfully switched networks. It is recommended to refresh the device list
+
+3. Please check whether the mobile phone positioning permission is turned on
+
+4 .Try to turn off mobile data first to prevent your phone from using the network first instead of mobile data."</string>
+    <string name="fqa_a_18">"1. Please try to close the APP and open it again
+
+2. Please try to power off and restart the camera
+
+3. Please do not exceed the connection range of the router and try to connect the device close to the router
+
+4. Please log in to the router background to check if there is Restrict device connection
+
+5. Please try to click on other functions to see if it can be used normally. This can check whether the device lens is damaged: If the phenomenon is consistent, please contact the merchant for after-sales treatment."</string>
+    <string name="fqa_a_19">"If you have done the following, please restore the wireless camera to factory settings and reconfigure the network
+
+(1) Changed the router
+
+(2) Modified the WiFi name and password
+
+(3) Changed the network configuration information"</string>
+    <string name="fqa_a_2">"Please check the following. 
+
+Is the camera on? 
+
+Is the WiFi connected to the smartphone in the 5GHz band? 
+*This camera only supports the 2.4GHz frequency band. 
+
+Are other smartphones accessing the camera? 
+It is not possible to view camera images on several smartphones at the same time."</string>
+    <string name="fqa_a_20">"1.2. The difference between 4G WiFi and 5G WiFi
+
+(1) 2.4G is a wireless technology. Since its frequency band is between 2.400GHz~2.4835GHz, it is referred to as 2.4G wireless technology
+
+(2) 5GWiFi is It refers to the wireless technology developed based on the IEEE 802.11ac standard. Because the IEEE802.11ac technology itself works in the 5GHz frequency band, it is also called 5GWiFi
+
+2. The difference between 5GWiFi and 5G communication networks. 5G in 5GWiFi refers to the frequency band of wireless signals: The G in 4G and 5G in mobile networks refers to the English word Generation, 4G refers to the fourth generation mobile phone mobile communication standard, and 5G refers to the fifth generation mobile phone mobile communication standard. 
+
+3. Why can’t the device connect to 5G WiFiV
+
+The WiFi module used by the 380 product only supports connection to 2.4G WiFi and cannot identify or connect to 5G WiFi, so it cannot use 5G WiFi or mixed-band WiFi"</string>
+    <string name="fqa_a_3">"Please check the following. 
+
+Reset the camera and configure it from scratch. 
+
+[Reset method]. 
+Press and hold the reset button on the camera, or select Initialize camera in the app's camera settings."</string>
+    <string name="fqa_a_4">"Please check the following. 
+
+This camera does not support WiFi in the 5GHz band. 
+Please use the 2.4GHz band WiFi to connect."</string>
+    <string name="fqa_a_5">"Please check the following. 
+
+The camera can be registered on multiple smartphones. 
+To register the camera on a second or subsequent smartphone, you will need the password you set. 
+
+*Multiple smartphones cannot access the camera at the same time; when one smartphone accesses the camera, another smartphone cannot access the camera. 
+
+*There is no limit to the number of smartphones that can be shared."</string>
+    <string name="fqa_a_6">"Please check the following. 
+
+A smartphone can register up to twenty cameras."</string>
+    <string name="fqa_a_7">"Please check the following. 
+
+If you forget your password, please reset the camera and start over
+
+[How to reset]. 
+Press and hold the reset button on the camera or select [Initialize camera] in the app's camera settings."</string>
+    <string name="fqa_a_8">"1. Network fluctuations when connected due to environmental interference may cause the screen to freeze
+
+2. Please do not copy out of the router connection range and try to move the device closer to the router. 3. Please try to change the screen to SD stream preview
+
+3 Please try to convert the screen to SD stream preview"</string>
+    <string name="fqa_a_9">For products that support indicator lights, click the button on the real-time preview interface to turn it on/off, and the red and blue lights of the device will turn off/on.</string>
+    <string name="ftp_getparams">Getting Ftp information...</string>
+    <string name="ftp_port">FTP port</string>
+    <string name="ftp_pwd">FTP password</string>
+    <string name="ftp_server">FTP server</string>
+    <string name="ftp_setting_failed">Ftp setup failed</string>
+    <string name="ftp_setting_success">Ftp set up successfully</string>
+    <string name="ftp_upload_interval_time">Time interval for uploading pictures (seconds)</string>
+    <string name="ftp_upload_prompt">Empty or 0 means uploading pictures from time to time</string>
+    <string name="ftp_user">FTP user</string>
+    <string name="gcm_defaultSenderId">785908766479</string>
+    <string name="get_validate_code">get verification code</string>
+    <string name="getagain">Reacquire</string>
+    <string name="google_api_key">AIzaSyD1A8SO5U6GN2wQh_w6DBnweT-ckVxb6rM</string>
+    <string name="google_app_id">1:785908766479:android:eef2cbd3d97c466584907a</string>
+    <string name="google_buy_show">Please purchase cloud storage first</string>
+    <string name="google_circular_storage_7">7 days cycle storage</string>
+    <string name="google_cloud">Device cloud storage</string>
+    <string name="google_cloud_end_time">Cloud storage end time:</string>
+    <string name="google_cloud_records">View cloud records</string>
+    <string name="google_cloud_select_combo">Please choose to purchase a package</string>
+    <string name="google_cloud_start_time">Cloud storage start time:</string>
+    <string name="google_cloud_time_day">sky</string>
+    <string name="google_cloud_time_expired">Package has ended</string>
+    <string name="google_cloud_time_permanent">permanent</string>
+    <string name="google_cloud_time_year">one year</string>
+    <string name="google_cloud_title">Cloud storage business</string>
+    <string name="google_combo_time">Package time:</string>
+    <string name="google_crash_reporting_api_key">AIzaSyD1A8SO5U6GN2wQh_w6DBnweT-ckVxb6rM</string>
+    <string name="google_permanent">permanent use</string>
+    <string name="google_permanent_use">Pay once, use forever</string>
+    <string name="google_play">Google Pay</string>
+    <string name="google_play_connect_hint">Unable to connect to Google Play</string>
+    <string name="google_play_no_cloud">The current device has not purchased cloud storage</string>
+    <string name="google_play_no_cloud_show1">1. Safe storage, never lost, video data cloud storage</string>
+    <string name="google_play_no_cloud_show2">2. Activate cloud storage to support APP alarm push</string>
+    <string name="google_play_no_cloud_show3">3. Purchase cloud storage and remove all ads in the app</string>
+    <string name="google_select_hint">You have chosen:</string>
+    <string name="google_storage_bucket">cam-2937a.appspot.com</string>
+    <string name="google_storage_plan_7">One year storage package</string>
+    <string name="google_total">total:</string>
+    <string name="gpay_logo_description">Google Pay</string>
+    <string name="h264_main_stream">H.264 main stream</string>
+    <string name="h264_sub_stream">H.264 code stream</string>
+    <string name="heye_xy">privacy agreement</string>
+    <string name="hide_bottom_view_on_scroll_behavior">com.google.android.material.behavior.HideBottomViewOnScrollBehavior</string>
+    <string name="hint_input_account">Please enter your mobile phone number/email address</string>
+    <string name="hint_input_email">Please enter your email account</string>
+    <string name="hint_input_new_pwd">Please enter a new password</string>
+    <string name="hint_input_old_pwd">Please enter the original password</string>
+    <string name="hint_input_phone">Please enter phone number</string>
+    <string name="hint_pwd">Please enter password</string>
+    <string name="hint_validate_code">please enter verification code</string>
+    <string name="hz_config_4g">4G device added</string>
+    <string name="hz_config_4g_show">4G network equipment added</string>
+    <string name="hz_config_ap">Device AP distribution network</string>
+    <string name="hz_config_ap_c">Device AP direct connection</string>
+    <string name="hz_config_ap_c_show">Hotspot connection from mobile phone and device</string>
+    <string name="hz_config_ap_show">Configuring WiFi signals from mobile phones and devices</string>
+    <string name="hz_config_er">Device scanning code distribution network</string>
+    <string name="hz_config_er_show">The device scans the QR code on the phone to configure WiFi</string>
+    <string name="hz_config_online">Add online device</string>
+    <string name="hz_config_online_show">Add devices already connected to the network</string>
+    <string name="hz_config_smart">Intelligent one-click network access</string>
+    <string name="hz_config_smart_show">Device intelligent one-click network access</string>
+    <string name="hz_devicelist">Device List</string>
+    <string name="icon_content_description">Dialog Icon</string>
+    <string name="icut_auto">infrared automatic</string>
+    <string name="icut_close">Infrared switch</string>
+    <string name="icut_open">Infrared on</string>
+    <string name="ijkplayer_dummy" />
+    <string name="init_network_error">Failed to initialize network</string>
+    <string name="input_camera_addr">Please enter IP address</string>
+    <string name="input_camera_all_include">The device already exists</string>
+    <string name="input_camera_id">Please enter device ID</string>
+    <string name="input_camera_name">Please enter device name</string>
+    <string name="input_camera_port">Please enter the port</string>
+    <string name="input_camera_user">please enter user name</string>
+    <string name="input_device_name">Manually enter the camera name</string>
+    <string name="ip_dev_dele_no">no</string>
+    <string name="ip_dev_dele_yes">yes</string>
+    <string name="ipc_manager_about">About the software</string>
+    <string name="ipc_manager_alarm">Alarm information</string>
+    <string name="ipc_manager_locvideo">local recording</string>
+    <string name="ipc_manager_pic">Local screenshot</string>
+    <string name="ipc_manager_remot">Remote playback</string>
+    <string name="ipc_manager_setting">Device settings</string>
+    <string name="ipc_preset_call">Call</string>
+    <string name="ipc_preset_clear">Clear</string>
+    <string name="ipc_preset_delete">Delete</string>
+    <string name="ipc_preset_set">Set</string>
+    <string name="ipc_preset_show">Preset position</string>
+    <string name="ipc_preset_show_msg">Please enter preset position 1-255</string>
+    <string name="item_view_role_description">Tab</string>
+    <string name="language_de">Follow the system</string>
+    <string name="language_en">English</string>
+    <string name="language_es">spanish</string>
+    <string name="language_ms">Malay</string>
+    <string name="language_pt">Portuguese</string>
+    <string name="language_ru">Russian</string>
+    <string name="language_th">Thai</string>
+    <string name="language_uk">Ukrainian</string>
+    <string name="language_zh">Chinese</string>
+    <string name="left">Left</string>
+    <string name="list_option">operate</string>
+    <string name="load_cost">load-cost</string>
+    <string name="local_all_picture">All pictures</string>
+    <string name="local_all_picture_all">all</string>
+    <string name="local_all_picture_loading">Pictures are loading, please wait...</string>
+    <string name="local_all_picture_loadsucess">All loaded successfully...</string>
+    <string name="local_all_picture_nopic">There are no pictures locally yet...</string>
+    <string name="local_all_picture_show">All photos taken with devices connected to this program (including deleted devices)</string>
+    <string name="local_all_video">All videos</string>
+    <string name="local_all_video_show">All videos taken with devices connected to this program (including deleted devices)</string>
+    <string name="local_picture">local pictures</string>
+    <string name="local_picture_show_sd">The SD card is currently unavailable!</string>
+    <string name="local_video_badfile">The file is corrupted</string>
+    <string name="local_video_date">Recording time:</string>
+    <string name="local_video_play_over">Playback completed</string>
+    <string name="localpic_no">no photo</string>
+    <string name="login">Log in</string>
+    <string name="logining">logging in</string>
+    <string name="logout">sign out</string>
+    <string name="logout_tips">Are you sure to log out?</string>
+    <string name="look_count">Number of viewers:</string>
+    <string name="mail_126">smtp.126.com</string>
+    <string name="mail_163">smtp.163.com</string>
+    <string name="mail_21cn">smtp.21cn.com</string>
+    <string name="mail_263">smtp.263.net</string>
+    <string name="mail_check">Need to verify</string>
+    <string name="mail_eyou">mx.eyou.com</string>
+    <string name="mail_getparams">Retrieving email information...</string>
+    <string name="mail_gmail">smtp.gmail.com</string>
+    <string name="mail_qq">smtp.qq.com</string>
+    <string name="mail_receiver1">Recipient 1</string>
+    <string name="mail_receiver2">Receiver 2</string>
+    <string name="mail_receiver3">Receiver 3</string>
+    <string name="mail_receiver4">Recipient 4</string>
+    <string name="mail_sender">sender</string>
+    <string name="mail_set_show_port">SMTP port cannot be empty</string>
+    <string name="mail_setting_failed">Email setup failed</string>
+    <string name="mail_setting_success">Email setup successful</string>
+    <string name="mail_sina">smtp.sina.com</string>
+    <string name="mail_smtp_port">SMTP port</string>
+    <string name="mail_smtp_pwd">SMTP password</string>
+    <string name="mail_smtp_server">SMTP server</string>
+    <string name="mail_smtp_user">SMTP user</string>
+    <string name="mail_sohu">smtp.sohu.com</string>
+    <string name="mail_ssl">SSL</string>
+    <string name="mail_ssl_none">NONE</string>
+    <string name="mail_ssl_ssl">SSL</string>
+    <string name="mail_ssl_tls">TLS</string>
+    <string name="mail_tom">smtp.tom.com</string>
+    <string name="mail_yahoo_com">smtp.mail.yahoo.com</string>
+    <string name="mail_yeah">smtp.yeah.net</string>
+    <string name="main_alarm">Call the police</string>
+    <string name="main_alarm_event">Alarm event</string>
+    <string name="main_check">Check</string>
+    <string name="main_cloud">cloud storage</string>
+    <string name="main_dev">equipment</string>
+    <string name="main_edit">edit</string>
+    <string name="main_file">image</string>
+    <string name="main_file_photo">photo</string>
+    <string name="main_file_video">Video</string>
+    <string name="main_four">multi-screen</string>
+    <string name="main_me">mine</string>
+    <string name="main_me_cloud">Value-added services</string>
+    <string name="main_me_dev">smart cameras</string>
+    <string name="main_me_file">imaging center</string>
+    <string name="main_me_fw">Service Agreement</string>
+    <string name="main_me_help">help</string>
+    <string name="main_me_language">multi-language</string>
+    <string name="main_me_msg">Message Center</string>
+    <string name="main_me_pro">Product Center</string>
+    <string name="main_me_service">Contact customer service</string>
+    <string name="main_me_service_toast">If you have any questions, please send an email to cypush@163.com</string>
+    <string name="main_me_up">Version detection</string>
+    <string name="main_me_user">username</string>
+    <string name="main_more">More</string>
+    <string name="main_not_administrator">The user is not an administrator or the network is unavailable. Permission authentication failed.</string>
+    <string name="main_phone">phone</string>
+    <string name="main_pic">picture</string>
+    <string name="main_plea_addcam">Please add camera first</string>
+    <string name="main_remote">Remotely</string>
+    <string name="main_select_all">select all</string>
+    <string name="main_select_reverse">Counter-election</string>
+    <string name="main_setting_cloud">Cloud storage services</string>
+    <string name="main_setting_prompt">The camera is not online and cannot be set.</string>
+    <string name="main_show_back">Press again and it will run in the background!</string>
+    <string name="main_show_delecting">Deleting, please wait!</string>
+    <string name="main_tap_here_add_vidicon">Please click here to add a device</string>
+    <string name="main_vid">Video</string>
+    <string name="main_vid1">video viewing</string>
+    <string name="main_vidicon">camera</string>
+    <string name="material_slider_range_end">Range end,</string>
+    <string name="material_slider_range_start">Range start,</string>
+    <string name="media_information">Media Information</string>
+    <string name="menu_0">help</string>
+    <string name="mi__selected_audio_track">*</string>
+    <string name="mi__selected_subtitle_track">*</string>
+    <string name="mi__selected_video_track">*</string>
+    <string name="mi_bit_rate">Bit rate</string>
+    <string name="mi_channels">Channels</string>
+    <string name="mi_codec">Codec</string>
+    <string name="mi_frame_rate">Frame rate</string>
+    <string name="mi_language">Language</string>
+    <string name="mi_length">Length</string>
+    <string name="mi_media">Media</string>
+    <string name="mi_pixel_format">Pixel format</string>
+    <string name="mi_player">Player</string>
+    <string name="mi_profile_level">Profile level</string>
+    <string name="mi_resolution">Resolution</string>
+    <string name="mi_sample_rate">Sample rate</string>
+    <string name="mi_stream_fmt1">Stream #%d</string>
+    <string name="mi_type">Type</string>
+    <string name="mjpeg_h264_stream">H.264 code stream</string>
+    <string name="mjpeg_sub_stream">MJPEG code stream</string>
+    <string name="modify_pwd">change Password</string>
+    <string name="modify_pwd_success">password has been updated</string>
+    <string name="more_about_contact">contact us</string>
+    <string name="more_about_disclaimer">Software Statement</string>
+    <string name="more_about_version">Version Information</string>
+    <string name="mtrl_badge_numberless_content_description">New notification</string>
+    <string name="mtrl_chip_close_icon_content_description">Remove %1$s</string>
+    <string name="mtrl_exceed_max_badge_number_content_description">More than %1$d new notifications</string>
+    <string name="mtrl_exceed_max_badge_number_suffix">%1$d%2$s</string>
+    <string name="mtrl_picker_a11y_next_month">Change to next month</string>
+    <string name="mtrl_picker_a11y_prev_month">Change to previous month</string>
+    <string name="mtrl_picker_announce_current_selection">Current selection: %1$s</string>
+    <string name="mtrl_picker_cancel">@android:string/cancel</string>
+    <string name="mtrl_picker_confirm">@android:string/ok</string>
+    <string name="mtrl_picker_date_header_selected">%1$s</string>
+    <string name="mtrl_picker_date_header_title">Select a Date</string>
+    <string name="mtrl_picker_date_header_unselected">Selected date</string>
+    <string name="mtrl_picker_day_of_week_column_header">Column of days: %1$s</string>
+    <string name="mtrl_picker_invalid_format">Invalid format.</string>
+    <string name="mtrl_picker_invalid_format_example">Example: %1$s</string>
+    <string name="mtrl_picker_invalid_format_use">Use: %1$s</string>
+    <string name="mtrl_picker_invalid_range">Invalid range.</string>
+    <string name="mtrl_picker_navigate_to_year_description">Navigate to year %1$s</string>
+    <string name="mtrl_picker_out_of_range">Out of range: %1$s</string>
+    <string name="mtrl_picker_range_header_only_end_selected">Start date – %1$s</string>
+    <string name="mtrl_picker_range_header_only_start_selected">%1$s – End date</string>
+    <string name="mtrl_picker_range_header_selected">%1$s – %2$s</string>
+    <string name="mtrl_picker_range_header_title">Select a Date Range</string>
+    <string name="mtrl_picker_range_header_unselected">Start date – End date</string>
+    <string name="mtrl_picker_save">Save</string>
+    <string name="mtrl_picker_text_input_date_hint">Date</string>
+    <string name="mtrl_picker_text_input_date_range_end_hint">End date</string>
+    <string name="mtrl_picker_text_input_date_range_start_hint">Start date</string>
+    <string name="mtrl_picker_text_input_day_abbr">d</string>
+    <string name="mtrl_picker_text_input_month_abbr">m</string>
+    <string name="mtrl_picker_text_input_year_abbr">y</string>
+    <string name="mtrl_picker_toggle_to_calendar_input_mode">Switch to calendar input mode</string>
+    <string name="mtrl_picker_toggle_to_day_selection">Tap to switch to selecting a day</string>
+    <string name="mtrl_picker_toggle_to_text_input_mode">Switch to text input mode</string>
+    <string name="mtrl_picker_toggle_to_year_selection">Tap to switch to selecting a year</string>
+    <string name="n_ap_config_title3" />
+    <string name="n_apconnect_1show">Open your phone’s WIFI settings</string>
+    <string name="n_apconnect_1title">The first step is to prepare the equipment</string>
+    <string name="n_apconnect_2show">Connect to XXX-XXXXXX-XXXXX device hotspot</string>
+    <string name="n_apconnect_2title">Step 2: Connect the device</string>
+    <string name="n_apconnect_next">Next step</string>
+    <string name="n_cloudset_reset">reset</string>
+    <string name="n_play_buttom_audio">sound</string>
+    <string name="n_play_buttom_audio_no">mute</string>
+    <string name="n_play_buttom_more">More</string>
+    <string name="n_play_buttom_pic">Photograph</string>
+    <string name="n_play_buttom_talk">Press and hold to talk</string>
+    <string name="n_play_buttom_video">Video</string>
+    <string name="n_play_cloud">Cloud storage business</string>
+    <string name="n_play_config">Please configure the network</string>
+    <string name="n_play_full">full screen</string>
+    <string name="n_play_h">Sub stream</string>
+    <string name="n_play_hh">Main stream</string>
+    <string name="n_play_l">SD</string>
+    <string name="n_play_li">Lighting</string>
+    <string name="n_play_li_auto">White light automatic</string>
+    <string name="n_play_li_close">Baiguangguan</string>
+    <string name="n_play_li_open">White light on</string>
+    <string name="n_play_more_close">close the window</string>
+    <string name="n_play_more_sd">SD playback</string>
+    <string name="n_play_more_sd_title">Playback</string>
+    <string name="n_play_sport">Vertical screen</string>
+    <string name="native_body">Body</string>
+    <string name="native_headline">Headline</string>
+    <string name="native_media_view">Media View</string>
+    <string name="nav_app_bar_navigate_up_description">Navigate up</string>
+    <string name="nav_app_bar_open_drawer_description">Open navigation drawer</string>
+    <string name="new_psw">New Password:</string>
+    <string name="ngetwifi_show2">Make sure the router is 2.4G and the password entered is correct, otherwise the device cannot be successfully configured.</string>
+    <string name="no_support">This device does not support this feature</string>
+    <string name="no_support_audio">This model does not support intercom function</string>
+    <string name="no_support_ptz">This model does not support the PTZ function</string>
+    <string name="no_video">No video</string>
+    <string name="no_videoing_file">No video files...</string>
+    <string name="no_wifi_name_open_setting_wifi">The Wifi name was not found in the Wifi list. Click refresh or retry first</string>
+    <string name="no_youtube_app">Please install YouTube</string>
+    <string name="notifications_permission_confirm">Allow</string>
+    <string name="notifications_permission_decline">"Don't allow"</string>
+    <string name="notifications_permission_title">Allow app to send you notifications?</string>
+    <string name="offline_dialog_image_description">Icon</string>
+    <string name="offline_dialog_text">"Thanks for your interest.
+We will share more once you're back online."</string>
+    <string name="offline_notification_title">"You are back online! Let's pick up where we left off"</string>
+    <string name="offline_notification_title_with_advertiser">You are back online! Continue learning about %s</string>
+    <string name="offline_opt_in_confirm">OK</string>
+    <string name="offline_opt_in_decline">No thanks</string>
+    <string name="offline_opt_in_message">"We'll send you a notification with a link to the advertiser site."</string>
+    <string name="offline_opt_in_title">"Open ad when you're back online."</string>
+    <string name="old_psw">Old Password:</string>
+    <string name="one_key_pwd_show">Enter WiFi password</string>
+    <string name="one_key_setting">One-click configuration</string>
+    <string name="one_key_setting_ca">jump over</string>
+    <string name="one_key_setting_show">Please keep nearby devices in configuration mode</string>
+    <string name="one_key_setting_stat">Start configuration</string>
+    <string name="one_key_setting_stat_ing">Configuring...</string>
+    <string name="one_key_setting_stat_show">Enter the correct WIFI password, and the surrounding devices in configuration mode will connect to this WIFI</string>
+    <string name="one_key_setting_stat_show1">If the device to be added has already been configured with a network (keep the phone and the device under the same router), please click Skip to enter the LAN search...</string>
+    <string name="one_key_setting_stat_show2">Please put the device in configuration mode (short press the reset key)</string>
+    <string name="one_key_ssid_show">WiFi SSID</string>
+    <string name="onkey_1">One-click configuration</string>
+    <string name="onkey_2">QR code configuration</string>
+    <string name="onkey_2_show">Please point the QR code at the doorbell camera</string>
+    <string name="onkeyshow">When you hear the message that the device network configuration is successful, please press Finish.</string>
+    <string name="other_net">Other networks</string>
+    <string name="other_net_show">Please enter the router name and password manually</string>
+    <string name="p2p_relay_mode_time_out">Watch in forward mode</string>
+    <string name="p2p_view_time_out">Viewing time has arrived</string>
+    <string name="password">password:</string>
+    <string name="password_toggle_content_description">Show password</string>
+    <string name="path_password_eye">M12,4.5C7,4.5 2.73,7.61 1,12c1.73,4.39 6,7.5 11,7.5s9.27,-3.11 11,-7.5c-1.73,-4.39 -6,-7.5 -11,-7.5zM12,17c-2.76,0 -5,-2.24 -5,-5s2.24,-5 5,-5 5,2.24 5,5 -2.24,5 -5,5zM12,9c-1.66,0 -3,1.34 -3,3s1.34,3 3,3 3,-1.34 3,-3 -1.34,-3 -3,-3z</string>
+    <string name="path_password_eye_mask_strike_through">M2,4.27 L19.73,22 L22.27,19.46 L4.54,1.73 L4.54,1 L23,1 L23,23 L1,23 L1,4.27 Z</string>
+    <string name="path_password_eye_mask_visible">M2,4.27 L2,4.27 L4.54,1.73 L4.54,1.73 L4.54,1 L23,1 L23,23 L1,23 L1,4.27 Z</string>
+    <string name="path_password_strike_through">M3.27,4.27 L19.74,20.74</string>
+    <string name="permission_denied_go_to_settings_write_ext_storage">Permission (storage) denied. Now go to settings to grant permissions?</string>
+    <string name="permission_denied_title">Permission denied</string>
+    <string name="permission_prompt">Permission prompt</string>
+    <string name="permission_prompt_bluetooth">Nearby device permissions: Get nearby devices via Bluetooth</string>
+    <string name="permission_prompt_camera">Camera permission: used to scan the code to add a device</string>
+    <string name="permission_prompt_microphone">Microphone permission: used for device intercom function</string>
+    <string name="permission_prompt_notice">Notification permission: used to allow sending system notifications (motion detection prompts)</string>
+    <string name="permission_prompt_open_setting">Permission denied, please manually open the permission in the settings</string>
+    <string name="permission_prompt_positioning">Location permission: used to obtain nearby devices</string>
+    <string name="permission_prompt_storage">Storage permission: used to save pictures or videos, etc.</string>
+    <string name="permission_prompt_wifi">Wi-Fi permission: used to obtain nearby connected LAN devices</string>
+    <string name="phone_account_correct">Please enter a valid phone number</string>
+    <string name="pict_del_show">Deleting...please wait</string>
+    <string name="picture_sum">open</string>
+    <string name="play_bit_title">Code rate:</string>
+    <string name="play_bitrate_mid">Speed and quality in the middle</string>
+    <string name="play_bitrate_quality">Quality first</string>
+    <string name="play_bitrate_setting">Viewing mode settings</string>
+    <string name="play_bitrate_speed">Speed priority</string>
+    <string name="play_for_show_on">The four-picture function only supports resolutions above 480*800!</string>
+    <string name="play_four_connected">This camera has been added...</string>
+    <string name="play_four_cut">Switching, please wait...</string>
+    <string name="play_four_cut2">Reconnecting, please wait...</string>
+    <string name="play_four_del">Four devices have been added. If you need to add more, please disconnect a camera first.</string>
+    <string name="play_four_disconnection">Disconnect</string>
+    <string name="play_four_exit1">Exit four screens</string>
+    <string name="play_four_exit2">Confirm to exit four-screen playback?</string>
+    <string name="play_four_ful">View full screen</string>
+    <string name="play_four_show1">View full screen</string>
+    <string name="play_four_show2">View full screen</string>
+    <string name="play_four_show3">View full screen</string>
+    <string name="play_four_show4">View full screen</string>
+    <string name="play_fram_title">Real-time frame rate:</string>
+    <string name="play_frame_setting">Frame rate settings</string>
+    <string name="play_infrared_close">Turn off infrared light</string>
+    <string name="play_infrared_open">Turn on the infrared light</string>
+    <string name="play_infrared_setting">IR light settings</string>
+    <string name="play_lf">about</string>
+    <string name="play_mode_hight">HD mode</string>
+    <string name="play_mode_setting">Power frequency setting</string>
+    <string name="play_operation1">Control 1</string>
+    <string name="play_operation2">Control 2</string>
+    <string name="play_operation3">Operation 3</string>
+    <string name="play_res_title">Video quality:</string>
+    <string name="play_resolution_setting">Resolution settings</string>
+    <string name="play_rs">clarity</string>
+    <string name="play_take_pic_show">You can only take 500 photos per day, and the limit has been reached!</string>
+    <string name="play_talk_show">Press and hold the microphone icon on the right to talk, release to monitor!</string>
+    <string name="play_title">front page</string>
+    <string name="play_updown">up and down</string>
+    <string name="play_video_flip">Image Flip</string>
+    <string name="play_video_flip_left_right">Flip Left and Right</string>
+    <string name="play_video_flip_up_down">Flip Up and Down</string>
+    <string name="play_videoing_show">The recording starts and can be stopped after at least 10 seconds!</string>
+    <string name="play_ys">night vision</string>
+    <string name="playfile_day">day</string>
+    <string name="playfile_hour">hour</string>
+    <string name="playfile_month">moon</string>
+    <string name="playfile_year">Year</string>
+    <string name="playview_szp">clock screen</string>
+    <string name="playview_zsd">indicator light</string>
+    <string name="pppp_dev_type_unknown">unknown type</string>
+    <string name="pppp_mode">model:</string>
+    <string name="pppp_mode_p2p_normal">p2p connection</string>
+    <string name="pppp_mode_p2p_relay">p2p forwarding</string>
+    <string name="pppp_mode_unknown">unknown</string>
+    <string name="pppp_status_connect_failed">Connection failed</string>
+    <string name="pppp_status_connect_log_errer">wrong user name or password</string>
+    <string name="pppp_status_connect_other">Connection occupied</string>
+    <string name="pppp_status_connect_timeout">Connection timed out</string>
+    <string name="pppp_status_connecting">connecting</string>
+    <string name="pppp_status_disconnect">Disconnect</string>
+    <string name="pppp_status_initialing">Connected, initializing</string>
+    <string name="pppp_status_invalid_id">Invalid ID number</string>
+    <string name="pppp_status_online">online</string>
+    <string name="pppp_status_unknown">unknown status</string>
+    <string name="preset_call">Preset call</string>
+    <string name="preset_edit_show_null">Preset position cannot be empty, please enter preset position 1-9</string>
+    <string name="preset_edit_show_other">Out of preset position range, please enter preset position 1-9</string>
+    <string name="preset_set">Preset position setting</string>
+    <string name="preset_show">Preset</string>
+    <string name="project_id">cam-2937a</string>
+    <string name="ptz_control">Please press the menu button to control the PTZ</string>
+    <string name="ptz_default_vedio_params">Restore video parameters to default values</string>
+    <string name="ptz_takepic_fail">Failed to take pictures</string>
+    <string name="ptz_takepic_ok">Photo taken successfully</string>
+    <string name="ptz_takepic_save_fail">The device does not have an SDCard and the photo save failed.</string>
+    <string name="ptz_takevideo_begin">Start recording</string>
+    <string name="ptz_takevideo_end">Video ends</string>
+    <string name="ptz_takevideo_show">Recording in progress, please stop recording first and then exit!</string>
+    <string name="ptz_takevideo_time_show">damaged file</string>
+    <string name="ptz_takevideoing_cut">Recording is in progress, please stop recording first and then switch!</string>
+    <string name="pull_to_refresh_pull_label">Pull up to refresh</string>
+    <string name="pull_to_refresh_refreshing_label">loading...</string>
+    <string name="pull_to_refresh_release_label">Release refresh</string>
+    <string name="pull_to_refresh_tap_label">Pull up to refresh</string>
+    <string name="pwd_dialog_show1">The new password is a weak password, please change the password you want to set!</string>
+    <string name="pwd_dialog_show2">The new password is not secure and must be between 4 and 31 characters in length</string>
+    <string name="pwd_edit_show1">(Weak password, please change password)</string>
+    <string name="pwd_info_1">1. The password length must be between 4 and 31 characters.</string>
+    <string name="pwd_info_2">2. For your privacy and security, it is strongly recommended to change to a highly complex password of letters + numbers, and letters should be case-sensitive.</string>
+    <string name="pwd_info_title">illustrate:</string>
+    <string name="pwd_no_empty">password can not be blank</string>
+    <string name="qa_video_show">Play video tutorial</string>
+    <string name="recent">Recent</string>
+    <string name="reconnect_ble_remind">当前蓝牙连接不稳定，建议您退出配网界面，手动重启手机蓝牙和设备蓝牙后重试</string>
+    <string name="record_audio">Record sound</string>
+    <string name="recv_error">Reception failed</string>
+    <string name="refresh">refresh</string>
+    <string name="regist_pwd_len_show">Please enter a minimum 6-digit password</string>
+    <string name="register_account">Register an account</string>
+    <string name="register_email">email registration</string>
+    <string name="register_phone">Register your phone</string>
+    <string name="register_success">registration success</string>
+    <string name="registering">Registering</string>
+    <string name="remote_end_prompt">End date cannot be less than start date</string>
+    <string name="remote_pic_offline">The device is not online and cannot play remote pictures.</string>
+    <string name="remote_start_prompt">Start date cannot be greater than end date</string>
+    <string name="remote_to">to</string>
+    <string name="remote_video_getparams">Obtaining remote recording information...</string>
+    <string name="remote_video_offline">The device is not online and cannot play remote recordings.</string>
+    <string name="remote_video_title">Remote recording</string>
+    <string name="reset">Reset device</string>
+    <string name="reset_show">Are you sure you want to reset the device parameters?</string>
+    <string name="restart">Reboot the device</string>
+    <string name="restart_show">Are you sure you want to restart the device?</string>
+    <string name="rigth">right</string>
+    <string name="rtp_byte_count">rtp_byte_count</string>
+    <string name="rtp_speed">rtp_speed</string>
+    <string name="s1">Save image</string>
+    <string name="s2">Allow Ad to store image in Picture gallery?</string>
+    <string name="s3">Accept</string>
+    <string name="s4">Decline</string>
+    <string name="s5">Create calendar event</string>
+    <string name="s6">Allow Ad to create a calendar event?</string>
+    <string name="s7">Test Ad</string>
+    <string name="sample">Sample</string>
+    <string name="scan_cameraid">Scan QR code</string>
+    <string name="scan_cameraid_fail">Scan failed, please scan again</string>
+    <string name="scan_er">Scan QR code</string>
+    <string name="scan_er1">QR code/barcode scanning</string>
+    <string name="scan_er_1">Scanning...</string>
+    <string name="scan_er_2">Recognition failed</string>
+    <string name="scan_er_3">The flash cannot be turned on at the moment</string>
+    <string name="scan_xc">photo album</string>
+    <string name="sd_card_size_show">There is not enough memory in the SD card, please clean it up before recording again!</string>
+    <string name="sd_setting_show">Are you sure you want to format the SD card?</string>
+    <string name="sd_setting_videomode_no">No video</string>
+    <string name="sdcard_coverage">Video coverage:</string>
+    <string name="sdcard_format">format</string>
+    <string name="sdcard_getparams">Obtaining SDCard information...</string>
+    <string name="sdcard_inserted">SD card has been inserted</string>
+    <string name="sdcard_no_inserted">No SD card inserted</string>
+    <string name="sdcard_range">Range 5-30</string>
+    <string name="sdcard_recordlength">Recording duration (minutes):</string>
+    <string name="sdcard_recordtime">Scheduled recording:</string>
+    <string name="sdcard_remain">SD card remaining capacity (M):</string>
+    <string name="sdcard_schedule">Recording settings</string>
+    <string name="sdcard_set_failed">SD card setup failed</string>
+    <string name="sdcard_set_success">SD card setup successful</string>
+    <string name="sdcard_state">SD card status:</string>
+    <string name="sdcard_total">SD card total capacity (M):</string>
+    <string name="search_camera">Search device</string>
+    <string name="search_menu_title">Search</string>
+    <string name="searching_tip">Searching, please wait...</string>
+    <string name="second">Second</string>
+    <string name="seek_cost">seek_cost</string>
+    <string name="seek_load_cost">seek_load_cost</string>
+    <string name="send_error">Failed to send</string>
+    <string name="send_title">Please choose how to send</string>
+    <string name="serach_ap_network">AP Search</string>
+    <string name="serach_bt_network">Bluetooth Search</string>
+    <string name="sertch_add">added</string>
+    <string name="sertch_noadd">Not added</string>
+    <string name="sertch_sdadd">add manully</string>
+    <string name="sertch_show1">Searching for devices on LAN...</string>
+    <string name="sertch_show2">This device has been added to the device list</string>
+    <string name="sertch_show3">No device was found in the LAN. Do you want to add it manually?</string>
+    <string name="sertch_show_mgs_bt">Bluetooth network configuration</string>
+    <string name="sertch_show_mgs_bt1">Searching for Bluetooth devices...</string>
+    <string name="sertch_show_mgs_bt2">No Bluetooth devices nearby</string>
+    <string name="sertch_show_mgs_bt3">Bluetooth is not turned on</string>
+    <string name="sertch_show_mgs_wifi">AP network configuration</string>
+    <string name="sertch_show_mgs_wifi1">Searching for nearby Wifi devices...</string>
+    <string name="sertch_show_mgs_wifi2">No Wifi nearby</string>
+    <string name="sertch_show_mgs_wifi_postion_msg">Device may not be searched due to lack of location service</string>
+    <string name="sertch_show_mgs_wifi_postion_title">Location service is not enabled</string>
+    <string name="sertch_show_next_config_wifi">Configure network now</string>
+    <string name="set_aler_new_1">Alarm switch</string>
+    <string name="set_aler_new_2">open</string>
+    <string name="set_aler_new_3">close</string>
+    <string name="set_sd_format">SD card formatting</string>
+    <string name="set_sd_format_show">The SD card is not inserted or the network is blocked and the SD card properties are not obtained.</string>
+    <string name="set_sd_format_show1">SD card formatting...please wait 20 seconds</string>
+    <string name="set_sd_show1">Tip: The start time must be less than the end time, this is the recording period every day! The default display and selection are 00:00-24:00</string>
+    <string name="set_sd_show2">Starting time:</string>
+    <string name="set_sd_show3">End Time:</string>
+    <string name="set_sd_show4">If the start time is less than or equal to the end time, please select again!</string>
+    <string name="setting">set up</string>
+    <string name="setting_alarm_cloud_title">push server</string>
+    <string name="setting_aler_sucess">Alarm set successfully</string>
+    <string name="setting_alerm">Alarm Settings</string>
+    <string name="setting_ap">AP parameter settings</string>
+    <string name="setting_ap_pwd">password:</string>
+    <string name="setting_ap_show">SSID or password cannot be empty</string>
+    <string name="setting_ap_ssid">SSID:</string>
+    <string name="setting_camera">Device settings</string>
+    <string name="setting_camerainfo">basic settings</string>
+    <string name="setting_ftp">Ftp settings</string>
+    <string name="setting_mail">E-Mail settings</string>
+    <string name="setting_sd_audio">Record sound</string>
+    <string name="setting_sd_bit">Video stream</string>
+    <string name="setting_sd_bit1">1080P</string>
+    <string name="setting_sd_bit2">720P</string>
+    <string name="setting_sd_loop">loop coverage</string>
+    <string name="setting_sd_mode">Recording mode</string>
+    <string name="setting_sd_videomode1">All day video</string>
+    <string name="setting_sd_videomode2">Alarm video</string>
+    <string name="setting_sd_videomode3">Schedule video</string>
+    <string name="setting_sdcard">SD card recording settings</string>
+    <string name="setting_time">Device clock settings</string>
+    <string name="setting_user">user settings</string>
+    <string name="setting_user_1">show</string>
+    <string name="setting_user_2">hide</string>
+    <string name="setting_user_admin_show">The modified username already exists, please modify it again!</string>
+    <string name="setting_user_admin_sucess">Modification of administrator username/password successful</string>
+    <string name="setting_ver1">new version</string>
+    <string name="setting_ver2">No new version</string>
+    <string name="setting_ver3">New firmware found, do you want to upgrade?</string>
+    <string name="setting_wifi">Wifi settings</string>
+    <string name="settings">Settings</string>
+    <string name="share">share</string>
+    <string name="show_ap_notify">There is no external network, cloud records cannot be accessed, and this function cannot be used under AP.</string>
+    <string name="show_er_title">Click the QR code to share the device ID</string>
+    <string name="show_info">Info</string>
+    <string name="show_no_use">Serious warning</string>
+    <string name="show_no_use_msg">This product is prohibited from use in China</string>
+    <string name="show_t_xxx">Please press the button on the left to turn this feature on</string>
+    <string name="show_toat_buzhi">This device does not support QR code scanning</string>
+    <string name="showpwd">show password</string>
+    <string name="soft_name">Software name</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
+    <string name="stopplay_alert">End playback?</string>
+    <string name="str_about">about</string>
+    <string name="str_add">Add to</string>
+    <string name="str_cancel">Cancel</string>
+    <string name="str_ok">Sure</string>
+    <string name="str_search">Search LAN</string>
+    <string name="str_second">Second</string>
+    <string name="str_version">Version</string>
+    <string name="stream_bit">Code stream</string>
+    <string name="string_about">about Us</string>
+    <string name="sum_pic">common:</string>
+    <string name="sure">Sure</string>
+    <string name="sure_new_psw">new key confirmation:</string>
+    <string name="takepicture_time">time:</string>
+    <string name="tcp_speed">tcp_speed</string>
+    <string name="time">time:</string>
+    <string name="time_hour_1224">12-hour format (default 24-hour format)</string>
+    <string name="tip_delete_snap">Please select a snapshot to delete!</string>
+    <string name="tip_device_add">Device added</string>
+    <string name="tip_not_empty">New password cannot be empty</string>
+    <string name="tip_not_spcialchar">Special characters are not supported</string>
+    <string name="tip_password_limit">The length of the password cannot exceed 31 characters!</string>
+    <string name="tip_reminder">Kind tips</string>
+    <string name="tips_delete_video_local">Are you sure you want to delete this video file?</string>
+    <string name="tips_input_tolong">The length you entered is too long</string>
+    <string name="tips_modify_security_code_ok">Password changed successfully, the camera will reconnect later</string>
+    <string name="tips_msg_delete_camera">Are you sure you want to delete the camera?</string>
+    <string name="tips_msg_delete_snapshot">Delete?</string>
+    <string name="tips_new_passwords_do_not_match">The password entered twice is not the same</string>
+    <string name="tips_old_password_is_wrong">Current password is wrong</string>
+    <string name="tips_password_wrong_contains">Password cannot contain ~$\\=+ or spaces</string>
+    <string name="tips_wifi_nopwd">Confirm that the connected WIFI does not have a password?</string>
+    <string name="title_modify_password">change Password</string>
+    <string name="toggle_player">Player</string>
+    <string name="toggle_ratio">Scale</string>
+    <string name="toggle_render">Render</string>
+    <string name="tool_connect_con">Already connected device:</string>
+    <string name="tool_connect_nocon">Device not connected:</string>
+    <string name="tool_connect_nocon_show">Connect to Cooleer_***** device hotspot</string>
+    <string name="tools_play_d">light</string>
+    <string name="tools_play_le">left ear</string>
+    <string name="tools_play_re">right ear</string>
+    <string name="tools_play_title">The device does not appear to be connected at the moment</string>
+    <string name="tracks">Tracks</string>
+    <string name="unknow_error">unknown mistake</string>
+    <string name="up">superior</string>
+    <string name="updata_ok">update successed</string>
+    <string name="update_titl_isorno1">Whether to upgrade? Please do not cut off the power during the upgrade process.</string>
+    <string name="update_titl_update_no_show">The device system is the latest system and does not need to be upgraded.</string>
+    <string name="update_titl_update_show">The mobile phone or tablet and the device are not in the same LAN and cannot be upgraded.</string>
+    <string name="update_title">LAN firmware upgrade</string>
+    <string name="use_setting_show_psw">show password</string>
+    <string name="user_admin">administrator</string>
+    <string name="user_getparams">Retrieving user information...</string>
+    <string name="user_getparams_failed">Failed to obtain user information</string>
+    <string name="user_name">username:</string>
+    <string name="user_name_no_empty">Username can not be empty</string>
+    <string name="user_name_toolong">Username cannot exceed 64 characters</string>
+    <string name="user_operator">operator</string>
+    <string name="user_pwd_no_show">No special symbols are allowed in username or password!</string>
+    <string name="user_pwd_toolong">Password cannot exceed 64 characters</string>
+    <string name="user_set_failed">User setup failed</string>
+    <string name="user_set_success">User setup successful, device is restarting</string>
+    <string name="user_setting">user settings</string>
+    <string name="user_visitor">visitors</string>
+    <string name="v_cache">v-cache</string>
+    <string name="vdec">vdec</string>
+    <string name="version_code">version number</string>
+    <string name="version_code1">internal version</string>
+    <string name="version_conent">V 0.0.0.1</string>
+    <string name="video_file_create_camer">Video equipment:</string>
+    <string name="video_file_create_time">Recording time:</string>
+    <string name="video_file_name">File name:</string>
+    <string name="video_file_size">File size:</string>
+    <string name="video_ing">Device recording</string>
+    <string name="video_play">"If you encounter files that cannot be played by the device's built-in player, please install a soft decoding player, such as moliplay, Baofeng, etc."</string>
+    <string name="video_reset">Restore video parameters to factory settings</string>
+    <string name="videoing">Recording...</string>
+    <string name="viewpager_indicator">%1$d/%2$d</string>
+    <string name="wallet_buy_button_place_holder">Buy with Google</string>
+    <string name="watermark_label_prefix">"AdMob - "</string>
+    <string name="wifi">Wifi</string>
+    <string name="wifi_channel">Channel number:</string>
+    <string name="wifi_channel_show">Channel number cannot be empty</string>
+    <string name="wifi_config_again_setting_wifi">Do you want to reconfigure the network?</string>
+    <string name="wifi_config_cloud">Register cloud device</string>
+    <string name="wifi_config_connect_device">Connect device</string>
+    <string name="wifi_config_connect_wifi">You need to connect to the device Wi-Fi before configuring the network</string>
+    <string name="wifi_config_connect_wifi2">Connection requires a hotspot for configuring the network</string>
+    <string name="wifi_config_msg">Configuring network</string>
+    <string name="wifi_config_msg2">The connection process may take 1-2 minutes, please do not disconnect the network</string>
+    <string name="wifi_config_over">Initialization completed</string>
+    <string name="wifi_config_select_wifi">Select Wi-Fi network</string>
+    <string name="wifi_config_setting_wifi">Go to system settings and select Wi-Fi</string>
+    <string name="wifi_config_setting_wifi_ap_to_device">AP sends network configuration information to the device</string>
+    <string name="wifi_config_setting_wifi_bt_to_device">Bluetooth sends network configuration information to the device</string>
+    <string name="wifi_config_setting_wifi_over_msg">Network configuration successful, return to device list</string>
+    <string name="wifi_config_setting_wifi_over_title">Network configuration successful</string>
+    <string name="wifi_config_setting_wifi_register_to_cloud">The device is registering to the cloud</string>
+    <string name="wifi_config_setting_wifi_success">The device is connected to the network successfully</string>
+    <string name="wifi_config_setting_wifi_take_over">The device has received the network configuration information and is configuring the network</string>
+    <string name="wifi_config_title">Configure device Wifi</string>
+    <string name="wifi_getparams">Getting WiFi information...</string>
+    <string name="wifi_getparams_failed">Failed to obtain WiFi information</string>
+    <string name="wifi_manager">Manage WiFi network</string>
+    <string name="wifi_no_safe">none</string>
+    <string name="wifi_not_connected">not connected</string>
+    <string name="wifi_notchange">WiFi has not been changed and does not need to be set up</string>
+    <string name="wifi_pwd_toolong">Password cannot exceed 128 characters</string>
+    <string name="wifi_safe">safety:</string>
+    <string name="wifi_scan_failed">WiFi scan failed</string>
+    <string name="wifi_scanning">WiFi is scanning, please wait...</string>
+    <string name="wifi_set_failed">WiFi setup failed</string>
+    <string name="wifi_set_success">WiFi setup successful, device is restarting...</string>
+    <string name="wifi_setting_no_change">You have not changed the wifi, please select the wifi you want to change</string>
+    <string name="wifi_setting_pass_format">Key format:</string>
+    <string name="wifi_setting_pass_format_16">Hexadecimal number</string>
+    <string name="wifi_setting_pass_format_as">ASCII characters</string>
+    <string name="wifi_setting_safe">Safe mode:</string>
+    <string name="wifi_setting_safe_all">shared key</string>
+    <string name="wifi_setting_safe_open">open system</string>
+    <string name="wifi_signal_strong">Signal strength:</string>
+    <string name="zoom_in_x">Go to zoom</string>
+    <string name="zoom_out_x">Exit zoom</string>
+    <string name="zsd_tv">indicator light</string>
+</resources>

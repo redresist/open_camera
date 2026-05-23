@@ -9,10 +9,8 @@ ENTRY_ADDR = 0x7a864       # encrypt function entry
 RET_ADDR = 0x7a988         # epilogue start (BEFORE x2 is clobbered by ldp)
 LOG_PLT = 0x83470          # __android_log_print PLT
 
-# Save area: use stack instead of rodata (read-only crash!)
-# Entry trampoline saves x2,x3 to [sp+0x50],[sp+0x58]
-# Exit trampoline reads from [sp+0x50],[sp+0x58]
-SAVE_AREA = 0x24ad5        # NOT USED (kept for backward compat in addr calculations)
+# Save area: use function's unused frame area [sp+0x48] (confirmed no accesses by encrypt function)
+SAVE_AREA = 0x8ab50        # NOT USED (BSS is read-only under NDK translation)
 TAG_ADDR = 0x24aa9         # "SHIX-IO\0" (8 bytes)
 FMT_PSK_ADDR = 0x24ab1     # "PSK=%.50s len=%d\0" (18 bytes)
 FMT_DATA_ADDR = 0x24ac3    # "IN=%.80s\0" (10 bytes)
@@ -69,10 +67,10 @@ def main():
         # str x30, [sp, #0x20]
         tramp1 += struct.pack('<I', 0xf90013fe); addr += 4
         
-        # --- SAVE x2, x3 to STACK (above trampoline frame, preserved by function) ---
-        # Trampoline sp = caller_sp - 0x60. Save at sp+0x50 = caller_sp-0x10
-        tramp1 += struct.pack('<I', 0xf9002be2); addr += 4  # str x2, [sp, #0x50]
-        tramp1 += struct.pack('<I', 0xf9002fe3); addr += 4  # str x3, [sp, #0x58]
+        # --- SAVE x2, x3 to function's unused frame area [sp+0x48],[sp+0x50] ---
+        # These positions are confirmed unused by the encrypt function body
+        tramp1 += struct.pack('<I', 0xf90027e2); addr += 4  # str x2, [sp, #0x48]
+        tramp1 += struct.pack('<I', 0xf9002be3); addr += 4  # str x3, [sp, #0x50]
         
         # --- Log PSK and length ---
         tramp1 += struct.pack('<I', 0x52800060); addr += 4  # mov w0, #3
@@ -116,9 +114,10 @@ def main():
         tramp2 = bytearray()
         addr = TRAMP_EXIT
         
-        # --- Load saved values FIRST (sp = func_sp, no sub yet) ---
-        tramp2 += struct.pack('<I', 0xf9402be5); addr += 4  # ldr x5, [sp, #0x50]  (output buf)
-        tramp2 += struct.pack('<I', 0xf9402fe6); addr += 4  # ldr x6, [sp, #0x58]  (length)
+        # --- Load saved values from function's frame [sp+0x48],[sp+0x50] ---
+        # At exit, sp = func_sp (before epilogue restores sp)
+        tramp2 += struct.pack('<I', 0xf94027e5); addr += 4  # ldr x5, [sp, #0x48]  (output buf)
+        tramp2 += struct.pack('<I', 0xf9402be6); addr += 4  # ldr x6, [sp, #0x50]  (length)
         
         # Now create our frame (smaller since we already loaded what we need)
         tramp2 += struct.pack('<I', 0xd10103ff); addr += 4  # sub sp, sp, #0x40

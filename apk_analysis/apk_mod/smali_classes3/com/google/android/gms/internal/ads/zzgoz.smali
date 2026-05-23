@@ -1,0 +1,105 @@
+.class public final Lcom/google/android/gms/internal/ads/zzgoz;
+.super Ljava/lang/Object;
+.source "com.google.android.gms:play-services-ads@@25.2.0"
+
+# interfaces
+.implements Lcom/google/android/gms/internal/ads/zzimu;
+
+
+# instance fields
+.field private final zza:Lcom/google/android/gms/internal/ads/zzind;
+
+.field private final zzb:Lcom/google/android/gms/internal/ads/zzind;
+
+.field private final zzc:Lcom/google/android/gms/internal/ads/zzind;
+
+.field private final zzd:Lcom/google/android/gms/internal/ads/zzind;
+
+
+# direct methods
+.method private constructor <init>(Lcom/google/android/gms/internal/ads/zzind;Lcom/google/android/gms/internal/ads/zzind;Lcom/google/android/gms/internal/ads/zzind;Lcom/google/android/gms/internal/ads/zzind;)V
+    .locals 0
+
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    iput-object p1, p0, Lcom/google/android/gms/internal/ads/zzgoz;->zza:Lcom/google/android/gms/internal/ads/zzind;
+
+    iput-object p2, p0, Lcom/google/android/gms/internal/ads/zzgoz;->zzb:Lcom/google/android/gms/internal/ads/zzind;
+
+    iput-object p3, p0, Lcom/google/android/gms/internal/ads/zzgoz;->zzc:Lcom/google/android/gms/internal/ads/zzind;
+
+    iput-object p4, p0, Lcom/google/android/gms/internal/ads/zzgoz;->zzd:Lcom/google/android/gms/internal/ads/zzind;
+
+    return-void
+.end method
+
+.method public static zza(Lcom/google/android/gms/internal/ads/zzind;Lcom/google/android/gms/internal/ads/zzind;Lcom/google/android/gms/internal/ads/zzind;Lcom/google/android/gms/internal/ads/zzind;)Lcom/google/android/gms/internal/ads/zzgoz;
+    .locals 1
+
+    new-instance v0, Lcom/google/android/gms/internal/ads/zzgoz;
+
+    invoke-direct {v0, p0, p1, p2, p3}, Lcom/google/android/gms/internal/ads/zzgoz;-><init>(Lcom/google/android/gms/internal/ads/zzind;Lcom/google/android/gms/internal/ads/zzind;Lcom/google/android/gms/internal/ads/zzind;Lcom/google/android/gms/internal/ads/zzind;)V
+
+    return-object v0
+.end method
+
+
+# virtual methods
+.method public final bridge synthetic zzb()Ljava/lang/Object;
+    .locals 8
+
+    .line 1
+    iget-object v0, p0, Lcom/google/android/gms/internal/ads/zzgoz;->zzb:Lcom/google/android/gms/internal/ads/zzind;
+
+    iget-object v1, p0, Lcom/google/android/gms/internal/ads/zzgoz;->zza:Lcom/google/android/gms/internal/ads/zzind;
+
+    invoke-static {v1}, Lcom/google/android/gms/internal/ads/zzimt;->zzc(Lcom/google/android/gms/internal/ads/zzind;)Lcom/google/android/gms/internal/ads/zzimo;
+
+    move-result-object v3
+
+    invoke-interface {v0}, Lcom/google/android/gms/internal/ads/zzind;->zzb()Ljava/lang/Object;
+
+    move-result-object v0
+
+    move-object v4, v0
+
+    check-cast v4, Lcom/google/android/gms/internal/ads/zzgqh;
+
+    iget-object v0, p0, Lcom/google/android/gms/internal/ads/zzgoz;->zzc:Lcom/google/android/gms/internal/ads/zzind;
+
+    invoke-interface {v0}, Lcom/google/android/gms/internal/ads/zzind;->zzb()Ljava/lang/Object;
+
+    move-result-object v0
+
+    move-object v5, v0
+
+    check-cast v5, Lcom/google/android/gms/internal/ads/zzgcn;
+
+    iget-object v0, p0, Lcom/google/android/gms/internal/ads/zzgoz;->zzd:Lcom/google/android/gms/internal/ads/zzind;
+
+    invoke-interface {v0}, Lcom/google/android/gms/internal/ads/zzind;->zzb()Ljava/lang/Object;
+
+    move-result-object v0
+
+    check-cast v0, Lcom/google/android/gms/internal/ads/zzgdf;
+
+    new-instance v1, Lcom/google/android/gms/internal/ads/zzgoy;
+
+    .line 2
+    invoke-virtual {v0}, Lcom/google/android/gms/internal/ads/zzgdf;->zzk()Lcom/google/android/gms/internal/ads/zzgdz;
+
+    move-result-object v0
+
+    invoke-virtual {v0}, Lcom/google/android/gms/internal/ads/zzgdz;->zzb()J
+
+    move-result-wide v6
+
+    move-object v2, v1
+
+    invoke-direct/range {v2 .. v7}, Lcom/google/android/gms/internal/ads/zzgoy;-><init>(Lcom/google/android/gms/internal/ads/zzimo;Lcom/google/android/gms/internal/ads/zzgqh;Lcom/google/android/gms/internal/ads/zzgcn;J)V
+
+    .line 3
+    check-cast v1, Lcom/google/android/gms/internal/ads/zzgox;
+
+    return-object v1
+.end method

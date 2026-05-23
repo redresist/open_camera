@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/topView" android:background="@mipmap/qh_allbg" android:fitsSystemWindows="true" android:clipToPadding="true" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:id="@id/bottom_tab" android:background="#ffffffff" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+            <LinearLayout android:layout_width="fill_parent" android:layout_height="55.0dip">
+                <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/main_layout_vidicon" android:padding="5.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0">
+                    <ImageView android:id="@id/main_img_vidicon" android:layout_width="25.0dip" android:layout_height="25.0dip" android:src="@mipmap/n_main_buttom1_press" />
+                    <TextView android:textColor="@color/color_main" android:gravity="center" android:id="@id/main_tv_vidicon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/main_dev" />
+                </LinearLayout>
+                <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/main_layout_pic" android:padding="5.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0">
+                    <ImageView android:id="@id/main_img_picture" android:layout_width="25.0dip" android:layout_height="25.0dip" android:src="@mipmap/n_main_buttom2_normal" />
+                    <TextView android:id="@id/main_tv_picture" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/main_file" />
+                </LinearLayout>
+                <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/main_layout_vid" android:padding="5.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0">
+                    <ImageView android:id="@id/main_img_vid" android:layout_width="25.0dip" android:layout_height="25.0dip" android:src="@mipmap/n_main_buttom3_normal" />
+                    <TextView android:id="@id/main_tv_vid" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/main_me" />
+                </LinearLayout>
+                <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/main_layout_alarm" android:padding="5.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0">
+                    <ImageView android:id="@id/main_img_alarm" android:layout_width="25.0dip" android:layout_height="25.0dip" />
+                    <TextView android:id="@id/main_tv_alarm" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/main_alarm" />
+                </LinearLayout>
+                <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/main_layout_about" android:padding="5.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0">
+                    <ImageView android:id="@id/main_img_about" android:layout_width="25.0dip" android:layout_height="25.0dip" />
+                    <TextView android:id="@id/main_tv_about" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/str_about" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+        <FrameLayout android:id="@id/content" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_above="@id/bottom_tab" android:layout_alignParentTop="true" />
+    </RelativeLayout>
+    <RelativeLayout android:orientation="vertical" android:id="@id/splash_img" android:background="#ffffffff" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ImageView android:id="@id/im1x" android:layout_width="111.0sp" android:layout_height="137.0dip" android:layout_marginTop="232.0dip" android:src="@mipmap/app2" android:layout_centerHorizontal="true" />
+        <TextView android:textSize="50.0sp" android:gravity="center" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" android:text="IKBELL" android:layout_below="@id/im1x" android:layout_centerHorizontal="true" />
+        <TextView android:textSize="14.0sp" android:textColor="@color/color_H_Main" android:gravity="center" android:id="@id/tv12" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:layout_marginRight="20.0dip" android:layout_marginBottom="66.0dip" android:text="V 1.0" android:layout_alignParentBottom="true" />
+        <TextView android:textSize="14.0sp" android:textColor="@color/color_H_Main" android:gravity="center" android:id="@id/tv13" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:layout_marginRight="20.0dip" android:layout_marginBottom="6.0dip" android:text="2019版权所有" android:layout_above="@id/tv12" />
+    </RelativeLayout>
+</FrameLayout>

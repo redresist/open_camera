@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@mipmap/qh_allbg" android:fitsSystemWindows="true" android:clipToPadding="true" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:gravity="center_vertical" android:id="@id/Relative_top" android:background="@color/color_H_Main" android:layout_width="fill_parent" android:layout_height="50.0dip">
+        <Button android:id="@id/back" android:layout_alignParentLeft="true" android:layout_centerVertical="true" style="@style/button_back_style1" />
+        <TextView android:textSize="16.0sp" android:textStyle="bold" android:textColor="@color/color_white" android:layout_gravity="center_vertical" android:id="@id/tv_camera_setting" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:text="推送服务器信息发送到设备--(测试)" android:shadowDx="1.0" android:shadowDy="1.0" android:shadowRadius="1.0" android:layout_centerInParent="true" />
+        <Button android:id="@id/alerm_ok" android:visibility="gone" android:layout_alignParentRight="true" android:layout_centerVertical="true" style="@style/button_done_style" />
+    </RelativeLayout>
+    <CheckBox android:textColor="@color/color_black" android:id="@id/checkBox1" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="推送图片" />
+    <CheckBox android:textColor="@color/color_black" android:id="@id/checkBox2" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="推送视频" />
+    <TextView android:textColor="@color/color_black" android:gravity="center" android:id="@id/textView4" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="只要移动侦测报警或者声音侦测 打开其中之一，默认都会信息推送,此处的开关只是方便测试，正式版本由APP默认发送是否开启图片或者视频上传" />
+    <TextView android:textSize="15.0sp" android:textColor="@color/color_white" android:gravity="center" android:layout_gravity="center_horizontal" android:id="@id/tvNext0" android:background="@drawable/btn_blue_selector" android:layout_width="150.0dip" android:layout_height="40.0dip" android:layout_marginTop="40.0dip" android:text="发送至设备" />
+</LinearLayout>
