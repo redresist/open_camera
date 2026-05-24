@@ -6,53 +6,47 @@
 3. **Java** (for apktool, optional)
 4. **APK** — 365Cam app
 
-## Files to Copy FROM This Machine
+## What to Transfer (Small Files Only)
 
 ```
-FROM                                        TO (RedRevival)
+FROM (this machine)                         TO (RedRevival)
 ──────────────────────────────────────────  ──────────────────────
-# Repo (git clone)
-https://github.com/redresist/open_camera    git clone to server
+# Repo
+git clone                                   https://github.com/redresist/open_camera
 
-# Android SDK tools (or install fresh via sdkmanager)
-android_sdk/emulator/                       <sdk>/emulator/
-android_sdk/platform-tools/                 <sdk>/platform-tools/
-android_sdk/system-images/android-34/       <sdk>/system-images/android-34/
-
-# AVD files (~2GB snapshot + config)
-~/.android/avd/cam_x86.avd/                 <user>/.android/avd/cam_x86.avd/
+# AVD config only (NOT the snapshot/userdata)
+~/.android/avd/cam_x86.avd/config.ini       <user>/.android/avd/cam_x86.avd/config.ini
 ~/.android/avd/cam_x86.ini                  <user>/.android/avd/cam_x86.ini
 ```
 
-### What Each Part Is
-
-| Path | Size | Why Needed |
-|------|------|------------|
-| `cam_x86.avd/snapshots/clean_boot/` | ~2 GB | Fast 7s boot. Contains RAM + CPU state |
-| `cam_x86.avd/config.ini` | <1 KB | AVD settings (RAM, screen, sensors) |
-| `cam_x86.avd/userdata-qemu.img` | ~1 GB | Android user data (installed apps) |
-| `cam_x86.ini` | <1 KB | AVD registry entry |
-| `android_sdk/system-images/android-34/` | ~2 GB | Android 14 system image |
-| `android_sdk/emulator/` | ~500 MB | QEMU emulator binaries |
-| `android_sdk/platform-tools/` | ~20 MB | adb.exe, fastboot |
-
-### Migration Steps
-
+## What to Install Fresh on RedRevival
 ```bash
-# On source machine — find exact paths
-echo %USERPROFILE%\.android\avd\cam_x86.avd    # AVD data
-echo %USERPROFILE%\.android\avd\cam_x86.ini     # AVD config
-dir android_sdk\system-images                   # installed images
+# 1. Install Android SDK tools
+# Download: https://developer.android.com/studio#command-line-tools-only
+# Or use sdkmanager from this project:
+android_sdk/cmdline-tools/latest/bin/sdkmanager.bat "system-images;android-34;google_apis;x86_64"
+android_sdk/cmdline-tools/latest/bin/sdkmanager.bat "platform-tools" "emulator"
 
-# On RedRevival — recreate structure
-mkdir %USERPROFILE%\.android\avd
-xcopy /E cam_x86.avd %USERPROFILE%\.android\avd\cam_x86.avd\
+# 2. Create AVD (copy config.ini first, then create)
+mkdir %USERPROFILE%\.android\avd\cam_x86.avd
+copy config.ini %USERPROFILE%\.android\avd\cam_x86.avd\
 copy cam_x86.ini %USERPROFILE%\.android\avd\
 
-# Verify
-emulator -list-avds              # should show cam_x86
-emulator -avd cam_x86 -no-window # should boot
+# 3. Create AVD from system image
+echo no | avdmanager create avd -n cam_x86 -k "system-images;android-34;google_apis;x86_64" -f
+
+# 4. Install APK
+adb install apk_analysis/365cam_debug.apk
+adb install apk_analysis/config.arm64_v8a.apk
+
+# 5. Start once to set up, then save snapshot
+emulator -avd cam_x86 -no-window
+# Wait for boot, then:
+adb emu avd snapshot save clean_boot
+adb emu kill
 ```
+
+**Do NOT transfer:** `snapshots/` folder (2GB), `userdata-qemu.img` (1GB), `system-images/` (2GB). These are all rebuilt fresh.
 
 ## Quick Deploy After Migration
 
