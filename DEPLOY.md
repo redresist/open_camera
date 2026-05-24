@@ -1,4 +1,4 @@
-# Deployment to RedRevival Server
+# Deployment: redrevival → redsv
 
 ## Prerequisites (one-time setup)
 1. **Python 3.11+** with `pip install scapy frida-tools`
