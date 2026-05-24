@@ -5,7 +5,7 @@ from http.server import HTTPServer, BaseHTTPRequestHandler
 import threading, time
 
 RELAY_IP = '36.137.199.114'
-HTTP_PORT = 8080
+HTTP_PORT = 8462
 latest_frame = b''
 buffer = b''
 frame_count = 0
